@@ -1,0 +1,149 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"80beaf78-5bfd-43c4-841a-c66a8f7ca031\" name=\"Changes\" comment=\"theme\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/wp-content/themes/slots\" />\n    <option name=\"ROOT_SYNC\" value=\"DONT_SYNC\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"PhpWorkspaceProjectConfiguration\" interpreter_name=\"/opt/homebrew/Cellar/php/8.1.12/bin/php\" />\n  <component name=\"ProjectId\" id=\"2PYi5G3pHvpn65JEqJyEUwNg27L\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showMembers\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Applications/XAMPP/xamppfiles/htdocs/slots&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"80beaf78-5bfd-43c4-841a-c66a8f7ca031\" name=\"Changes\" comment=\"\" />\n      <created>1683640231245</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1683640231245</updated>\n      <workItem from=\"1683640235438\" duration=\"4245000\" />\n      <workItem from=\"1683722699661\" duration=\"415000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"theme\">\n      <created>1683723107537</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1683723107537</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <MESSAGE value=\"theme\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"theme\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -92,4 +92,4 @@
+     <MESSAGE value="theme" />
+     <option name="LAST_COMMIT_MESSAGE" value="theme" />
+   </component>
+-</project>
+\ No newline at end of file
++</project>
+Index: wp-content/themes/online-slots/header.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no\">\n    <title>OnlineSlots</title>\n    <meta name=\"description\" content=\"Play Free to Enter Slots Tournaments!\">\n    <meta name=\"theme-color\" content=\"#010400\">\n    <!--favicon-->\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"favicon/apple-touch-icon.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"favicon/favicon-32x32.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"favicon/favicon-16x16.png\">\n    <link rel=\"manifest\" href=\"favicon/site.webmanifest\">\n    <link rel=\"mask-icon\" href=\"favicon/safari-pinned-tab.svg\" color=\"#5bbad5\">\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\">\n    <!--preload-->\n    <link rel=\"preload\" href=\"fonts/Inter-Regular.woff\" as=\"font\" type=\"font/woff\" crossorigin>\n    <link rel=\"preload\" href=\"fonts/Inter-Medium.woff\" as=\"font\" type=\"font/woff\" crossorigin>\n    <link rel=\"preload\" href=\"fonts/Inter-SemiBold.woff\" as=\"font\" type=\"font/woff\" crossorigin>\n    <link rel=\"preload\" href=\"fonts/Inter-Bold.woff\" as=\"font\" type=\"font/woff\" crossorigin>\n    <link rel=\"preload\" href=\"fonts/Inter-Black.woff\" as=\"font\" type=\"font/woff\" crossorigin>\n    <link rel=\"preload\" href=\"css/swiper.css\" as=\"style\">\n    <link rel=\"preload\" href=\"css/main.css\" as=\"style\">\n    <link rel=\"preload\" href=\"js/jquery.js\" as=\"script\">\n    <link rel=\"preload\" href=\"js/swiper.js\" as=\"script\">\n    <link rel=\"preload\" href=\"js/countdown.js\" as=\"script\">\n    <link rel=\"preload\" href=\"js/main.js\" as=\"script\">\n    <!--style-->\n    <link rel=\"stylesheet\" href=\"css/swiper.css\">\n    <link rel=\"stylesheet\" href=\"css/main.css\">\n\n    <?php\n    global $class;\n    wp_head(); ?>\n</head>\n\n<body <?php body_class($class); ?>>\n<div class=\"wrapper\">\n<header class=\"header\">\n    <div class=\"container\">\n        <div class=\"header-wrap\">\n            <a href=\"/\" class=\"header-logo\">\n                <img src=\"icons/logo-1.svg\" alt=\"img\">\n            </a>\n            <nav class=\"header-nav\">\n                <ul class=\"header-menu\">\n                    <li><a href=\"#\">Free Slots</a></li>\n                    <li><a href=\"#\">Tournaments</a></li>\n                    <li><a href=\"#\">Slots By</a></li>\n                    <li><a href=\"#\">Casinos</a></li>\n                    <li><a href=\"#\">Bonuses</a></li>\n                    <li><a href=\"#\">News</a></li>\n                </ul>\n            </nav>\n            <div class=\"header-search\">\n                <div class=\"header-search_wrap\">\n                    <label class=\"header-search_label\">\n                        <input class=\"header-search_input\" type=\"text\" name=\"search\" placeholder=\"Search...\">\n                        <svg class=\"header-search_icon\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\"\n                             xmlns=\"http://www.w3.org/2000/svg\">\n                            <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n                                  d=\"M6.88 0.0245786C10.9996 -0.30591 14.6095 2.73509 14.9431 6.81684C15.1082 8.83745 14.4395 10.7343 13.2222 12.1749L20 18.5842L18.5426 20L11.7106 13.5358C10.6702 14.2425 9.43524 14.6978 8.0879 14.8059C3.96833 15.1364 0.358357 12.0954 0.0248064 8.01364C-0.308744 3.93189 2.76043 0.355067 6.88 0.0245786ZM7.92319 12.7903C10.9192 12.5499 13.1514 9.94858 12.9088 6.98004C12.6662 4.01149 10.0408 1.79986 7.04472 2.04021C4.04867 2.28057 1.81654 4.8819 2.05912 7.85044C2.3017 10.819 4.92713 13.0306 7.92319 12.7903Z\"\n                                  fill=\"white\" fill-opacity=\"0.5\" />\n                        </svg>\n                    </label>\n                    <div class=\"header-search_box\">\n                        <ul class=\"header-search_list\">\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n                <span class=\"header-search_btn\">\n       <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n              d=\"M6.88 0.0245786C10.9996 -0.30591 14.6095 2.73509 14.9431 6.81684C15.1082 8.83745 14.4395 10.7343 13.2222 12.1749L20 18.5842L18.5426 20L11.7106 13.5358C10.6702 14.2425 9.43524 14.6978 8.0879 14.8059C3.96833 15.1364 0.358357 12.0954 0.0248064 8.01364C-0.308744 3.93189 2.76043 0.355067 6.88 0.0245786ZM7.92319 12.7903C10.9192 12.5499 13.1514 9.94859 12.9088 6.98004C12.6662 4.01149 10.0408 1.79986 7.04472 2.04021C4.04867 2.28057 1.81654 4.8819 2.05912 7.85044C2.3017 10.819 4.92713 13.0306 7.92319 12.7903Z\" />\n       </svg>\n       <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path\n            d=\"M1.35796 16.9136C0.880678 17.3909 0.880678 18.1647 1.35796 18.642C1.83525 19.1193 2.60909 19.1193 3.08637 18.642L10 11.7284L16.9136 18.642C17.3909 19.1193 18.1647 19.1193 18.642 18.642C19.1193 18.1647 19.1193 17.3909 18.642 16.9136L11.7284 10L18.642 3.08637C19.1193 2.60909 19.1193 1.83525 18.642 1.35796C18.1647 0.880678 17.3909 0.880679 16.9136 1.35796L10 8.27159L3.08637 1.35796C2.60909 0.880678 1.83525 0.880678 1.35796 1.35796C0.880678 1.83525 0.880678 2.60909 1.35796 3.08637L8.27159 10L1.35796 16.9136Z\" />\n       </svg>\n      </span>\n            </div>\n            <div class=\"header-burger\">\n                <span></span><span></span><span></span>\n            </div>\n        </div>\n    </div>\n</header>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/header.php b/wp-content/themes/online-slots/header.php
+--- a/wp-content/themes/online-slots/header.php	
++++ b/wp-content/themes/online-slots/header.php	
+@@ -4,44 +4,39 @@
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no">
+-    <title>OnlineSlots</title>
+-    <meta name="description" content="Play Free to Enter Slots Tournaments!">
+     <meta name="theme-color" content="#010400">
+     <!--favicon-->
+-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+-    <link rel="manifest" href="favicon/site.webmanifest">
+-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
++    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/apple-touch-icon.png">
++    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon-32x32.png">
++    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon-16x16.png">
++    <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/site.webmanifest">
++    <link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+     <meta name="msapplication-TileColor" content="#da532c">
+     <!--preload-->
+-    <link rel="preload" href="fonts/Inter-Regular.woff" as="font" type="font/woff" crossorigin>
+-    <link rel="preload" href="fonts/Inter-Medium.woff" as="font" type="font/woff" crossorigin>
+-    <link rel="preload" href="fonts/Inter-SemiBold.woff" as="font" type="font/woff" crossorigin>
+-    <link rel="preload" href="fonts/Inter-Bold.woff" as="font" type="font/woff" crossorigin>
+-    <link rel="preload" href="fonts/Inter-Black.woff" as="font" type="font/woff" crossorigin>
+-    <link rel="preload" href="css/swiper.css" as="style">
+-    <link rel="preload" href="css/main.css" as="style">
+-    <link rel="preload" href="js/jquery.js" as="script">
+-    <link rel="preload" href="js/swiper.js" as="script">
+-    <link rel="preload" href="js/countdown.js" as="script">
+-    <link rel="preload" href="js/main.js" as="script">
+-    <!--style-->
+-    <link rel="stylesheet" href="css/swiper.css">
+-    <link rel="stylesheet" href="css/main.css">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Inter-Regular.woff" as="font" type="font/woff" crossorigin>
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Inter-Medium.woff" as="font" type="font/woff" crossorigin>
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Inter-SemiBold.woff" as="font" type="font/woff" crossorigin>
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Inter-Bold.woff" as="font" type="font/woff" crossorigin>
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Inter-Black.woff" as="font" type="font/woff" crossorigin>
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/css/swiper.css" as="style">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css" as="style">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.js" as="script">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/js/swiper.js" as="script">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/js/countdown.js" as="script">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/js/main.js" as="script">
++
+ 
+     <?php
+     global $class;
+     wp_head(); ?>
+ </head>
+-
+ <body <?php body_class($class); ?>>
+ <div class="wrapper">
+ <header class="header">
+     <div class="container">
+         <div class="header-wrap">
+             <a href="/" class="header-logo">
+-                <img src="icons/logo-1.svg" alt="img">
++                <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo-1.svg" alt="img">
+             </a>
+             <nav class="header-nav">
+                 <ul class="header-menu">
+@@ -69,7 +64,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -78,7 +73,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -87,7 +82,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -96,7 +91,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -105,7 +100,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -114,7 +109,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -140,3 +135,4 @@
+         </div>
+     </div>
+ </header>
++    <main class="main">

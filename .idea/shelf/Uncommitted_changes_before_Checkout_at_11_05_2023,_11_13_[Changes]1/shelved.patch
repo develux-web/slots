@@ -1,0 +1,1582 @@
+Index: wp-content/themes/online-slots/front-page.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php get_header(); ?>\n    <main class=\"main\">\n        <div class=\"section-bg\">\n            <video muted playsinline autoplay loop>\n                <source src=\"video/1.mp4\" type=\"video/mp4\">\n            </video>\n        </div>\n        <!--start-->\n        <section class=\"start\">\n            <div class=\"container\">\n                <div class=\"start-wrap\">\n                    <img class=\"start-logo\" src=\"icons/logo-2.svg\" alt=\"img\">\n                    <h1 class=\"start-title title-xl\">Play Free to Enter Slots Tournaments!</h1>\n                    <a href=\"#\" class=\"start-btn btn-one\">\n                        Best slot casinos\n                        <svg width=\"21\" height=\"20\" viewBox=\"0 0 21 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                            <path d=\"M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z\" fill=\"white\" />\n                        </svg>\n                    </a>\n                    <ul class=\"start-list\">\n                        <li><img src=\"icons/start/start-1.svg\" alt=\"img\"></li>\n                        <li><img src=\"icons/start/start-2.svg\" alt=\"img\"></li>\n                        <li><img src=\"icons/start/start-3.svg\" alt=\"img\"></li>\n                        <li><img src=\"icons/start/start-4.svg\" alt=\"img\"></li>\n                    </ul>\n                </div>\n            </div>\n        </section>\n        <!--/start-->\n        <!--slots-->\n        <section class=\"section-one slots\" id=\"slots\">\n            <div class=\"container\">\n                <ul class=\"slots-list\">\n                    <li class=\"slots-list_point active\">\n                        <div class=\"slots-item\">\n                            <div class=\"section-item_text\">\n                                <h2 class=\"slots-item_title title-x\">Welcome To Slots Temple</h2>\n                                <div class=\"slots-item_content content\">\n                                    <p>Welcome to OnlineSlots – the World’s top Free Slots website. Strictly 18+. <a href=\"#\">Ts&Cs*</a> We review\n                                        Slots from makers\n                                        like <a href=\"#\">Play'n GO</a>, <a href=\"#\">Blueprint</a> and <a href=\"#\">Big Time Gaming</a>. When possible we\n                                        provide third party links to try the games in\n                                        demo mode. We are not endorsed by any of the slots producers featured on the site. Please Gamble Responsibly.\n                                        Visit <a href=\"#\">www.BeGambleAware.org</a>.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">Free Tournaments</span>\n                        </a>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-2.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">EL DORADO</span>\n                        </a>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">Free Tournaments</span>\n                        </a>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-2.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">EL DORADO</span>\n                        </a>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">Free Tournaments</span>\n                        </a>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-2.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">EL DORADO</span>\n                        </a>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">Free Tournaments</span>\n                        </a>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-2.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">EL DORADO</span>\n                        </a>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">Free Tournaments</span>\n                        </a>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-2.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">EL DORADO</span>\n                        </a>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">Free Tournaments</span>\n                        </a>\n                    </li>\n                    <li class=\"slots-list_point\">\n                        <a href=\"#\" class=\"slots-item\">\n                            <div class=\"slots-item_img\">\n                                <img src=\"img/slots/slots-2.jpg\" alt=\"img\">\n                            </div>\n                            <span class=\"slots-item_name\">EL DORADO</span>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n        </section>\n        <!--/slots-->\n        <!--action-->\n        <section class=\"section-one action\" id=\"action\">\n            <div class=\"container\">\n                <div class=\"action-wrap\">\n                    <div class=\"action-text\">\n                        <h2 class=\"action-title title-x\">SLOT OF THE WEEK</h2>\n                        <div class=\"action-content content\">\n                            <p>This Relax Gaming slot is a charming title with a great vibe, with a 20,000x top prize, free spins and mystery\n                                symbols. Who thought the Horror Hotel could be so inviting?!</p>\n                        </div>\n                        <div class=\"action-bottom\">\n                            <a href=\"#\" class=\"action-btn btn-one\">\n                                Play demo\n                                <svg width=\"21\" height=\"20\" viewBox=\"0 0 21 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                    <path d=\"M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z\" fill=\"white\" />\n                                </svg>\n                            </a>\n                            <img class=\"action-icon\" src=\"img/slots/slots-3.png\" alt=\"img\">\n                        </div>\n                    </div>\n                    <img class=\"action-img\" src=\"img/slots/slots-4.png\" alt=\"img\">\n                </div>\n            </div>\n        </section>\n        <!--/action-->\n        <!--tourney-->\n        <section class=\"section-one tourney\" id=\"tourney\">\n            <div class=\"container\">\n                <div class=\"tourney-wrap\">\n                    <div class=\"section-top\">\n                        <h2 class=\"section-title title-x\">Tournaments</h2>\n                        <a href=\"#\" class=\"tourney-wrap_btn btn-two\">View all</a>\n                    </div>\n                    <ul class=\"tourney-items\">\n                        <li class=\"tourney-item\">\n                            <div class=\"tourney-item_logo\">\n                                <img src=\"img/tourney/tourney-1.png\" alt=\"img\">\n                            </div>\n                            <span class=\"tourney-item_title title-md\">Free daily tournaments</span>\n                            <ul class=\"tourney-item_timer\" data-countdown=\"2023/05/30 24:00:00\"></ul>\n                            <div class=\"tourney-item_content\">\n                                <div class=\"tourney-item_info\">\n                                    <span class=\"tourney-item_name title-lg\">Avatars</span>\n                                    <span class=\"tourney-item_label\">Guaranteed</span>\n                                </div>\n                                <a href=\"#\" class=\"action-btn btn-one\">\n                                    Play demo\n                                    <svg width=\"21\" height=\"20\" viewBox=\"0 0 21 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <path d=\"M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z\" fill=\"white\" />\n                                    </svg>\n                                </a>\n                            </div>\n                        </li>\n                        <li class=\"tourney-item\">\n                            <div class=\"tourney-item_logo\">\n                                <img src=\"img/tourney/tourney-2.png\" alt=\"img\">\n                            </div>\n                            <span class=\"tourney-item_title title-md\">FREE WEEKLY - ENTER ONCE PER DAY!</span>\n                            <ul class=\"tourney-item_timer\" data-countdown=\"2023/05/30 18:00:00\"></ul>\n                            <div class=\"tourney-item_content\">\n                                <div class=\"tourney-item_info\">\n                                    <span class=\"tourney-item_name title-lg\">Avatars</span>\n                                    <span class=\"tourney-item_label\">Guaranteed</span>\n                                </div>\n                                <a href=\"#\" class=\"action-btn btn-one\">\n                                    Play demo\n                                    <svg width=\"21\" height=\"20\" viewBox=\"0 0 21 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <path d=\"M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z\" fill=\"white\" />\n                                    </svg>\n                                </a>\n                            </div>\n                        </li>\n                        <li class=\"tourney-item\">\n                            <div class=\"tourney-item_logo\">\n                                <img src=\"img/tourney/tourney-3.png\" alt=\"img\">\n                            </div>\n                            <span class=\"tourney-item_title title-md\">Free daily tournaments</span>\n                            <ul class=\"tourney-item_timer\" data-countdown=\"2023/05/30 20:00:00\"></ul>\n                            <div class=\"tourney-item_content\">\n                                <div class=\"tourney-item_info\">\n                                    <span class=\"tourney-item_name title-lg\">Avatars</span>\n                                    <span class=\"tourney-item_label\">Guaranteed</span>\n                                </div>\n                                <a href=\"#\" class=\"action-btn btn-one\">\n                                    Play demo\n                                    <svg width=\"21\" height=\"20\" viewBox=\"0 0 21 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <path d=\"M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z\" fill=\"white\" />\n                                    </svg>\n                                </a>\n                            </div>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </section>\n        <!--/tourney-->\n        <!--tips-->\n        <section class=\"section-one tips\" id=\"tips\">\n            <div class=\"container\">\n                <div class=\"tips-wrap\">\n                    <div class=\"tips-info\">\n                        <div class=\"tips-info_top\">\n                            <h2 class=\"tips-info_title title-x\">10 Tips for Safer Gambling</h2>\n                            <a href=\"#\" class=\"tips-info_btn btn-two\">Read more</a>\n                        </div>\n                        <ol class=\"tips-info_list\">\n                            <li>Gambling is not a way to earn money</li>\n                            <li>Never gamble if you are feeling depressed</li>\n                            <li>Only gamble with money you can afford to lose</li>\n                            <li>Always balance gambling with other activities</li>\n                            <li>Always set a loss limit in advance of a session</li>\n                            <li>Stick to your session deposit limit</li>\n                            <li>Always set a time limit for your gaming session</li>\n                            <li>Step away and take frequent breaks</li>\n                            <li>Never, ever chase your session losses</li>\n                            <li>Never drink alcohol when gambling</li>\n                        </ol>\n                    </div>\n                    <div class=\"tips-text\">\n                        <h3 class=\"tips-text_title title-x\">Responsible Gambling</h3>\n                        <div class=\"tips-text_content content\">\n                            <p>We like to promote responsible gambling - gambling should be something that you do for fun only; once it stops\n                                being fun, it's time to stop.</p>\n                            <p>Check out the BeGambleAware site for the signs of problem gambling – if you think you are displaying any of\n                                these\n                                signs, it's time to stop. If you think you have a problem you should also visit the GamCare website – they offer\n                                excellent help and advice to those affected by problem gambling.</p>\n                            <p>Gambling is for over 18s only – it is illegal for minors to gamble, as such this website is for over 18s only.\n                                If\n                                you are from the UK, you will have to go through an age verification process before accessing our free games, as\n                                per UKGC regulations.</p>\n                            <p>We take responsible gaming very seriously at Slots Temple - take a took at the tips and tools listed below that\n                                can\n                                help you to gamble responsibly.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n        <!--/tips-->\n        <!--plus-->\n        <section class=\"section-one plus\" id=\"plus\">\n            <div class=\"container\">\n                <div class=\"swiper plus-slider\">\n                    <div class=\"swiper-wrapper\">\n                        <div class=\"swiper-slide plus-slide\">\n                            <img class=\"plus-slide_icon\" src=\"icons/plus/plus-1.svg\" alt=\"img\">\n                            <h3 class=\"plus-slide_title title-l\">Confidential Support</h3>\n                            <div class=\"plus-slide_content content\">\n                                <p>There are numerous amazing services that can help you have a problem. <a href=\"#\">Gamecare</a> is great place\n                                    to start.</p>\n                            </div>\n                            <a href=\"#\" class=\"plus-slide_btn btn-two\">Read more</a>\n                        </div>\n                        <div class=\"swiper-slide plus-slide\">\n                            <img class=\"plus-slide_icon\" src=\"icons/plus/plus-2.svg\" alt=\"img\">\n                            <h3 class=\"plus-slide_title title-l\">Signs of Problem Gambling</h3>\n                            <div class=\"plus-slide_content content\">\n                                <p>Remember, harmful gambling behaviour is often hidden. It can be really difficult to know if someone is\n                                    struggling with gambling, find out more about the signs.</p>\n                            </div>\n                            <a href=\"#\" class=\"plus-slide_btn btn-two\">Read more</a>\n                        </div>\n                        <div class=\"swiper-slide plus-slide\">\n                            <img class=\"plus-slide_icon\" src=\"icons/plus/plus-3.svg\" alt=\"img\">\n                            <h3 class=\"plus-slide_title title-l\">Responsible Gambling Tools</h3>\n                            <div class=\"plus-slide_content content\">\n                                <ul>\n                                    <li>Deposit limit</li>\n                                    <li>Loss limit</li>\n                                    <li>Time out</li>\n                                    <li>Reality checks</li>\n                                    <li>Self Exclusion</li>\n                                    <li>Self Assessment</li>\n                                </ul>\n                            </div>\n                            <a href=\"#\" class=\"plus-slide_btn btn-two\">Read more</a>\n                        </div>\n                        <div class=\"swiper-slide plus-slide\">\n                            <img class=\"plus-slide_icon\" src=\"icons/plus/plus-4.svg\" alt=\"img\">\n                            <h3 class=\"plus-slide_title title-l\">Protecting Minors</h3>\n                            <div class=\"plus-slide_content content\">\n                                <p>We use age verification checks on every single account, to confirm that our customers are 18 or older, and\n                                    legally old enough to gamble.</p>\n                            </div>\n                            <a href=\"#\" class=\"plus-slide_btn btn-two\">Read more</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n        <!--/plus-->\n        <!--uncos-->\n        <section class=\"section-one uncos\" id=\"uncos\">\n            <div class=\"container\">\n                <div class=\"section-top\">\n                    <h2 class=\"section-title title-x\">Latest News Slots</h2>\n                </div>\n                <ul class=\"uncos-list\">\n                    <li class=\"uncos-point\">\n                        <h3 class=\"uncos-point_title title-l\">Slots temple award winners announced award winners announced</h3>\n                        <p class=\"uncos-point_descr text-x\">There are numerous amazing\n                            services that can help you have a problem can help you have a problem</p>\n                        <div class=\"uncos-point_bottom\">\n                            <a href=\"#\" class=\"uncos-point_link btn-three\">Read more...</a>\n                            <span class=\"uncos-point_date\">01.12.22</span>\n                        </div>\n                    </li>\n                    <li class=\"uncos-point\">\n                        <h3 class=\"uncos-point_title title-l\">Slots temple</h3>\n                        <p class=\"uncos-point_descr text-x\">There are numerous amazing numerous amazing numerous amazing</p>\n                        <div class=\"uncos-point_bottom\">\n                            <a href=\"#\" class=\"uncos-point_link btn-three\">Read more...</a>\n                            <span class=\"uncos-point_date\">01.12.22</span>\n                        </div>\n                    </li>\n                    <li class=\"uncos-point\">\n                        <h3 class=\"uncos-point_title title-l\">Slots temple award winners announced award winners announced</h3>\n                        <p class=\"uncos-point_descr text-x\">There are numerous amazing\n                            services that can help you have a problem can help you have a problem</p>\n                        <div class=\"uncos-point_bottom\">\n                            <a href=\"#\" class=\"uncos-point_link btn-three\">Read more...</a>\n                            <span class=\"uncos-point_date\">01.12.22</span>\n                        </div>\n                    </li>\n                    <li class=\"uncos-point\">\n                        <h3 class=\"uncos-point_title title-l\">Slots temple</h3>\n                        <p class=\"uncos-point_descr text-x\">There are numerous amazing numerous amazing numerous amazing</p>\n                        <div class=\"uncos-point_bottom\">\n                            <a href=\"#\" class=\"uncos-point_link btn-three\">Read more...</a>\n                            <span class=\"uncos-point_date\">01.12.22</span>\n                        </div>\n                    </li>\n                </ul>\n            </div>\n        </section>\n        <!--/uncos-->\n        <!--work-->\n        <section class=\"section-one work\" id=\"work\">\n            <div class=\"container\">\n                <div class=\"section-top\">\n                    <h2 class=\"section-title title-x\">How The Site Works</h2>\n                </div>\n                <ol class=\"work-list\">\n                    <li>\n                        <p class=\"text-xl\">We check all slots before publishing</p>\n                    </li>\n                    <li>\n                        <p class=\"text-xl\">We check the slot developer</p>\n                    </li>\n                    <li>\n                        <p class=\"text-xl\">We search high and low for new Slot games to review and offer in demo mode</p>\n                    </li>\n                    <li>\n                        <p class=\"text-xl\">We advertise third-party Casinos on our free game pages</p>\n                    </li>\n                    <li>\n                        <p class=\"text-xl\">We were recently granted a UKGC licence</p>\n                    </li>\n                    <li>\n                        <p class=\"text-xl\">We are both a licenced operator</p>\n                    </li>\n                    <li>\n                        <p class=\"text-xl\">Enjoy the website 100% for free</p>\n                    </li>\n                    <li>\n                        <p class=\"text-xl\">Casinos we advertise on these free game pages do not necessarily have every game</p>\n                    </li>\n                </ol>\n            </div>\n        </section>\n        <!--/work-->\n        <!--play-->\n        <section class=\"section-one play\" id=\"play\">\n            <div class=\"container\">\n                <div class=\"section-top\">\n                    <h2 class=\"section-title title-x\">Always Play Safely</h2>\n                </div>\n                <div class=\"play-content content\">\n                    <p>If you do decide to gamble for real money, you should be aware that gambling is risky and can be addictive, so\n                        read BeGambleAware.org before playing for real money. We want to ensure that you play responsibly, so here are some\n                        tips to keep in mind before you gamble for real money:</p>\n                    <p><strong>Set a budget:</strong> no matter what type of online casino game you choose to play, you should always\n                        have a\n                        predetermined\n                        bankroll. This is a certain amount of money that you are willing to part with when playing your favourite online\n                        slots.</p>\n                    <p><strong>Track your spending:</strong> as is the case with any expenditure in your life, you should always keep\n                        track of how\n                        much\n                        money you spend while playing slots online. Whether you have a budget app or you simply keep a spreadsheet of your\n                        spending, make sure that you include what you spend on casino games.</p>\n                    <p><strong>Set a reality check timeframe:</strong> it is easy to get caught up playing any online game, so it may be\n                        a good\n                        idea to\n                        set a reality check. You can do that on this site using our Player Protection tools or at any UKGC licenced Casino.\n                        Once you've selected your reality check time frame (for example 20 minutes) you'll get a pop-up at every 20 minutes\n                        to ask if you want to continue playing.</p>\n                    <p><b>Don't chase losses:</b> this is good advice for all online casino players. Once you hit your budget, then stop\n                        playing. Your budget should be set in such a way that you won't mind losing whatever you have set aside. Playing\n                        slots online should always be a fun experience, and it's essential that you stop playing when you stop having fun.\n                    </p>\n                </div>\n            </div>\n        </section>\n        <!--/play-->\n        <!--want-->\n        <section class=\"section-one want\" id=\"want\">\n            <div class=\"container\">\n                <div class=\"section-top\">\n                    <h2 class=\"section-title title-x\">Want To Play Real Money Online Slots? We've Got You Covered.</h2>\n                </div>\n                <div class=\"want-content content\">\n                    <p><a href=\"#\">While playing online slots for free is a great — Link</a></p>\n                    <p>While playing online slots for free is a great way to pass the time, we understand that you might want a little\n                        bit more excitement. This usually means playing the same games that you would find here for free – but at an online\n                        casino for real money.\n                        — Italics</p>\n                    <p><u>While playing online slots for free is a great — Underlining</u></p>\n                    <p><strong>At Slots Temple, you'll be able to find a list of our recommended online slots sites if you do happen to\n                            want to wager real cash. We offer reviews, letting you know which websites provide you with: — Selection</strong>\n                    </p>\n                    <ul>\n                        <li>The most generous bonuses and promotions</li>\n                        <li>The most generous bonuses and promotions</li>\n                        <li>The most generous bonuses and promotions</li>\n                        <li>The most generous bonuses and promotions</li>\n                        <li>The most generous bonuses and promotions</li>\n                    </ul>\n                    <ol>\n                        <li>The most generous bonuses and promotions</li>\n                        <li>The most generous bonuses and promotions</li>\n                        <li>The most generous bonuses and promotions</li>\n                        <li>The most generous bonuses and promotions</li>\n                        <li>The most generous bonuses and promotions</li>\n                    </ol>\n                </div>\n            </div>\n        </section>\n        <!--/want-->\n        <div class=\"section-wrap\">\n            <div class=\"section-box\">\n                <!--faq-->\n                <section class=\"section-one faq\" id=\"faq\">\n                    <div class=\"container\">\n                        <div class=\"section-top\">\n                            <h2 class=\"section-title title-x\">FAQ</h2>\n                        </div>\n                        <ul class=\"faq-list\">\n                            <li class=\"faq-list_point\">\n                                <div class=\"faq-list_top\">\n                                    <h3 class=\"faq-list_title title-lg\">Can I Play Slots Online For Real Money?</h3>\n                                    <svg class=\"faq-list_arrow\" width=\"35\" height=\"20\" viewBox=\"0 0 35 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n                                              d=\"M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z\"\n                                        />\n                                    </svg>\n                                </div>\n                                <div class=\"faq-list_bottom\">\n                                    <div class=\"faq-list_text content\">\n                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be\n                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of\n                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from\n                                            different sources (not just here) before signing up.</p>\n                                    </div>\n                                </div>\n                            </li>\n                            <li class=\"faq-list_point\">\n                                <div class=\"faq-list_top\">\n                                    <h3 class=\"faq-list_title title-lg\">Can I Play Slots Online For Real Money?</h3>\n                                    <svg class=\"faq-list_arrow\" width=\"35\" height=\"20\" viewBox=\"0 0 35 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n                                              d=\"M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z\"\n                                        />\n                                    </svg>\n                                </div>\n                                <div class=\"faq-list_bottom\">\n                                    <div class=\"faq-list_text content\">\n                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be\n                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of\n                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from\n                                            different sources (not just here) before signing up.</p>\n                                    </div>\n                                </div>\n                            </li>\n                            <li class=\"faq-list_point\">\n                                <div class=\"faq-list_top\">\n                                    <h3 class=\"faq-list_title title-lg\">Can I Play Slots Online For Real Money?</h3>\n                                    <svg class=\"faq-list_arrow\" width=\"35\" height=\"20\" viewBox=\"0 0 35 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n                                              d=\"M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z\"\n                                        />\n                                    </svg>\n                                </div>\n                                <div class=\"faq-list_bottom\">\n                                    <div class=\"faq-list_text content\">\n                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be\n                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of\n                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from\n                                            different sources (not just here) before signing up.</p>\n                                    </div>\n                                </div>\n                            </li>\n                            <li class=\"faq-list_point\">\n                                <div class=\"faq-list_top\">\n                                    <h3 class=\"faq-list_title title-lg\">Can I Play Slots Online For Real Money?</h3>\n                                    <svg class=\"faq-list_arrow\" width=\"35\" height=\"20\" viewBox=\"0 0 35 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n                                              d=\"M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z\"\n                                        />\n                                    </svg>\n                                </div>\n                                <div class=\"faq-list_bottom\">\n                                    <div class=\"faq-list_text content\">\n                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be\n                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of\n                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from\n                                            different sources (not just here) before signing up.</p>\n                                    </div>\n                                </div>\n                            </li>\n                            <li class=\"faq-list_point\">\n                                <div class=\"faq-list_top\">\n                                    <h3 class=\"faq-list_title title-lg\">Can I Play Slots Online For Real Money?</h3>\n                                    <svg class=\"faq-list_arrow\" width=\"35\" height=\"20\" viewBox=\"0 0 35 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n                                              d=\"M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z\"\n                                        />\n                                    </svg>\n                                </div>\n                                <div class=\"faq-list_bottom\">\n                                    <div class=\"faq-list_text content\">\n                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be\n                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of\n                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from\n                                            different sources (not just here) before signing up.</p>\n                                    </div>\n                                </div>\n                            </li>\n                            <li class=\"faq-list_point\">\n                                <div class=\"faq-list_top\">\n                                    <h3 class=\"faq-list_title title-lg\">Can I Play Slots Online For Real Money?</h3>\n                                    <svg class=\"faq-list_arrow\" width=\"35\" height=\"20\" viewBox=\"0 0 35 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                                        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n                                              d=\"M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z\"\n                                        />\n                                    </svg>\n                                </div>\n                                <div class=\"faq-list_bottom\">\n                                    <div class=\"faq-list_text content\">\n                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be\n                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of\n                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from\n                                            different sources (not just here) before signing up.</p>\n                                    </div>\n                                </div>\n                            </li>\n                        </ul>\n                    </div>\n                </section>\n                <!--/faq-->\n            </div>\n        </div>\n    </main>\n<?php get_footer(); ?>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/front-page.php b/wp-content/themes/online-slots/front-page.php
+--- a/wp-content/themes/online-slots/front-page.php	
++++ b/wp-content/themes/online-slots/front-page.php	
+@@ -1,613 +1,71 @@
+-<?php get_header(); ?>
+-    <main class="main">
+-        <div class="section-bg">
+-            <video muted playsinline autoplay loop>
+-                <source src="video/1.mp4" type="video/mp4">
+-            </video>
+-        </div>
+-        <!--start-->
+-        <section class="start">
+-            <div class="container">
+-                <div class="start-wrap">
+-                    <img class="start-logo" src="icons/logo-2.svg" alt="img">
+-                    <h1 class="start-title title-xl">Play Free to Enter Slots Tournaments!</h1>
+-                    <a href="#" class="start-btn btn-one">
+-                        Best slot casinos
+-                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+-                            <path d="M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z" fill="white" />
+-                        </svg>
+-                    </a>
+-                    <ul class="start-list">
+-                        <li><img src="icons/start/start-1.svg" alt="img"></li>
+-                        <li><img src="icons/start/start-2.svg" alt="img"></li>
+-                        <li><img src="icons/start/start-3.svg" alt="img"></li>
+-                        <li><img src="icons/start/start-4.svg" alt="img"></li>
+-                    </ul>
+-                </div>
+-            </div>
+-        </section>
+-        <!--/start-->
+-        <!--slots-->
+-        <section class="section-one slots" id="slots">
+-            <div class="container">
+-                <ul class="slots-list">
+-                    <li class="slots-list_point active">
+-                        <div class="slots-item">
+-                            <div class="section-item_text">
+-                                <h2 class="slots-item_title title-x">Welcome To Slots Temple</h2>
+-                                <div class="slots-item_content content">
+-                                    <p>Welcome to OnlineSlots – the World’s top Free Slots website. Strictly 18+. <a href="#">Ts&Cs*</a> We review
+-                                        Slots from makers
+-                                        like <a href="#">Play'n GO</a>, <a href="#">Blueprint</a> and <a href="#">Big Time Gaming</a>. When possible we
+-                                        provide third party links to try the games in
+-                                        demo mode. We are not endorsed by any of the slots producers featured on the site. Please Gamble Responsibly.
+-                                        Visit <a href="#">www.BeGambleAware.org</a>.</p>
+-                                </div>
+-                            </div>
+-                        </div>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-1.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">Free Tournaments</span>
+-                        </a>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-2.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">EL DORADO</span>
+-                        </a>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-1.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">Free Tournaments</span>
+-                        </a>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-2.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">EL DORADO</span>
+-                        </a>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-1.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">Free Tournaments</span>
+-                        </a>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-2.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">EL DORADO</span>
+-                        </a>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-1.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">Free Tournaments</span>
+-                        </a>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-2.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">EL DORADO</span>
+-                        </a>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-1.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">Free Tournaments</span>
+-                        </a>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-2.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">EL DORADO</span>
+-                        </a>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-1.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">Free Tournaments</span>
+-                        </a>
+-                    </li>
+-                    <li class="slots-list_point">
+-                        <a href="#" class="slots-item">
+-                            <div class="slots-item_img">
+-                                <img src="img/slots/slots-2.jpg" alt="img">
+-                            </div>
+-                            <span class="slots-item_name">EL DORADO</span>
+-                        </a>
+-                    </li>
+-                </ul>
+-            </div>
+-        </section>
+-        <!--/slots-->
+-        <!--action-->
+-        <section class="section-one action" id="action">
+-            <div class="container">
+-                <div class="action-wrap">
+-                    <div class="action-text">
+-                        <h2 class="action-title title-x">SLOT OF THE WEEK</h2>
+-                        <div class="action-content content">
+-                            <p>This Relax Gaming slot is a charming title with a great vibe, with a 20,000x top prize, free spins and mystery
+-                                symbols. Who thought the Horror Hotel could be so inviting?!</p>
+-                        </div>
+-                        <div class="action-bottom">
+-                            <a href="#" class="action-btn btn-one">
+-                                Play demo
+-                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+-                                    <path d="M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z" fill="white" />
+-                                </svg>
+-                            </a>
+-                            <img class="action-icon" src="img/slots/slots-3.png" alt="img">
+-                        </div>
+-                    </div>
+-                    <img class="action-img" src="img/slots/slots-4.png" alt="img">
+-                </div>
+-            </div>
+-        </section>
+-        <!--/action-->
+-        <!--tourney-->
+-        <section class="section-one tourney" id="tourney">
+-            <div class="container">
+-                <div class="tourney-wrap">
+-                    <div class="section-top">
+-                        <h2 class="section-title title-x">Tournaments</h2>
+-                        <a href="#" class="tourney-wrap_btn btn-two">View all</a>
+-                    </div>
+-                    <ul class="tourney-items">
+-                        <li class="tourney-item">
+-                            <div class="tourney-item_logo">
+-                                <img src="img/tourney/tourney-1.png" alt="img">
+-                            </div>
+-                            <span class="tourney-item_title title-md">Free daily tournaments</span>
+-                            <ul class="tourney-item_timer" data-countdown="2023/05/30 24:00:00"></ul>
+-                            <div class="tourney-item_content">
+-                                <div class="tourney-item_info">
+-                                    <span class="tourney-item_name title-lg">Avatars</span>
+-                                    <span class="tourney-item_label">Guaranteed</span>
+-                                </div>
+-                                <a href="#" class="action-btn btn-one">
+-                                    Play demo
+-                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+-                                        <path d="M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z" fill="white" />
+-                                    </svg>
+-                                </a>
+-                            </div>
+-                        </li>
+-                        <li class="tourney-item">
+-                            <div class="tourney-item_logo">
+-                                <img src="img/tourney/tourney-2.png" alt="img">
+-                            </div>
+-                            <span class="tourney-item_title title-md">FREE WEEKLY - ENTER ONCE PER DAY!</span>
+-                            <ul class="tourney-item_timer" data-countdown="2023/05/30 18:00:00"></ul>
+-                            <div class="tourney-item_content">
+-                                <div class="tourney-item_info">
+-                                    <span class="tourney-item_name title-lg">Avatars</span>
+-                                    <span class="tourney-item_label">Guaranteed</span>
+-                                </div>
+-                                <a href="#" class="action-btn btn-one">
+-                                    Play demo
+-                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+-                                        <path d="M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z" fill="white" />
+-                                    </svg>
+-                                </a>
+-                            </div>
+-                        </li>
+-                        <li class="tourney-item">
+-                            <div class="tourney-item_logo">
+-                                <img src="img/tourney/tourney-3.png" alt="img">
+-                            </div>
+-                            <span class="tourney-item_title title-md">Free daily tournaments</span>
+-                            <ul class="tourney-item_timer" data-countdown="2023/05/30 20:00:00"></ul>
+-                            <div class="tourney-item_content">
+-                                <div class="tourney-item_info">
+-                                    <span class="tourney-item_name title-lg">Avatars</span>
+-                                    <span class="tourney-item_label">Guaranteed</span>
+-                                </div>
+-                                <a href="#" class="action-btn btn-one">
+-                                    Play demo
+-                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+-                                        <path d="M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z" fill="white" />
+-                                    </svg>
+-                                </a>
+-                            </div>
+-                        </li>
+-                    </ul>
+-                </div>
+-            </div>
+-        </section>
+-        <!--/tourney-->
+-        <!--tips-->
+-        <section class="section-one tips" id="tips">
+-            <div class="container">
+-                <div class="tips-wrap">
+-                    <div class="tips-info">
+-                        <div class="tips-info_top">
+-                            <h2 class="tips-info_title title-x">10 Tips for Safer Gambling</h2>
+-                            <a href="#" class="tips-info_btn btn-two">Read more</a>
+-                        </div>
+-                        <ol class="tips-info_list">
+-                            <li>Gambling is not a way to earn money</li>
+-                            <li>Never gamble if you are feeling depressed</li>
+-                            <li>Only gamble with money you can afford to lose</li>
+-                            <li>Always balance gambling with other activities</li>
+-                            <li>Always set a loss limit in advance of a session</li>
+-                            <li>Stick to your session deposit limit</li>
+-                            <li>Always set a time limit for your gaming session</li>
+-                            <li>Step away and take frequent breaks</li>
+-                            <li>Never, ever chase your session losses</li>
+-                            <li>Never drink alcohol when gambling</li>
+-                        </ol>
+-                    </div>
+-                    <div class="tips-text">
+-                        <h3 class="tips-text_title title-x">Responsible Gambling</h3>
+-                        <div class="tips-text_content content">
+-                            <p>We like to promote responsible gambling - gambling should be something that you do for fun only; once it stops
+-                                being fun, it's time to stop.</p>
+-                            <p>Check out the BeGambleAware site for the signs of problem gambling – if you think you are displaying any of
+-                                these
+-                                signs, it's time to stop. If you think you have a problem you should also visit the GamCare website – they offer
+-                                excellent help and advice to those affected by problem gambling.</p>
+-                            <p>Gambling is for over 18s only – it is illegal for minors to gamble, as such this website is for over 18s only.
+-                                If
+-                                you are from the UK, you will have to go through an age verification process before accessing our free games, as
+-                                per UKGC regulations.</p>
+-                            <p>We take responsible gaming very seriously at Slots Temple - take a took at the tips and tools listed below that
+-                                can
+-                                help you to gamble responsibly.</p>
+-                        </div>
+-                    </div>
+-                </div>
+-            </div>
+-        </section>
+-        <!--/tips-->
+-        <!--plus-->
+-        <section class="section-one plus" id="plus">
+-            <div class="container">
+-                <div class="swiper plus-slider">
+-                    <div class="swiper-wrapper">
+-                        <div class="swiper-slide plus-slide">
+-                            <img class="plus-slide_icon" src="icons/plus/plus-1.svg" alt="img">
+-                            <h3 class="plus-slide_title title-l">Confidential Support</h3>
+-                            <div class="plus-slide_content content">
+-                                <p>There are numerous amazing services that can help you have a problem. <a href="#">Gamecare</a> is great place
+-                                    to start.</p>
+-                            </div>
+-                            <a href="#" class="plus-slide_btn btn-two">Read more</a>
+-                        </div>
+-                        <div class="swiper-slide plus-slide">
+-                            <img class="plus-slide_icon" src="icons/plus/plus-2.svg" alt="img">
+-                            <h3 class="plus-slide_title title-l">Signs of Problem Gambling</h3>
+-                            <div class="plus-slide_content content">
+-                                <p>Remember, harmful gambling behaviour is often hidden. It can be really difficult to know if someone is
+-                                    struggling with gambling, find out more about the signs.</p>
+-                            </div>
+-                            <a href="#" class="plus-slide_btn btn-two">Read more</a>
+-                        </div>
+-                        <div class="swiper-slide plus-slide">
+-                            <img class="plus-slide_icon" src="icons/plus/plus-3.svg" alt="img">
+-                            <h3 class="plus-slide_title title-l">Responsible Gambling Tools</h3>
+-                            <div class="plus-slide_content content">
+-                                <ul>
+-                                    <li>Deposit limit</li>
+-                                    <li>Loss limit</li>
+-                                    <li>Time out</li>
+-                                    <li>Reality checks</li>
+-                                    <li>Self Exclusion</li>
+-                                    <li>Self Assessment</li>
+-                                </ul>
+-                            </div>
+-                            <a href="#" class="plus-slide_btn btn-two">Read more</a>
+-                        </div>
+-                        <div class="swiper-slide plus-slide">
+-                            <img class="plus-slide_icon" src="icons/plus/plus-4.svg" alt="img">
+-                            <h3 class="plus-slide_title title-l">Protecting Minors</h3>
+-                            <div class="plus-slide_content content">
+-                                <p>We use age verification checks on every single account, to confirm that our customers are 18 or older, and
+-                                    legally old enough to gamble.</p>
+-                            </div>
+-                            <a href="#" class="plus-slide_btn btn-two">Read more</a>
+-                        </div>
+-                    </div>
+-                </div>
+-            </div>
+-        </section>
+-        <!--/plus-->
+-        <!--uncos-->
+-        <section class="section-one uncos" id="uncos">
+-            <div class="container">
+-                <div class="section-top">
+-                    <h2 class="section-title title-x">Latest News Slots</h2>
+-                </div>
+-                <ul class="uncos-list">
+-                    <li class="uncos-point">
+-                        <h3 class="uncos-point_title title-l">Slots temple award winners announced award winners announced</h3>
+-                        <p class="uncos-point_descr text-x">There are numerous amazing
+-                            services that can help you have a problem can help you have a problem</p>
+-                        <div class="uncos-point_bottom">
+-                            <a href="#" class="uncos-point_link btn-three">Read more...</a>
+-                            <span class="uncos-point_date">01.12.22</span>
+-                        </div>
+-                    </li>
+-                    <li class="uncos-point">
+-                        <h3 class="uncos-point_title title-l">Slots temple</h3>
+-                        <p class="uncos-point_descr text-x">There are numerous amazing numerous amazing numerous amazing</p>
+-                        <div class="uncos-point_bottom">
+-                            <a href="#" class="uncos-point_link btn-three">Read more...</a>
+-                            <span class="uncos-point_date">01.12.22</span>
+-                        </div>
+-                    </li>
+-                    <li class="uncos-point">
+-                        <h3 class="uncos-point_title title-l">Slots temple award winners announced award winners announced</h3>
+-                        <p class="uncos-point_descr text-x">There are numerous amazing
+-                            services that can help you have a problem can help you have a problem</p>
+-                        <div class="uncos-point_bottom">
+-                            <a href="#" class="uncos-point_link btn-three">Read more...</a>
+-                            <span class="uncos-point_date">01.12.22</span>
+-                        </div>
+-                    </li>
+-                    <li class="uncos-point">
+-                        <h3 class="uncos-point_title title-l">Slots temple</h3>
+-                        <p class="uncos-point_descr text-x">There are numerous amazing numerous amazing numerous amazing</p>
+-                        <div class="uncos-point_bottom">
+-                            <a href="#" class="uncos-point_link btn-three">Read more...</a>
+-                            <span class="uncos-point_date">01.12.22</span>
+-                        </div>
+-                    </li>
+-                </ul>
+-            </div>
+-        </section>
+-        <!--/uncos-->
+-        <!--work-->
+-        <section class="section-one work" id="work">
+-            <div class="container">
+-                <div class="section-top">
+-                    <h2 class="section-title title-x">How The Site Works</h2>
+-                </div>
+-                <ol class="work-list">
+-                    <li>
+-                        <p class="text-xl">We check all slots before publishing</p>
+-                    </li>
+-                    <li>
+-                        <p class="text-xl">We check the slot developer</p>
+-                    </li>
+-                    <li>
+-                        <p class="text-xl">We search high and low for new Slot games to review and offer in demo mode</p>
+-                    </li>
+-                    <li>
+-                        <p class="text-xl">We advertise third-party Casinos on our free game pages</p>
+-                    </li>
+-                    <li>
+-                        <p class="text-xl">We were recently granted a UKGC licence</p>
+-                    </li>
+-                    <li>
+-                        <p class="text-xl">We are both a licenced operator</p>
+-                    </li>
+-                    <li>
+-                        <p class="text-xl">Enjoy the website 100% for free</p>
+-                    </li>
+-                    <li>
+-                        <p class="text-xl">Casinos we advertise on these free game pages do not necessarily have every game</p>
+-                    </li>
+-                </ol>
+-            </div>
+-        </section>
+-        <!--/work-->
+-        <!--play-->
+-        <section class="section-one play" id="play">
+-            <div class="container">
+-                <div class="section-top">
+-                    <h2 class="section-title title-x">Always Play Safely</h2>
+-                </div>
+-                <div class="play-content content">
+-                    <p>If you do decide to gamble for real money, you should be aware that gambling is risky and can be addictive, so
+-                        read BeGambleAware.org before playing for real money. We want to ensure that you play responsibly, so here are some
+-                        tips to keep in mind before you gamble for real money:</p>
+-                    <p><strong>Set a budget:</strong> no matter what type of online casino game you choose to play, you should always
+-                        have a
+-                        predetermined
+-                        bankroll. This is a certain amount of money that you are willing to part with when playing your favourite online
+-                        slots.</p>
+-                    <p><strong>Track your spending:</strong> as is the case with any expenditure in your life, you should always keep
+-                        track of how
+-                        much
+-                        money you spend while playing slots online. Whether you have a budget app or you simply keep a spreadsheet of your
+-                        spending, make sure that you include what you spend on casino games.</p>
+-                    <p><strong>Set a reality check timeframe:</strong> it is easy to get caught up playing any online game, so it may be
+-                        a good
+-                        idea to
+-                        set a reality check. You can do that on this site using our Player Protection tools or at any UKGC licenced Casino.
+-                        Once you've selected your reality check time frame (for example 20 minutes) you'll get a pop-up at every 20 minutes
+-                        to ask if you want to continue playing.</p>
+-                    <p><b>Don't chase losses:</b> this is good advice for all online casino players. Once you hit your budget, then stop
+-                        playing. Your budget should be set in such a way that you won't mind losing whatever you have set aside. Playing
+-                        slots online should always be a fun experience, and it's essential that you stop playing when you stop having fun.
+-                    </p>
+-                </div>
+-            </div>
+-        </section>
+-        <!--/play-->
+-        <!--want-->
+-        <section class="section-one want" id="want">
+-            <div class="container">
+-                <div class="section-top">
+-                    <h2 class="section-title title-x">Want To Play Real Money Online Slots? We've Got You Covered.</h2>
+-                </div>
+-                <div class="want-content content">
+-                    <p><a href="#">While playing online slots for free is a great — Link</a></p>
+-                    <p>While playing online slots for free is a great way to pass the time, we understand that you might want a little
+-                        bit more excitement. This usually means playing the same games that you would find here for free – but at an online
+-                        casino for real money.
+-                        — Italics</p>
+-                    <p><u>While playing online slots for free is a great — Underlining</u></p>
+-                    <p><strong>At Slots Temple, you'll be able to find a list of our recommended online slots sites if you do happen to
+-                            want to wager real cash. We offer reviews, letting you know which websites provide you with: — Selection</strong>
+-                    </p>
+-                    <ul>
+-                        <li>The most generous bonuses and promotions</li>
+-                        <li>The most generous bonuses and promotions</li>
+-                        <li>The most generous bonuses and promotions</li>
+-                        <li>The most generous bonuses and promotions</li>
+-                        <li>The most generous bonuses and promotions</li>
+-                    </ul>
+-                    <ol>
+-                        <li>The most generous bonuses and promotions</li>
+-                        <li>The most generous bonuses and promotions</li>
+-                        <li>The most generous bonuses and promotions</li>
+-                        <li>The most generous bonuses and promotions</li>
+-                        <li>The most generous bonuses and promotions</li>
+-                    </ol>
+-                </div>
+-            </div>
+-        </section>
+-        <!--/want-->
+-        <div class="section-wrap">
+-            <div class="section-box">
+-                <!--faq-->
+-                <section class="section-one faq" id="faq">
+-                    <div class="container">
+-                        <div class="section-top">
+-                            <h2 class="section-title title-x">FAQ</h2>
+-                        </div>
+-                        <ul class="faq-list">
+-                            <li class="faq-list_point">
+-                                <div class="faq-list_top">
+-                                    <h3 class="faq-list_title title-lg">Can I Play Slots Online For Real Money?</h3>
+-                                    <svg class="faq-list_arrow" width="35" height="20" viewBox="0 0 35 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+-                                        <path fill-rule="evenodd" clip-rule="evenodd"
+-                                              d="M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z"
+-                                        />
+-                                    </svg>
+-                                </div>
+-                                <div class="faq-list_bottom">
+-                                    <div class="faq-list_text content">
+-                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be
+-                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of
+-                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from
+-                                            different sources (not just here) before signing up.</p>
+-                                    </div>
+-                                </div>
+-                            </li>
+-                            <li class="faq-list_point">
+-                                <div class="faq-list_top">
+-                                    <h3 class="faq-list_title title-lg">Can I Play Slots Online For Real Money?</h3>
+-                                    <svg class="faq-list_arrow" width="35" height="20" viewBox="0 0 35 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+-                                        <path fill-rule="evenodd" clip-rule="evenodd"
+-                                              d="M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z"
+-                                        />
+-                                    </svg>
+-                                </div>
+-                                <div class="faq-list_bottom">
+-                                    <div class="faq-list_text content">
+-                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be
+-                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of
+-                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from
+-                                            different sources (not just here) before signing up.</p>
+-                                    </div>
+-                                </div>
+-                            </li>
+-                            <li class="faq-list_point">
+-                                <div class="faq-list_top">
+-                                    <h3 class="faq-list_title title-lg">Can I Play Slots Online For Real Money?</h3>
+-                                    <svg class="faq-list_arrow" width="35" height="20" viewBox="0 0 35 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+-                                        <path fill-rule="evenodd" clip-rule="evenodd"
+-                                              d="M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z"
+-                                        />
+-                                    </svg>
+-                                </div>
+-                                <div class="faq-list_bottom">
+-                                    <div class="faq-list_text content">
+-                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be
+-                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of
+-                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from
+-                                            different sources (not just here) before signing up.</p>
+-                                    </div>
+-                                </div>
+-                            </li>
+-                            <li class="faq-list_point">
+-                                <div class="faq-list_top">
+-                                    <h3 class="faq-list_title title-lg">Can I Play Slots Online For Real Money?</h3>
+-                                    <svg class="faq-list_arrow" width="35" height="20" viewBox="0 0 35 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+-                                        <path fill-rule="evenodd" clip-rule="evenodd"
+-                                              d="M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z"
+-                                        />
+-                                    </svg>
+-                                </div>
+-                                <div class="faq-list_bottom">
+-                                    <div class="faq-list_text content">
+-                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be
+-                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of
+-                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from
+-                                            different sources (not just here) before signing up.</p>
+-                                    </div>
+-                                </div>
+-                            </li>
+-                            <li class="faq-list_point">
+-                                <div class="faq-list_top">
+-                                    <h3 class="faq-list_title title-lg">Can I Play Slots Online For Real Money?</h3>
+-                                    <svg class="faq-list_arrow" width="35" height="20" viewBox="0 0 35 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+-                                        <path fill-rule="evenodd" clip-rule="evenodd"
+-                                              d="M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z"
+-                                        />
+-                                    </svg>
+-                                </div>
+-                                <div class="faq-list_bottom">
+-                                    <div class="faq-list_text content">
+-                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be
+-                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of
+-                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from
+-                                            different sources (not just here) before signing up.</p>
+-                                    </div>
+-                                </div>
+-                            </li>
+-                            <li class="faq-list_point">
+-                                <div class="faq-list_top">
+-                                    <h3 class="faq-list_title title-lg">Can I Play Slots Online For Real Money?</h3>
+-                                    <svg class="faq-list_arrow" width="35" height="20" viewBox="0 0 35 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+-                                        <path fill-rule="evenodd" clip-rule="evenodd"
+-                                              d="M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z"
+-                                        />
+-                                    </svg>
+-                                </div>
+-                                <div class="faq-list_bottom">
+-                                    <div class="faq-list_text content">
+-                                        <p>Absolutely - if you are over 18 (or of legal gambling age) and in a country that allows online Slots to be
+-                                            played legally there are 100s of Casinos to choose from with all kinds of different, entertaining games. Of
+-                                            course, not all casinos are created equal, so be sure to check out a number of reviews of the Casino, from
+-                                            different sources (not just here) before signing up.</p>
+-                                    </div>
+-                                </div>
+-                            </li>
+-                        </ul>
+-                    </div>
+-                </section>
+-                <!--/faq-->
+-            </div>
+-        </div>
+-    </main>
++<?php
++get_header();
++
++$fields = get_fields();
++
++get_template_part('partials/sections/home', 'video-bg', [
++    'video' => $fields['video_bg'],
++    'logo' => $fields['logo_first_screen'],
++    'title' => $fields['title_sc1'],
++    'btn_link' => $fields['button_sc1']['button_link_sc1'],
++    'btn_name' => $fields['button_sc1']['button_name_sc1'],
++    'images' => $fields['image_restrictions'],
++]);
++
++get_template_part('partials/sections/home', 'slots', [
++    'title' => $fields['name_section_sc2'],
++    'text' => $fields['description_section_sc2'],
++    'slots' => $fields['slots_sc2']
++]);
++
++get_template_part('partials/sections/home', 'action', [
++    'title' => $fields['title_block_action'],
++    'text' => $fields['description_block_action'],
++    'logo' => $fields['logo_slot_action'],
++    'btn_name' => $fields['button_action']['name'],
++    'btn_link' => $fields['button_action']['link'],
++    'logo_company' => $fields['logo_company_action'],
++]);
++
++get_template_part('partials/sections/home', 'tourney');
++
++get_template_part('partials/sections/home', 'tips', [
++    'title' => $fields['title_block_tips'],
++    'btn_name' => $fields['button__tips']['name'],
++    'btn_link' => $fields['button__tips']['link'],
++    'list' => $fields['info_list_tips'],
++    'title_desc' => $fields['title_description_tips'],
++    'text_desc' => $fields['text_description_tips'],
++]);
++
++get_template_part('partials/sections/home', 'pages');
++
++get_template_part('partials/sections/home', 'latest-news');
++
++get_template_part('partials/sections/home', 'works', [
++    'title' => $fields['title_block_works'],
++    'list' => $fields['list_works']
++]);
++
++get_template_part('partials/sections/home', 'content', [
++    'id' => 'play',
++    'title' => $fields['title_play'],
++    'text' => $fields['text_play']
++]);
++
++get_template_part('partials/sections/home', 'content', [
++    'id' => 'want',
++    'title' => $fields['title_want'],
++    'text' => $fields['text_want']
++]);
++
++get_template_part('partials/sections/home', 'faq', [
++    'title' => $fields['title_faq'],
++    'list' => $fields['faq_list']
++]);
++
++?>
++
++
++
+ <?php get_footer(); ?>
+Index: wp-content/themes/online-slots/classes/ThemeConfiguration.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\nnamespace classes;\n\nclass ThemeConfiguration\n{\n    public function __construct()\n    {\n        add_action('after_setup_theme', array($this, 'themeSupport'));\n        add_filter('upload_mimes', array($this, 'mimeTypes'));\n        add_action('wp_enqueue_scripts', array($this, 'includeJS'));\n        add_action('wp_enqueue_scripts', array($this, 'includeCSS'));\n    }\n\n    public function includeJS(): void\n    {\n\n    }\n    public function includeCSS(): void\n    {\n        if (is_front_page()) {\n            wp_enqueue_style('home-css', get_template_directory_uri() . '/assets/css/pages/home.css');\n        }\n        if (is_page('contact-us')) {\n            wp_enqueue_style('contact-us-css', get_template_directory_uri() . '/assets/css/pages/contact-us.css');\n        }\n    }\n    public function themeSupport(): void\n    {\n        add_theme_support('custom-logo');\n        add_theme_support('post-thumbnails');\n        add_theme_support('title-tag');\n        register_nav_menu('header', 'Header Menu');\n    }\n    public function mimeTypes($mimes)\n    {\n        $mimes['svg'] = 'image/svg+xml';\n        return $mimes;\n    }\n}\nnew ThemeConfiguration;\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/classes/ThemeConfiguration.php b/wp-content/themes/online-slots/classes/ThemeConfiguration.php
+--- a/wp-content/themes/online-slots/classes/ThemeConfiguration.php	
++++ b/wp-content/themes/online-slots/classes/ThemeConfiguration.php	
+@@ -14,16 +14,15 @@
+ 
+     public function includeJS(): void
+     {
+-
++        wp_enqueue_script('jquery-scripts', get_template_directory_uri() . '/assets/js/jquery.js', '', '', true);
++        wp_enqueue_script('swiper-scripts', get_template_directory_uri() . '/assets/js/swiper.js', '', '', true);
++        wp_enqueue_script('countdown-scripts', get_template_directory_uri() . '/assets/js/countdown.js', '', '', true);
++        wp_enqueue_script('main-scripts', get_template_directory_uri() . '/assets/js/main.js', '', '', true);
+     }
+     public function includeCSS(): void
+     {
+-        if (is_front_page()) {
+-            wp_enqueue_style('home-css', get_template_directory_uri() . '/assets/css/pages/home.css');
+-        }
+-        if (is_page('contact-us')) {
+-            wp_enqueue_style('contact-us-css', get_template_directory_uri() . '/assets/css/pages/contact-us.css');
+-        }
++        wp_enqueue_style('swiper-css', get_template_directory_uri() . '/assets/css/swiper.css');
++        wp_enqueue_style('main-css', get_template_directory_uri() . '/assets/css/main.css');
+     }
+     public function themeSupport(): void
+     {
+Index: wp-content/uploads/2023/05/start-1.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/uploads/2023/05/start-1.svg b/wp-content/uploads/2023/05/start-1.svg
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/uploads/2023/05/start-1.svg	
+@@ -0,0 +1,8 @@
++<svg width="100" height="40" viewBox="0 0 100 40" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M0 23.3145C1.54462 22.9558 3.03642 22.6092 4.58252 22.2505C3.78379 21.0772 3.0105 19.9414 2.23721 18.805C2.24699 18.7933 2.25629 18.7822 2.26607 18.7705C2.69355 18.9933 3.12153 19.2152 3.54853 19.4385C4.84273 20.1161 6.13448 20.7986 7.43406 21.4661C7.54949 21.5253 7.72214 21.5238 7.85518 21.4937C9.31421 21.1632 10.7703 20.8214 12.2274 20.4826C12.8133 20.3462 13.3959 20.1928 13.9862 20.0797C14.2597 20.0273 14.4582 19.8986 14.6465 19.7113C16.7008 17.6667 18.758 15.6255 20.8153 13.5843C22.5154 11.8975 24.2166 10.2116 25.9177 8.52621C27.0916 7.36315 28.2659 6.20057 29.4408 5.03798C29.4633 5.01614 29.4877 4.99624 29.5455 5.00061C29.3166 5.33215 29.0886 5.66466 28.8587 5.99572C27.5034 7.94662 26.1491 9.8985 24.7918 11.8484C23.5132 13.6853 22.2303 15.5192 20.9512 17.3555C19.7871 19.0263 18.6274 20.7001 17.4585 22.367C17.3318 22.5481 17.3636 22.6476 17.5206 22.7845C19.1963 24.2412 20.8671 25.7033 22.5379 27.1659C23.4037 27.9236 24.2655 28.6857 25.1307 29.4449C25.1855 29.493 25.2501 29.5294 25.3102 29.5711C25.3019 29.5944 25.2936 29.6177 25.2853 29.6415C24.9957 29.7279 24.7062 29.8158 24.4161 29.9007C21.928 30.6264 19.4394 31.3516 16.9508 32.0773C14.7189 32.7288 12.4871 33.3792 10.2572 34.036C10.0743 34.0899 9.96131 34.0768 9.82045 33.9239C8.17849 32.1356 6.52528 30.3575 4.87599 28.5755C3.37098 26.9494 1.86744 25.3217 0.362923 23.6956C0.255318 23.5791 0.1438 23.4665 0 23.316L0 23.3145ZM2.4578 24.0533C2.53215 24.1456 2.56834 24.1965 2.60992 24.2417C3.68157 25.3999 4.75468 26.5576 5.82633 27.7158C7.3108 29.3197 8.79526 30.923 10.2768 32.5293C10.3722 32.6327 10.4553 32.6642 10.5937 32.6162C10.8544 32.5263 11.123 32.4584 11.3876 32.3807C13.1484 31.8657 14.9087 31.3502 16.67 30.8361C18.3692 30.3405 20.0689 29.8473 21.7681 29.3512C22.0752 29.2614 22.3794 29.1629 22.7365 29.0522C20.6587 27.2338 18.6221 25.4518 16.5732 23.6587C15.6399 24.9999 14.7175 26.3246 13.796 27.6508C12.8711 28.9818 11.9476 30.3138 10.9997 31.6793C10.8001 31.3842 10.6309 31.1313 10.4592 30.8798C9.48393 29.4517 8.50668 28.0246 7.53335 26.595C6.84663 25.5868 6.16285 24.5761 5.48249 23.564C5.4008 23.4427 5.32744 23.3849 5.16554 23.4291C4.85251 23.5145 4.53116 23.567 4.2147 23.6398C3.64586 23.7708 3.07849 23.9063 2.4578 24.0524V24.0533ZM12.5492 21.8005L12.5189 21.7228C11.4825 21.9622 10.446 22.2015 9.40959 22.4408C9.40959 22.4631 9.4091 22.485 9.40861 22.5073C9.90946 22.767 10.4084 23.0301 10.9141 23.2796C10.9581 23.3014 11.0648 23.2505 11.1132 23.2039C11.5954 22.7398 12.0714 22.2689 12.5487 21.8005H12.5492Z" fill="white" fill-opacity="0.5"/>
++<path d="M75.8763 27.76C75.958 27.3551 76.0314 26.9755 76.1111 26.5979C76.4398 25.0353 76.7709 23.4737 77.1001 21.9111C77.3975 20.4986 77.6944 19.086 77.9898 17.6734C78.206 16.6395 78.4246 15.606 78.6301 14.5701C78.6623 14.407 78.7254 14.3633 78.8839 14.3638C80.7739 14.3682 82.6643 14.3551 84.5542 14.373C85.3021 14.3803 86.046 14.4527 86.7591 14.7264C87.845 15.1434 88.5082 15.8992 88.698 17.0409C88.8457 17.9283 88.7684 18.7957 88.3762 19.6185C87.9878 20.4335 87.3182 20.9282 86.4794 21.2179C86.2348 21.3024 85.9815 21.3607 85.6806 21.4451C85.8068 21.5077 85.8954 21.5509 85.9834 21.5956C86.6872 21.9529 87.0003 22.5563 87.0991 23.3057C87.2033 24.0941 87.0262 24.8659 86.9885 25.6455C86.9611 26.2144 86.9871 26.7862 87.0017 27.3566C87.0042 27.459 87.0697 27.56 87.1274 27.7211C87.3515 27.3595 87.5437 27.0546 87.7305 26.7459C88.7924 24.9901 89.8543 23.2339 90.9142 21.4767C92.2539 19.2559 93.5989 17.0385 94.9225 14.8085C95.1186 14.4784 95.3187 14.3264 95.7202 14.3556C96.2954 14.3973 96.8765 14.3711 97.4546 14.3628C97.6234 14.3604 97.6953 14.408 97.7246 14.5832C97.9907 16.1584 98.2646 17.7321 98.5405 19.3054C98.8202 20.9029 99.1054 22.4995 99.3866 24.0965C99.5911 25.2566 99.7941 26.4168 99.9956 27.5774C100.005 27.6303 99.9965 27.6862 99.9965 27.7609C99.9114 27.7667 99.8322 27.776 99.753 27.7765C99.1337 27.7779 98.5145 27.7716 97.8953 27.7803C97.7153 27.7828 97.6405 27.7318 97.6131 27.5454C97.4615 26.5163 97.2913 25.4896 97.1396 24.4606C97.1132 24.28 97.0531 24.2169 96.8643 24.2178C95.2106 24.2246 93.5564 24.2246 91.9027 24.2178C91.7349 24.2174 91.6567 24.2897 91.5818 24.4178C90.9675 25.4717 90.3448 26.5207 89.7369 27.5784C89.6454 27.7376 89.5456 27.7813 89.372 27.7803C87.9139 27.774 86.4559 27.7677 84.9978 27.7842C84.7313 27.7871 84.6383 27.6711 84.6271 27.4585C84.6031 27.0008 84.5718 26.5401 84.5968 26.0833C84.6344 25.3911 84.7391 24.7018 84.7709 24.0096C84.7851 23.6955 84.7504 23.3533 84.6354 23.064C84.4109 22.4999 83.8812 22.3393 83.3275 22.2898C82.8824 22.2495 82.4334 22.2461 81.9859 22.2422C81.2121 22.2354 80.4378 22.2456 79.664 22.2368C79.4782 22.2349 79.3965 22.2815 79.3569 22.4766C79.013 24.1601 78.6526 25.8401 78.3087 27.5236C78.2676 27.726 78.1869 27.7852 77.9864 27.7818C77.3677 27.7706 76.7479 27.7779 76.1287 27.7765C76.0505 27.7765 75.9722 27.7663 75.8754 27.7595L75.8763 27.76ZM79.7888 20.4699C79.893 20.4796 79.9629 20.4918 80.0328 20.4918C81.1153 20.4927 82.1982 20.5092 83.2801 20.484C83.7315 20.4733 84.1928 20.4199 84.6281 20.3049C85.8543 19.9806 86.4808 19.1049 86.4119 17.854C86.3771 17.2229 86.0861 16.72 85.4645 16.5176C85.0316 16.3769 84.5635 16.2938 84.1081 16.2798C83.0433 16.2458 81.9761 16.2754 80.9103 16.2633C80.701 16.2608 80.6335 16.3317 80.5958 16.523C80.4153 17.4399 80.2202 18.354 80.0314 19.2695C79.9507 19.6612 79.8724 20.0539 79.7883 20.4704L79.7888 20.4699ZM92.7083 22.4334H96.8496C96.5723 20.5257 96.2979 18.6404 96.0235 16.755C96.0005 16.7511 95.9775 16.7472 95.954 16.7429C94.8785 18.6287 93.8024 20.5146 92.7083 22.4334Z" fill="white" fill-opacity="0.5"/>
++<path d="M73.1697 22.4852H69.4891C69.5815 22.0565 69.6656 21.6643 69.7503 21.2726C69.7552 21.2488 69.7649 21.2265 69.7708 21.2027C69.8478 20.8904 70.0525 20.7343 70.3851 20.7343C72.031 20.7343 73.6769 20.7343 75.3223 20.7343C75.4181 20.7343 75.5135 20.7343 75.647 20.7343C75.5287 21.2959 75.4191 21.8231 75.3066 22.3492C74.9349 24.0851 74.5602 25.82 74.1939 27.5564C74.1587 27.7243 74.0892 27.784 73.918 27.7796C73.5042 27.7699 73.0899 27.7767 72.6483 27.7767V26.4088C72.6287 26.3986 72.6091 26.3879 72.5896 26.3778C72.4551 26.5209 72.3303 26.6743 72.1846 26.8049C71.02 27.8505 69.6524 28.2291 68.1019 28.0398C67.134 27.9214 66.2247 27.6525 65.4094 27.1136C64.3363 26.4049 63.6471 25.4181 63.2886 24.1968C62.865 22.7541 62.9579 21.3085 63.2641 19.8624C63.5683 18.4246 64.1964 17.1485 65.247 16.1014C66.4512 14.9015 67.9112 14.234 69.6187 14.0976C70.5607 14.0224 71.492 14.0758 72.4037 14.316C74.3181 14.8199 75.691 16.082 75.8573 18.1999C75.8681 18.3339 75.8789 18.4678 75.8926 18.6363C75.6769 18.6363 75.492 18.6363 75.3076 18.6363C74.7779 18.6363 74.2486 18.6338 73.7189 18.6382C73.5932 18.6392 73.5301 18.613 73.5174 18.4693C73.3976 17.0727 72.5177 16.2868 71.2279 16.0446C69.6153 15.7417 68.189 16.098 67.044 17.3208C66.3944 18.0144 65.9772 18.8401 65.7067 19.7391C65.3649 20.8755 65.2387 22.0376 65.4426 23.2099C65.6671 24.4997 66.3128 25.5079 67.6158 25.9579C69.0318 26.4472 70.8953 26.2549 72.0295 24.9346C72.6067 24.2623 72.9408 23.4735 73.1677 22.6322C73.1775 22.5958 73.1692 22.5546 73.1692 22.4852H73.1697Z" fill="white" fill-opacity="0.5"/>
++<path d="M62.7319 20.0497C62.704 21.5627 62.4487 23.0229 61.7468 24.3801C60.8395 26.1354 59.4372 27.3048 57.5062 27.8271C56.0531 28.2198 54.6048 28.1902 53.1824 27.7038C51.786 27.2261 50.7677 26.3058 50.145 24.9752C49.6941 24.0122 49.5542 22.9865 49.5855 21.9331C49.6158 20.9123 49.7562 19.9099 50.0878 18.9376C50.5324 17.6342 51.2499 16.511 52.328 15.6343C53.6574 14.5533 55.1971 14.045 56.9085 14.0635C58.5676 14.0814 60.0462 14.5751 61.2083 15.8032C62.03 16.6716 62.482 17.7211 62.6444 18.8924C62.6977 19.2749 62.704 19.6638 62.7319 20.0497ZM51.9098 22.2763C51.9347 22.4865 51.9626 22.8816 52.0301 23.2699C52.2854 24.7354 53.2436 25.8616 54.7877 26.1179C56.4683 26.3965 57.8525 25.8975 58.9183 24.5704C59.5536 23.7796 59.9401 22.8704 60.1567 21.8909C60.437 20.6215 60.5162 19.3478 60.0716 18.0959C59.7596 17.2172 59.1809 16.5576 58.2898 16.2241C56.3411 15.495 54.2399 16.2163 53.1086 17.9599C52.2903 19.222 51.9636 20.6152 51.9098 22.2763Z" fill="white" fill-opacity="0.5"/>
++<path d="M47.158 18.8124C47.0362 18.3241 46.978 17.8692 46.8088 17.459C46.4375 16.5576 45.6672 16.1343 44.7427 15.9979C43.4662 15.8096 42.2933 16.0882 41.2964 16.9295C40.4615 17.6343 39.9396 18.5488 39.6056 19.5726C39.2192 20.758 39.0856 21.973 39.2876 23.2045C39.473 24.334 39.9939 25.286 41.0783 25.7903C42.2933 26.3558 43.5366 26.4073 44.7217 25.6869C45.4329 25.2544 45.8658 24.5797 46.1827 23.8287C46.2076 23.7695 46.2267 23.7074 46.2522 23.6482C46.327 23.4734 46.3588 23.2297 46.4923 23.1438C46.6312 23.0545 46.8704 23.1156 47.0655 23.1152C47.6182 23.1137 48.1709 23.1152 48.7809 23.1152C48.6909 23.4297 48.6234 23.7147 48.528 23.9904C48.0457 25.3835 47.2402 26.5364 45.944 27.3019C45.2001 27.7412 44.3832 27.98 43.52 28.0548C42.3167 28.1596 41.1453 28.0271 40.034 27.5407C39.0891 27.1272 38.3285 26.4879 37.7743 25.6175C37.0093 24.4166 36.8034 23.0904 36.867 21.6987C36.9277 20.3696 37.1908 19.0901 37.7958 17.8964C38.3578 16.7877 39.1478 15.8669 40.2072 15.1941C42.0565 14.0194 44.0614 13.7825 46.1543 14.3359C47.4886 14.6888 48.5148 15.4703 49.0704 16.7688C49.3248 17.3634 49.4309 17.9906 49.4206 18.6347C49.4197 18.6949 49.3326 18.8041 49.2842 18.8051C48.5603 18.8163 47.8369 18.8129 47.159 18.8129L47.158 18.8124Z" fill="white" fill-opacity="0.5"/>
++<path d="M35.0549 24.609C34.8617 25.2861 34.5942 25.8584 34.2019 26.371C33.4398 27.3662 32.4225 27.8894 31.1728 28.0103C30.2909 28.0953 29.4301 28.0472 28.6147 27.6826C27.3254 27.106 26.714 26.0444 26.5443 24.7065C26.3917 23.5027 26.5287 22.3236 26.9767 21.1877C27.5979 19.6125 28.6103 18.3878 30.2694 17.8451C31.6013 17.4092 32.9361 17.434 34.1613 18.2281C34.8441 18.6703 35.2471 19.3242 35.4741 20.0902C35.6717 20.7586 35.6736 21.444 35.6418 22.1314C35.6296 22.3891 35.5949 22.6464 35.589 22.9042C35.5846 23.0891 35.4985 23.1289 35.3298 23.1275C34.5477 23.1212 33.7656 23.1246 32.9835 23.1246C31.3298 23.1246 29.6761 23.1294 28.0224 23.1192C27.7769 23.1178 27.6913 23.194 27.6883 23.4318C27.68 24.0299 27.6595 24.625 27.8556 25.2056C28.2352 26.3312 29.1381 27.0113 30.333 27.0594C31.9495 27.1239 33.2041 26.3225 33.7979 24.8284C33.8678 24.6527 33.9549 24.5973 34.1354 24.6061C34.4259 24.6196 34.7179 24.6099 35.0554 24.6099L35.0549 24.609ZM27.8903 22.1115C27.9544 22.128 27.9857 22.1425 28.0165 22.1425C30.1011 22.1445 32.1853 22.1445 34.2699 22.1469C34.4073 22.1469 34.4596 22.0882 34.4582 21.9581C34.4552 21.6435 34.4846 21.3256 34.4508 21.0144C34.3501 20.08 33.9588 19.3077 33.0745 18.8713C32.3447 18.5106 31.5734 18.4767 30.7942 18.698C29.7485 18.9951 29.0256 19.6868 28.4876 20.5921C28.2107 21.0586 28.0087 21.5562 27.8903 22.111V22.1115Z" fill="white" fill-opacity="0.5"/>
++</svg>
+Index: wp-content/uploads/2023/05/start-2.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/uploads/2023/05/start-2.svg b/wp-content/uploads/2023/05/start-2.svg
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/uploads/2023/05/start-2.svg	
+@@ -0,0 +1,6 @@
++<svg width="100" height="40" viewBox="0 0 100 40" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M68.5044 28.2541C70.414 24.0395 70.8032 19.2931 69.6056 14.8236L66.3704 15.6905C67.3674 19.4115 67.0434 23.363 65.4536 26.8718C63.8638 30.3807 61.1065 33.2297 57.6515 34.9335C54.1966 36.6373 50.2577 37.0904 46.5061 36.2157C42.7546 35.3409 39.4223 33.1924 37.0773 30.1363C34.7322 27.0801 33.5193 23.3054 33.6454 19.4552C33.7714 15.6051 35.2285 11.9177 37.7685 9.02148C40.3084 6.12523 43.774 4.19927 47.5748 3.57176C51.3756 2.94426 55.2763 3.65402 58.6124 5.58013L60.2871 2.67952C56.2799 0.365975 51.5945 -0.486563 47.0292 0.267171C42.4639 1.0209 38.3012 3.33428 35.2503 6.81311C32.1995 10.2919 30.4492 14.721 30.2978 19.3456C30.1464 23.9702 31.6032 28.5043 34.42 32.1752C37.2369 35.8461 41.2394 38.4268 45.7456 39.4775C50.2518 40.5282 54.983 39.9839 59.1329 37.9374C63.2828 35.8909 66.5947 32.4688 68.5044 28.2541Z" fill="white" fill-opacity="0.5"/>
++<path d="M66.0701 3.51031V7.18288H69.3716V9.24174H66.0701V12.9329H63.8215V9.24174H60.5379V7.18288H63.8215V3.51031H66.0701Z" fill="white" fill-opacity="0.5"/>
++<path fill-rule="evenodd" clip-rule="evenodd" d="M55.7373 27.0667C54.9358 27.0667 54.2033 26.9645 53.54 26.7602C52.8767 26.5558 52.3066 26.2691 51.8299 25.8999C51.36 25.5242 50.9938 25.0727 50.7312 24.5453C50.4756 24.018 50.3477 23.4313 50.3477 22.7853C50.3477 22.3964 50.3927 22.0306 50.4825 21.6878C50.5792 21.3384 50.7278 21.022 50.9282 20.7386C51.1355 20.4485 51.398 20.1915 51.7159 19.9673C52.0406 19.7432 52.431 19.5554 52.8871 19.4037C52.1961 19.1071 51.6813 18.6951 51.3427 18.1678C51.0111 17.6404 50.8452 17.0076 50.8452 16.2694C50.8452 15.7091 50.9662 15.1916 51.208 14.717C51.4498 14.2358 51.7884 13.8205 52.2237 13.4711C52.659 13.1218 53.1738 12.8482 53.768 12.6505C54.3692 12.4461 55.0256 12.344 55.7373 12.344C56.449 12.344 57.102 12.4461 57.6962 12.6505C58.2973 12.8482 58.8156 13.1218 59.2509 13.4711C59.6862 13.8205 60.0247 14.2358 60.2666 14.717C60.5084 15.1916 60.6293 15.7091 60.6293 16.2694C60.6293 17.0076 60.4601 17.6404 60.1215 18.1678C59.7829 18.6951 59.2716 19.1071 58.5875 19.4037C59.0367 19.5554 59.4201 19.7432 59.738 19.9673C60.0627 20.1915 60.3253 20.4485 60.5257 20.7386C60.733 21.022 60.885 21.3384 60.9817 21.6878C61.0785 22.0306 61.1268 22.3964 61.1268 22.7853C61.1268 23.4313 60.9956 24.018 60.733 24.5453C60.4773 25.0727 60.1111 25.5242 59.6343 25.8999C59.1645 26.2691 58.5979 26.5558 57.9346 26.7602C57.2712 26.9645 56.5388 27.0667 55.7373 27.0667ZM55.7373 24.753C56.0966 24.753 56.4075 24.7002 56.6701 24.5948C56.9327 24.4893 57.1469 24.3476 57.3127 24.1696C57.4854 23.985 57.6098 23.7708 57.6858 23.5269C57.7687 23.2764 57.8102 23.0095 57.8102 22.726C57.8102 22.4162 57.7756 22.1327 57.7066 21.8757C57.6375 21.6186 57.5234 21.4011 57.3645 21.2231C57.2056 21.0385 56.9914 20.8968 56.7219 20.7979C56.4594 20.6924 56.1311 20.6397 55.7373 20.6397C55.3434 20.6397 55.0118 20.6924 54.7423 20.7979C54.4797 20.8968 54.269 21.0385 54.1101 21.2231C53.9511 21.4011 53.8371 21.6186 53.768 21.8757C53.6989 22.1327 53.6644 22.4162 53.6644 22.726C53.6644 23.0095 53.7024 23.2764 53.7784 23.5269C53.8613 23.7708 53.9857 23.985 54.1515 24.1696C54.3243 24.3476 54.5385 24.4893 54.7941 24.5948C55.0567 24.7002 55.3711 24.753 55.7373 24.753ZM55.7373 18.3062C56.0966 18.3062 56.3903 18.2502 56.6183 18.1381C56.8463 18.0261 57.0259 17.8778 57.1572 17.6932C57.2885 17.5086 57.3783 17.2977 57.4267 17.0604C57.4751 16.8231 57.4993 16.5792 57.4993 16.3287C57.4993 16.1046 57.4682 15.887 57.406 15.6761C57.3438 15.4652 57.2401 15.2806 57.095 15.1224C56.9569 14.9576 56.7737 14.8258 56.5457 14.7269C56.3246 14.628 56.0551 14.5786 55.7373 14.5786C55.4125 14.5786 55.1396 14.628 54.9185 14.7269C54.6974 14.8258 54.5143 14.9576 54.3692 15.1224C54.231 15.2806 54.1308 15.4652 54.0686 15.6761C54.0064 15.887 53.9753 16.1046 53.9753 16.3287C53.9753 16.5792 53.9995 16.8231 54.0479 17.0604C54.0962 17.2977 54.1861 17.5086 54.3174 17.6932C54.4486 17.8778 54.6283 18.0261 54.8563 18.1381C55.0843 18.2502 55.378 18.3062 55.7373 18.3062Z" fill="white" fill-opacity="0.5"/>
++<path d="M39.992 24.6937H42.8941V17.4262C42.8941 17.0703 42.9044 16.6978 42.9251 16.3089L41.215 17.6635C41.063 17.7756 40.911 17.8448 40.759 17.8712C40.6139 17.8909 40.4757 17.8909 40.3444 17.8712C40.2131 17.8448 40.0956 17.8019 39.992 17.7426C39.8883 17.6767 39.8123 17.6108 39.764 17.5449L38.7482 16.2595L43.4537 12.4923H46.107V24.6937H48.5945V26.9085H39.992V24.6937Z" fill="white" fill-opacity="0.5"/>
++</svg>
+Index: wp-content/uploads/2023/05/start-3.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/uploads/2023/05/start-3.svg b/wp-content/uploads/2023/05/start-3.svg
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/uploads/2023/05/start-3.svg	
+@@ -0,0 +1,30 @@
++<svg width="100" height="40" viewBox="0 0 100 40" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M10 22.1816C10.0455 21.8269 10.0966 21.4722 10.1364 21.1175C10.3127 19.5523 10.7088 18.0452 11.3152 16.5888C11.9595 15.0424 12.818 13.6179 13.8868 12.3248C14.7263 11.3095 15.6739 10.3936 16.7294 9.59597C18.905 7.95004 21.3363 6.86526 24.0311 6.36979C25.352 6.12769 26.6842 6.03948 28.0316 6.10892C30.4005 6.23091 32.6499 6.8052 34.7629 7.85995C35.5892 8.27284 36.3548 8.80397 37.1469 9.28255C37.1773 9.30132 37.2057 9.32008 37.2777 9.367V8.49805H39.584V9.8362H40.9769V8.49618H42.3072C42.3072 8.81898 42.3148 9.1249 42.3034 9.42894C42.2978 9.58283 42.3413 9.64852 42.5062 9.63538C42.6408 9.62412 42.7791 9.63351 42.9155 9.63351C53.6057 9.63351 64.2958 9.63163 74.984 9.63351C77.5253 9.63351 79.9491 10.1721 82.2459 11.2494C83.6483 11.9082 84.9237 12.7508 86.0759 13.7868C87.7985 15.3389 89.0777 17.1781 89.8376 19.3627C90.3398 20.8097 90.5899 22.2999 90.4838 23.8238C90.3853 25.2239 90.0745 26.5921 89.5874 27.9152C89.0947 29.2533 88.4314 30.4995 87.5502 31.6275C86.0285 33.5793 84.0841 34.9587 81.7513 35.8183C80.3679 36.3269 78.9447 36.6628 77.476 36.7867C76.5285 36.8674 75.5734 36.9256 74.622 36.9256C62.1524 36.935 49.681 36.9331 37.2114 36.9237C36.8722 36.9237 36.6637 37.1264 36.4268 37.2784C34.6038 38.4477 32.6253 39.2359 30.499 39.6638C28.9166 39.981 27.3172 40.0786 25.7102 39.9359C22.9604 39.6938 20.4059 38.8568 18.0635 37.3985C16.123 36.1899 14.4894 34.6622 13.1667 32.8155C11.8629 30.9931 10.9286 28.9962 10.4624 26.806C10.2691 25.8939 10.18 24.9593 10.0417 24.034C10.0341 23.9833 10.0133 23.9345 10 23.8857C10 23.3152 10 22.7465 10 22.176L10 22.1816ZM37.4748 15.5041V14.1809H36.0667V15.5003H37.4786C37.4691 15.6035 37.452 15.7049 37.4502 15.8081C37.4464 16.2172 37.4502 16.6283 37.4502 17.0599H36.0592V18.6514H34.9032V20.0158H33.8211C33.8211 20.2204 33.8059 20.4081 33.823 20.592C33.8836 21.202 33.7093 21.7068 33.3568 22.2342C31.492 25.0137 30.048 28.009 28.8636 31.1301C28.6892 31.588 28.3727 31.8902 27.9141 32.0572C27.4859 32.213 27.0462 32.2487 26.599 32.1698C25.7727 32.0235 25.1094 31.6594 24.7797 30.8373C24.4973 30.1373 24.2036 29.4429 23.9098 28.7485C22.6648 25.8057 20.9839 23.1332 18.8273 20.7553C18.5013 20.3949 18.2019 20.0065 17.9271 19.6067C17.7262 19.3158 17.6694 18.9648 17.7546 18.6158C17.893 18.0509 18.5051 17.7524 19.1248 17.9401C19.8165 18.1484 20.4494 18.4806 21.0521 18.8729C22.8164 20.0196 24.2017 21.551 25.4998 23.1707C25.8333 23.5855 26.1479 24.0134 26.4796 24.4469C26.5099 24.4 26.5326 24.37 26.5478 24.3381C27.3248 22.786 28.0676 21.217 28.8863 19.6874C29.6026 18.3474 30.4043 17.0505 31.1604 15.7312C31.2552 15.566 31.3689 15.5059 31.5584 15.5191C31.8047 15.536 32.053 15.5228 32.3259 15.5228V14.1472H33.245V12.8053H34.5943C34.5943 12.2704 34.5905 11.7543 34.5981 11.24C34.6 11.0936 34.545 11.0092 34.4199 10.936C31.2021 9.08736 27.7625 8.49993 24.1297 9.29193C20.2959 10.129 17.2941 12.216 15.1736 15.4853C13.1231 18.6458 12.4579 22.1103 13.2103 25.7794C14.0896 30.0735 16.5266 33.3015 20.3983 35.4242C23.2617 36.9932 26.3431 37.468 29.5629 36.9256C32.6461 36.4076 35.2803 35.0094 37.4388 32.7667C39.8285 30.2837 41.1493 27.3165 41.3635 23.8951C41.5549 20.8153 40.7817 17.9664 39.0856 15.3708C39.0193 15.2695 38.9416 15.1756 38.8411 15.0386C38.8317 15.2376 38.826 15.3764 38.8203 15.5022C38.3579 15.5022 37.9201 15.5022 37.4843 15.5022L37.4748 15.5041ZM40.596 12.505C43.4367 16.206 44.6761 20.3124 44.1758 24.8917C43.6755 29.4692 41.5302 33.1946 38.013 36.1786C38.0244 36.1955 38.0357 36.2105 38.049 36.2274H38.5645C50.6607 36.2274 62.7589 36.2331 74.8551 36.2181C75.941 36.2181 77.0326 36.1242 78.109 35.9891C79.9131 35.762 81.6338 35.2346 83.2352 34.36C84.8535 33.4761 86.2009 32.2956 87.2584 30.7942C88.3992 29.1783 89.0985 27.3822 89.5022 25.4604C89.866 23.7262 89.8338 22.0071 89.3562 20.3011C88.6001 17.6079 87.0499 15.4309 84.8517 13.7117C81.992 11.4765 78.6964 10.3805 75.075 10.3692C64.2503 10.3373 53.4256 10.3579 42.601 10.3579C42.5119 10.3579 42.4247 10.3673 42.3091 10.373V11.3508H41.1304V12.505H40.5941H40.596ZM37.4426 10.6695C37.0048 10.6695 36.5917 10.6657 36.1767 10.6751C36.1331 10.6751 36.0611 10.7614 36.0573 10.8121C36.044 11.0054 36.0478 11.2006 36.0516 11.3958C36.0554 11.5966 35.989 11.8819 36.0952 11.9738C36.2184 12.0808 36.4931 12.0264 36.7016 12.0301C36.9461 12.0358 37.1924 12.0301 37.4426 12.0301V10.6657V10.6695Z" fill="white" fill-opacity="0.5"/>
++<path d="M47.9109 0V1.41884H46.4554V0H47.9109Z" fill="white" fill-opacity="0.5"/>
++<path d="M43.6868 5.75398H42.3015V7.09963H40.9939V4.33889H42.3091V2.8994C42.4228 2.8994 42.5119 2.8994 42.6009 2.8994C43.4025 2.89377 44.206 2.88814 45.0077 2.88251L45.0001 2.875V4.32012H43.6773V5.75961L43.6849 5.7521L43.6868 5.75398Z" fill="white" fill-opacity="0.5"/>
++<path d="M43.6774 5.76141H45.1953V7.09768H43.6868C43.6868 6.64913 43.6868 6.20058 43.6868 5.75391L43.6793 5.76141H43.6774Z" fill="white" fill-opacity="0.5"/>
++<path d="M45.0059 2.88463V1.47705H46.4006V2.87713C45.9326 2.87713 45.4645 2.87713 44.9983 2.87713L45.0059 2.88463Z" fill="white" fill-opacity="0.5"/>
++<path d="M47.8789 4.30502H46.4594C46.4594 3.87336 46.4575 3.45109 46.4651 3.02694C46.4651 2.99128 46.5371 2.92747 46.575 2.92559C47.0052 2.91808 47.4335 2.92184 47.8789 2.92184V4.30502Z" fill="white" fill-opacity="0.5"/>
++<path d="M40.9523 8.45483H39.6049V7.15234H40.9523V8.45483Z" fill="white" fill-opacity="0.5"/>
++<path d="M42.3243 8.45295V7.15234H43.6679V8.45295H42.3243Z" fill="white" fill-opacity="0.5"/>
++<path d="M38.2404 5.82365C38.6478 5.82365 39.0401 5.82365 39.4324 5.82365C39.4759 5.82365 39.5195 5.83304 39.5764 5.83867V7.10174H38.2404V5.82178V5.82365Z" fill="white" fill-opacity="0.5"/>
++<path d="M88.7289 11.5124C88.727 12.3044 88.1073 12.9068 87.3 12.9049C86.5382 12.903 85.9166 12.2743 85.9185 11.5067C85.9185 10.7485 86.5874 10.0654 87.3322 10.0973C88.2551 10.1367 88.7611 10.8555 88.7289 11.5105V11.5124ZM87.3038 12.7904C88.0561 12.7923 88.6379 12.2593 88.6303 11.5236C88.6208 10.7128 88.058 10.2305 87.3379 10.2099C86.6121 10.1892 86.0284 10.786 86.0284 11.5274C86.0284 12.2424 86.5798 12.7886 87.3038 12.7904Z" fill="white" fill-opacity="0.5"/>
++<path d="M74.7718 18.3732C74.7793 18.1949 74.785 18.0729 74.7926 17.9322H75.7951C75.8008 17.9735 75.8122 18.0166 75.8122 18.0579C75.8122 19.062 75.8273 20.0661 75.8046 21.0683C75.7913 21.6595 75.5506 22.1606 74.9897 22.4477C74.641 22.626 74.2601 22.6654 73.8716 22.6748C73.3296 22.686 72.8028 22.6241 72.3025 22.4045C72.2362 22.3745 72.1698 22.3426 72.0902 22.3032C72.2134 22.0442 72.3271 21.804 72.4465 21.5525C72.8862 21.7833 73.3296 21.894 73.8091 21.8809C74.4913 21.8621 74.8684 21.4249 74.7585 20.7042C74.3662 21.1246 73.9057 21.3348 73.3372 21.2541C72.8994 21.1921 72.5375 21.0045 72.2551 20.6629C71.7643 20.0661 71.7794 18.9944 72.2968 18.392C72.6133 18.0223 73.0302 17.8515 73.5096 17.8308C73.9967 17.8083 74.3984 18.0072 74.7718 18.3751V18.3732ZM74.7926 19.5593C74.7888 19.0188 74.4155 18.6641 73.8527 18.666C73.3163 18.6679 72.9335 19.0338 72.9373 19.5387C72.943 20.0792 73.3182 20.4395 73.8773 20.4358C74.4155 20.432 74.7964 20.0698 74.7926 19.5612V19.5593Z" fill="white" fill-opacity="0.5"/>
++<path d="M79.7785 26.0273V24.2612H80.7962V29.2253H79.7993C79.7899 29.0883 79.7785 28.9457 79.7652 28.7599C79.6591 28.8556 79.5871 28.9269 79.5094 28.9907C78.7931 29.5688 77.6844 29.3642 77.2088 28.5234C76.7805 27.7633 76.7938 26.9788 77.2562 26.2225C77.7413 25.4305 79.0072 25.2559 79.6174 25.9109C79.6458 25.9428 79.6875 25.9635 79.7766 26.0254L79.7785 26.0273ZM79.7956 27.3729C79.7937 27.3391 79.7937 27.2566 79.7823 27.174C79.7027 26.5753 79.1076 26.2206 78.541 26.4327C77.9687 26.6466 77.747 27.4912 78.1203 28.0411C78.2738 28.2681 78.4785 28.4239 78.7646 28.4483C79.3805 28.5027 79.7937 28.0899 79.7956 27.3729Z" fill="white" fill-opacity="0.5"/>
++<path d="M67.7921 17.3133C67.6121 17.5685 67.4397 17.8125 67.2577 18.0715C67.1175 17.9946 66.983 17.9195 66.8465 17.8463C66.5281 17.6736 66.1889 17.5929 65.8232 17.6248C65.5484 17.6492 65.3551 17.8013 65.3229 18.0284C65.2963 18.2179 65.4195 18.4 65.6791 18.4882C66.0354 18.6083 66.3993 18.7059 66.7593 18.8128C66.8389 18.8372 66.9166 18.8635 66.9943 18.8935C67.7258 19.1788 68.0082 19.6086 67.9438 20.3368C67.8888 20.9467 67.4131 21.4591 66.7499 21.5773C65.8194 21.7444 64.9666 21.5492 64.2086 20.9768C64.1726 20.9505 64.1384 20.9223 64.0873 20.8811C64.3033 20.6277 64.5042 20.3931 64.7108 20.1491C65.122 20.4682 65.5484 20.7065 66.0619 20.7159C66.2609 20.7197 66.4789 20.699 66.6532 20.6164C66.7707 20.562 66.8939 20.3818 66.8977 20.2561C66.9015 20.1322 66.784 19.9445 66.6684 19.892C66.3633 19.7512 66.0297 19.6724 65.7114 19.5598C65.4347 19.4622 65.1542 19.374 64.8908 19.2483C64.0304 18.8429 64.11 17.4559 64.8908 16.9961C65.7227 16.5063 66.9962 16.6339 67.7921 17.3095V17.3133Z" fill="white" fill-opacity="0.5"/>
++<path d="M48.4321 28.5512C48.6406 28.3035 48.8339 28.0745 48.9874 27.8906C49.4005 28.0614 49.7682 28.2547 50.1585 28.3635C50.3841 28.4255 50.6513 28.3767 50.8938 28.3373C51.089 28.3054 51.2027 28.1477 51.216 27.9488C51.2274 27.7705 51.1478 27.6222 50.9715 27.5565C50.6759 27.4496 50.3746 27.3557 50.0752 27.2562C49.861 27.1849 49.645 27.123 49.4327 27.0423C48.8832 26.834 48.6084 26.4211 48.6084 25.8487C48.6084 25.3194 48.832 24.8896 49.3077 24.6231C49.8459 24.3228 50.4239 24.3397 51.0037 24.4598C51.4055 24.5443 51.775 24.7057 52.0953 24.9929C51.9153 25.2462 51.7428 25.4902 51.5723 25.7304C51.3202 25.6103 51.0909 25.4846 50.8465 25.3907C50.5774 25.2875 50.295 25.2274 50.0069 25.3232C49.825 25.3832 49.6791 25.4771 49.6582 25.6891C49.6374 25.905 49.7322 26.0589 49.9311 26.1283C50.2362 26.2353 50.5527 26.3085 50.854 26.423C51.1762 26.5449 51.5173 26.6519 51.794 26.8452C52.5009 27.3407 52.3511 28.5174 51.703 28.9679C51.3468 29.2156 50.9469 29.3132 50.53 29.3169C49.8421 29.3245 49.2034 29.133 48.6406 28.7258C48.5743 28.6788 48.5155 28.6207 48.4321 28.5493V28.5512Z" fill="white" fill-opacity="0.5"/>
++<path d="M52.624 16.7706C52.4099 17.2998 52.2166 17.7765 52.0214 18.2513C51.5874 19.3098 51.1515 20.3684 50.7232 21.4287C50.6721 21.5545 50.6076 21.6014 50.475 21.592C50.331 21.5826 50.185 21.5732 50.0448 21.592C49.789 21.6258 49.6658 21.532 49.5691 21.288C49.0044 19.8729 48.4169 18.4653 47.8389 17.054C47.8067 16.9733 47.7878 16.8869 47.7537 16.7743C48.1194 16.7743 48.4586 16.7668 48.796 16.7818C48.8509 16.7837 48.9267 16.8719 48.9513 16.9357C49.3304 17.9192 49.7037 18.9063 50.0789 19.8917C50.1073 19.9648 50.1396 20.038 50.1945 20.1713C50.3897 19.6664 50.5603 19.2254 50.7289 18.7825C50.962 18.1688 51.1951 17.5532 51.4206 16.9357C51.4661 16.8081 51.5324 16.7631 51.667 16.7668C51.9683 16.7743 52.2696 16.7687 52.6221 16.7687L52.624 16.7706Z" fill="white" fill-opacity="0.5"/>
++<path d="M56.7384 20.1038H54.1232C54.2046 20.8752 55.0461 21.046 55.9519 20.4792C56.1414 20.6425 56.3328 20.8076 56.5318 20.9784C55.9481 21.6409 55.2109 21.7742 54.4188 21.5696C53.6797 21.38 53.2268 20.8752 53.0903 20.1113C52.9179 19.1411 53.4125 18.2308 54.2956 17.9324C55.3398 17.5796 56.4768 18.0957 56.6739 19.3381C56.7118 19.5783 56.7156 19.8242 56.7365 20.1038H56.7384ZM55.7036 19.447C55.6847 18.959 55.3208 18.6005 54.8869 18.6249C54.3979 18.6512 54.0644 19.0772 54.108 19.447H55.7036Z" fill="white" fill-opacity="0.5"/>
++<path d="M75.8747 27.7576H73.2671C73.286 28.0804 73.4566 28.2944 73.7067 28.4088C74.207 28.6378 74.6618 28.5083 75.0769 28.1423C75.2683 28.3112 75.4578 28.4764 75.6568 28.6509C75.3422 29.0469 74.9404 29.2571 74.4723 29.3134C73.8754 29.3848 73.3088 29.2778 72.8445 28.8649C72.2305 28.3206 72.1111 27.6168 72.2987 26.8736C72.4806 26.1492 72.9657 25.6612 73.7295 25.5411C74.8324 25.3685 75.6037 25.9559 75.8065 26.9881C75.8538 27.2265 75.8519 27.4742 75.8747 27.7576ZM74.8305 27.127C74.8134 26.6465 74.4913 26.3162 74.0554 26.3144C73.6214 26.3125 73.2746 26.6616 73.2633 27.127H74.8305Z" fill="white" fill-opacity="0.5"/>
++<path d="M54.6746 27.7539C54.7277 28.5441 55.5899 28.7205 56.4882 28.1556C56.672 28.317 56.8577 28.4784 57.051 28.6492C56.7478 29.0489 56.3385 29.246 55.8723 29.3098C54.9494 29.4337 54.0379 29.032 53.7271 28.0899C53.3727 27.0126 53.9071 25.804 55.0517 25.5525C56.1281 25.316 57.0965 25.9917 57.2235 27.0877C57.274 27.5319 57.0725 27.7539 56.6189 27.7539C55.9765 27.7539 55.336 27.7539 54.6765 27.7539H54.6746ZM56.221 27.1215C56.2513 26.7086 55.9367 26.3539 55.5103 26.3145C55.0688 26.2732 54.6954 26.6185 54.65 27.1215H56.221Z" fill="white" fill-opacity="0.5"/>
++<path d="M66.9319 29.2248H65.9332C65.9256 29.0784 65.9162 28.9339 65.9086 28.7912C65.8783 28.7687 65.8479 28.7462 65.8195 28.7237C65.7854 28.7894 65.7665 28.8701 65.7172 28.9189C65.3135 29.3186 64.836 29.4181 64.3034 29.2267C63.8543 29.0653 63.5663 28.6317 63.5606 28.0968C63.553 27.2654 63.5587 26.434 63.5587 25.582H64.5839C64.5839 25.657 64.5839 25.7359 64.5839 25.8147C64.5839 26.4359 64.5782 27.059 64.5858 27.6802C64.5915 28.2282 65.0331 28.536 65.5201 28.3371C65.8328 28.2094 65.9124 27.9354 65.9162 27.6408C65.9256 27.0496 65.9199 26.4565 65.9199 25.8653C65.9199 25.7753 65.9199 25.6871 65.9199 25.5801H66.9319V29.2229V29.2248Z" fill="white" fill-opacity="0.5"/>
++<path d="M77.3851 21.5604V17.9289H78.3895C78.399 18.0659 78.4066 18.1973 78.4198 18.3774C78.4975 18.3192 78.5525 18.2892 78.5942 18.2461C78.9997 17.8313 79.4811 17.7243 80.025 17.912C80.5651 18.0978 80.7754 18.537 80.7963 19.0456C80.8285 19.8751 80.8057 20.7065 80.8057 21.5586C80.4912 21.5586 80.1898 21.5679 79.8904 21.5492C79.8449 21.5454 79.771 21.4141 79.771 21.339C79.7616 20.7759 79.7672 20.2148 79.7635 19.6518C79.7635 19.5316 79.7559 19.4115 79.7388 19.2933C79.6839 18.9498 79.4432 18.749 79.0983 18.7509C78.7515 18.7509 78.4824 18.9461 78.454 19.2858C78.4142 19.7775 78.4198 20.273 78.4085 20.7666C78.4047 20.9768 78.4161 21.187 78.4009 21.3953C78.3971 21.4535 78.3232 21.5511 78.2777 21.5529C77.9859 21.5679 77.6921 21.5604 77.3889 21.5604H77.3851Z" fill="white" fill-opacity="0.5"/>
++<path d="M61.4134 28.0876C61.6181 28.279 61.8095 28.4573 61.9971 28.6337C61.6977 29.1705 60.8354 29.4482 60.0489 29.2775C59.2928 29.1142 58.6655 28.4216 58.6011 27.7066C58.4969 26.5299 59.1412 25.888 59.8291 25.629C60.5928 25.3419 61.5593 25.5633 61.9895 26.1282C61.7905 26.3384 61.5896 26.5505 61.3717 26.7795C61.095 26.4942 60.7691 26.3178 60.3787 26.4116C60.193 26.4567 59.9959 26.5636 59.8651 26.7006C59.4937 27.0929 59.5164 27.7986 59.8898 28.1777C60.1911 28.4855 60.7691 28.645 61.4153 28.0876H61.4134Z" fill="white" fill-opacity="0.5"/>
++<path d="M60.2062 17.835V18.8672C60.1228 18.8823 60.0432 18.8954 59.9637 18.9104C59.3894 19.0249 59.0749 19.3777 59.0389 19.9595C59.0218 20.2204 59.0142 20.4813 59.0085 20.7421C59.0028 21.003 59.0085 21.2639 59.0085 21.5529C58.6807 21.5529 58.3661 21.5585 58.0534 21.5435C58.0212 21.5435 57.9719 21.4178 57.97 21.3502C57.9644 20.5639 57.9662 19.7775 57.9662 18.993C57.9662 18.642 57.9662 18.2929 57.9662 17.927H58.9915C59.0028 18.1278 59.0123 18.3211 59.0237 18.5163C59.0408 18.5257 59.0559 18.5351 59.0711 18.5426C59.3136 18.0903 59.6566 17.805 60.2062 17.8313V17.835Z" fill="white" fill-opacity="0.5"/>
++<path d="M69.7686 25.5805C69.7781 25.7907 69.7876 25.9877 69.797 26.1867C70.0946 25.7888 70.4129 25.4603 70.9777 25.5279V26.5658C70.8905 26.5733 70.809 26.5751 70.7294 26.5864C70.2064 26.6634 69.8425 27.0425 69.816 27.5736C69.7914 28.0597 69.7876 28.5458 69.7876 29.0337C69.7876 29.1876 69.7421 29.2477 69.5791 29.2402C69.3612 29.2289 69.1395 29.2458 68.9215 29.2308C68.8685 29.227 68.7775 29.1426 68.7756 29.0957C68.7699 27.9414 68.7756 26.7891 68.7756 25.6349C68.7756 25.6217 68.787 25.6086 68.7983 25.5805H69.7667H69.7686Z" fill="white" fill-opacity="0.5"/>
++<path d="M70.4376 21.5622C70.1344 21.5622 69.8407 21.5678 69.547 21.5565C69.5034 21.5565 69.4276 21.4833 69.4276 21.442C69.4219 20.2766 69.4219 19.1092 69.4219 17.9287H70.4376V21.5622Z" fill="white" fill-opacity="0.5"/>
++<path d="M62.7 21.5621C62.4006 21.5621 62.1125 21.5715 61.8283 21.5546C61.7733 21.5508 61.688 21.4551 61.6785 21.3932C61.6558 21.2468 61.671 21.0948 61.671 20.9446C61.671 20.025 61.671 19.1035 61.671 18.1839V17.9268H62.6981V21.5602L62.7 21.5621Z" fill="white" fill-opacity="0.5"/>
++<path d="M69.403 16.5776H70.4737V17.4578C70.1553 17.4578 69.8332 17.4616 69.5129 17.4522C69.475 17.4522 69.4106 17.3678 69.4068 17.319C69.3954 17.0806 69.4011 16.8404 69.4011 16.5776H69.403Z" fill="white" fill-opacity="0.5"/>
++<path d="M61.6615 16.5757H62.7322C62.7322 16.8403 62.736 17.0974 62.7265 17.3545C62.7265 17.3921 62.6564 17.4559 62.6166 17.4578C62.302 17.4672 61.9875 17.4634 61.6615 17.4634V16.5776V16.5757Z" fill="white" fill-opacity="0.5"/>
++<path d="M87.6603 11.6976C87.7683 11.8553 87.8725 12.0054 87.9824 12.1649C87.7853 12.2325 87.6659 12.1856 87.5636 12.026C87.4537 11.8515 87.357 11.6188 87.05 11.752C87.0444 11.8834 87.0387 12.0223 87.0311 12.1762H86.743C86.743 11.844 86.743 11.5118 86.743 11.1777C86.7468 10.7254 86.7468 10.7217 87.2073 10.7217C87.3419 10.7217 87.4783 10.7367 87.611 10.7592C87.8081 10.793 87.9388 10.9131 87.9786 11.1083C88.0203 11.3091 87.9502 11.4743 87.7815 11.5981C87.7474 11.6244 87.7133 11.6526 87.6603 11.6939V11.6976ZM87.2756 11.478C87.5674 11.478 87.6944 11.3917 87.6925 11.2134C87.6906 11.0557 87.5485 10.9863 87.2737 10.9694C87.0633 10.9563 87.0425 11.0595 87.0406 11.2265C87.0368 11.4161 87.0898 11.5193 87.2756 11.478Z" fill="white" fill-opacity="0.5"/>
++</svg>
+Index: wp-content/themes/online-slots/functions.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\ninclude_once 'classes/ThemeConfiguration.php';\n//include_once 'classes/CustomPostTypes.php';
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/functions.php b/wp-content/themes/online-slots/functions.php
+--- a/wp-content/themes/online-slots/functions.php	
++++ b/wp-content/themes/online-slots/functions.php	
+@@ -1,3 +1,3 @@
+ <?php
+ include_once 'classes/ThemeConfiguration.php';
+-//include_once 'classes/CustomPostTypes.php';
+\ No newline at end of file
++include_once 'classes/CustomPostTypes.php';
+Index: wp-content/uploads/2023/05/start-4.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/uploads/2023/05/start-4.svg b/wp-content/uploads/2023/05/start-4.svg
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/uploads/2023/05/start-4.svg	
+@@ -0,0 +1,9 @@
++<svg width="100" height="40" viewBox="0 0 100 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
++<rect x="21" y="5" width="57.8571" height="30" fill="url(#pattern0)"/>
++<defs>
++<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
++<use xlink:href="#image0_303_202" transform="matrix(0.0185185 0 0 0.0357143 -0.351852 0)"/>
++</pattern>
++<image id="image0_303_202" width="94" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAcCAYAAADoQggJAAAAAXNSR0IArs4c6QAABYdJREFUaEPtmmuoVVUUhb8pEmERUVEmJmEREdWP6EXZOyIyNekhBRFR0cMeRPnDSs64WPjDhKLoaUb0UsLSsLdFhI+SkJ5SZnULiRCJCBMRcca4rF3H47l29Jx7/HMWXA7cvfbaa48115hjjrWDXtsrCMReeWrvoXQUeEnHAlOB/dvAdhjwHvA6cBJwJXA8MBLYB/B1t01Af2aujIi3gV+BG4ETgO1tPP8XYBGwb/kbI+mlNsZremungb8YeAE4tM2Jzs3MHyPiVmDM/4xlkFdn5osR4UUa1+az1wA3AFuAk4EjJNXaHHOn2zsN/IUF+FFtTnQ9cOBu7pw/yo5oZ7d52gb+amBttcMk/dnm+ww58OcX4Ed3eqJlvK2A/9oFd1fTM/BTJH0zRO8wMGxHI75Wq10UEaYa83Gnm3n3NeAv4BTglg5QWrM5DkS8pK86/QL143UUeElHAxMz04mpatsi4izg0iYv8hswLzP/HoiCiMOAa5oA2g9cIOmnagxJ7vdskzHdd0FmbnOSjYj9gNsLddV3d26Yn5lf1yVsz2GjE7sk/w5Z6yjwg81Skl/8sSbXVwCXS/rd1yRZvSwAjmvo60T3TAF6raStkg4ALgGG16kYKx4v5jL3KWM63ywHjmwy5gRJS4cM3V0M3BXga7XanRHxaJN5fFqAN1gG3uCYqs5u0tcR7KRr7v0C+LYkQidVR2cF9A5SUpLzjYFvVEdbMnNSX1/f+z3gJSfN+4F7SyTvChPreC/Ed0X3O3L7JXmB/m094FuI+BL1LsJMS+e2AH4FsOWeF8A09ZQkU9NA6wHfIvB1lHO3EzVgqjCPt9I2Z+bMiHi4ivwe8LsBfAHftDM6MydGxJnA6S3KRysf6/DPexHfenJ1ZFdezA4RnpkjI+JU4BzgDGBsE4lY3TND0oM94FsH/jbgqEaTKzM/iIilkrZLGp6ZoyLCO8BKqVmxNk+S/ZYex7coJ98o2ryRz18B7pFk6VglTe+OxYP0f1zSHT3gW4/4h4D7mmRR6/TpwEeAFYwrY9PO001433JyqiQXXL2IbzHiXTi5gGqsMo2hq1vrdut3+/Lu08wFtavo5Ooiqwd8i8CPyExXuTOAEa3ox4Y+pqKZwBN1lsFglasr3UmS3t2D57R9y962DFYBkyUNWAYlQu3BTBvE2NrVC2/MzDkR8UivgPoPTFu4tgIa22rg5soka0iclow3Fel4UNkBppiquTrdDDjKzf3P+SRqEMvASbuZ+rlW0sdth+8eDNCViJd0CGDLuPEs1Hy9rqKFxvlLchI9phhc/j286HyD/nPhfBdM6yV5EXZqkrxYdjvrF839PBc7nfb3u966AnxdJA+zFq9/SwNTbN6Bwqlo9R36FfB82RKysoEH/BhHuKSq6PKv762cyoFxfL36bUDY/9/BVOvWCnQNeElWID4MWSRpQwHTZ7SnAe+U4zwrF6uSK4AVkvprtdq4iPCR4qrMXBMR9m8M+pLMvMqFlaVlZq6LCBts3iU+rXKu8GH1m4Dv987wzjPQTtzbM3NTX1/fsm6BXf+cbgJ/WeH5OZLmSzJ1zM7M5RHhTzPsx6wsoC3OzNkRYe5+1VIyM3+ICB+AV3TzZckBBs5fFvjXBykbgIWZOTYixmfm9Iiw4eadZmp7C3Bx5d0xTZLPBLreugn8k4XnXQA5aZ7oxFqAnVwo5LPMXOJz28ycFRFOfD5nfb4k0SmZ+b2jOiIOLuOZv9eV6454m2O2h2c56jPz5YjwtzYVz18PjC+c31evgLqJfleAL7Ti8t4nQecVuWgJ6WrUgPgI0G6kKcGR60Wx0fWJpAeACYAp5UPgrgLanPIZhjnfi+nkaQpxNPtDKH8L4yLKSd0JdCFwHeDq2AvkvnP3Fsf/A79fhzvc1bk1AAAAAElFTkSuQmCC"/>
++</defs>
++</svg>
+Index: wp-content/uploads/2023/05/logo-2.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/uploads/2023/05/logo-2.svg b/wp-content/uploads/2023/05/logo-2.svg
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/uploads/2023/05/logo-2.svg	
+@@ -0,0 +1,23 @@
++<svg width="300" height="201" viewBox="0 0 300 201" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path d="M241.767 189.678H145.695V185.933H240.219L281.269 144.883V4.22862H138.905V0.483398H285.014V146.431L241.767 189.678Z" fill="#3DA806"/>
++<path d="M49.11 13.8857L23.7029 39.2929V176.222H232.581L271.703 137.099V13.8857H49.11Z" fill="#3DA806" fill-opacity="0.2"/>
++<path d="M11.529 137.329V189.678H53.9984L43.1032 200.483H1V147.851L11.529 137.329Z" fill="#3DA806"/>
++<path d="M53.9984 189.678H137.029H146.505V185.933H140.775H15.2742V36.85L47.8956 4.22862H76.155V0.483398H46.341L11.529 35.3018V137.329V189.678H53.9984Z" fill="#3DA806"/>
++<path d="M298.382 68.1007C296.359 68.1007 294.721 66.4625 294.721 64.439H291.059V75.4241H294.721C294.721 73.4005 296.359 71.7624 298.382 71.7624V68.1007Z" fill="#3DA806"/>
++<path d="M298.382 82.7467C296.359 82.7467 294.721 81.1085 294.721 79.085H291.059V90.0701H294.721C294.721 88.0465 296.359 86.4084 298.382 86.4084V82.7467Z" fill="#3DA806"/>
++<path d="M298.382 97.3941C296.359 97.3941 294.721 95.756 294.721 93.7324H291.059V104.718H294.721C294.721 102.694 296.359 101.056 298.382 101.056V97.3941Z" fill="#3DA806"/>
++<path d="M298.382 24.1656C296.359 24.1656 294.72 22.5275 294.72 20.5039H291.059V31.489H294.72C294.72 29.4655 296.359 27.8273 298.382 27.8273V24.1656Z" fill="#3DA806"/>
++<path d="M298.382 38.8126C296.359 38.8126 294.721 37.1745 294.721 35.1509H291.059V46.136H294.721C294.721 44.1124 296.359 42.4743 298.382 42.4743V38.8126Z" fill="#3DA806"/>
++<path d="M298.382 53.46C296.359 53.46 294.721 51.8219 294.721 49.7983H291.059V60.7835H294.721C294.721 58.7599 296.359 57.1218 298.382 57.1218V53.46Z" fill="#3DA806"/>
++<path d="M85.9361 127.268L83.3515 136.545H91.3163L90.9471 137.724C82.2965 137.724 73.6987 137.724 65.3119 137.724L65.6284 136.545H71.4306L72.169 133.756H60.6174L59.4042 138.046L65.9976 145.286H81.1361L98.6482 137.724L102.235 124.64L78.7097 124.318L82.4548 110.805L88.8372 117.83H104.45L97.857 110.59H82.5075L65.7866 114.666L63.1492 124.318L75.8614 133.274L85.9361 127.268ZM81.1888 120.082H103.659L103.87 119.385H81.3471L81.1888 120.082Z" fill="white"/>
++<path d="M129.496 103.19H113.883C110.033 117.24 106.182 131.343 102.331 145.446H117.839L117.997 144.749H103.967L114.833 140.138L116.099 135.687H118.63L117.786 138.904L119.949 137.939C123.114 126.356 126.279 114.773 129.496 103.19Z" fill="white"/>
++<path d="M146.184 145.339L163.696 138.368L169.235 118.151L155.098 112.896C152.83 121.262 150.509 129.573 148.188 137.939L141.437 137.832L142.122 135.419H137.955L138.641 132.952H145.445L145.815 131.45H147.608L147.977 129.949H146.237L145.815 131.45H143.177L146.87 117.99L152.144 118.098L153.727 112.36L148.927 110.59L131.415 117.615L125.876 137.832L146.184 145.339Z" fill="white"/>
++<path d="M178.827 145.339L190.695 137.885L184.101 137.939L188.321 122.495H187.952L190.115 114.505H195.759L196.866 110.483H191.222L193.227 103.19H177.614L176.189 108.499H171.178L170.651 110.483C173.868 110.483 177.086 110.483 180.304 110.483L179.196 114.505H174.554L172.339 122.495H172.761L168.488 138.153L178.827 145.339Z" fill="white"/>
++<path d="M218.161 127.268L215.576 136.545H223.541L223.172 137.724C214.521 137.724 205.924 137.724 197.537 137.724L197.853 136.545H203.655L204.394 133.756H192.842L191.629 138.046L198.223 145.286H213.361L230.873 137.724L234.46 124.64L210.935 124.318L214.68 110.805L221.062 117.83H236.675L230.082 110.59H214.732L198.012 114.666L195.374 124.318L208.086 133.274L218.161 127.268ZM213.414 120.082H235.884L236.095 119.385H213.572L213.414 120.082Z" fill="white"/>
++<path d="M59.848 86.8182L77.3529 79.8469L82.8891 59.6303L68.7586 54.3751C66.4914 62.7406 64.1715 71.0524 61.8516 79.4179L55.1027 79.3107L55.7881 76.8976H51.6228L52.3082 74.4308H59.1098L59.4789 72.9293H61.2716L61.6407 71.4278H59.9007L59.4789 72.9293H56.8426L60.5334 59.4694L65.806 59.5767L67.3878 53.8388L62.5897 52.0692L45.0848 59.0941L39.5486 79.3107L59.848 86.8182Z" fill="white"/>
++<path d="M99.4899 79.4179C101.335 72.6612 103.233 65.8508 105.079 59.0941H108.664L107.504 63.4377L109.824 66.4407L104.393 86.8182L107.715 85.4239L114.939 59.0404H116.573L109.613 84.6196L121.898 79.3107L127.435 59.0941L122.373 51.9083L105.501 57.5389L106.977 52.0692H105.342L103.708 58.0752L101.283 58.7723L103.181 51.8547L90.3683 55.7693L81.8795 86.9254L99.4899 79.4179Z" fill="white"/>
++<path d="M152.761 44.6689H137.154C133.305 58.7187 129.456 72.8221 125.607 86.9254H141.108L141.266 86.2283H127.241L138.103 81.6166L139.368 77.1657H141.899L141.055 80.3832L143.217 79.4179C146.381 67.8349 149.544 56.2519 152.761 44.6689Z" fill="white"/>
++<path d="M165.276 78.3454L172.499 51.9619H156.84L155.733 55.9838H165.961L165.75 56.7882L155.574 56.7346L149.405 79.3107L157.051 86.8182L169.705 79.4716C165.961 79.4179 162.165 79.4179 158.422 79.4179L157.947 81.0803H155.943L156.418 79.3107H158.369L158.632 78.3454H165.276ZM156.945 49.0126H173.238L174.292 45.0443H158.052L156.945 49.0126Z" fill="white"/>
++<path d="M186.685 79.4179C188.53 72.6612 190.429 65.8508 192.274 59.0941H195.859L194.699 63.4377L197.019 66.4407L191.589 86.8182L194.91 85.4239L202.134 59.0404H203.768L196.808 84.6196L209.093 79.3107L214.63 59.0941L209.568 51.9083L192.696 57.5389L194.172 52.0692H192.538L190.903 58.0752L188.478 58.7723L190.376 51.8547L177.563 55.7693L169.075 86.9254L186.685 79.4179Z" fill="white"/>
++<path d="M229.674 79.3107L231.098 74.2163L231.151 73.9482L232.258 69.9263L232.31 69.6582L234.999 59.8984V59.8448L238.796 64.8319L237.425 69.9263H232.31L231.203 73.9482H248.972L250.026 69.9799H252.979L255.984 59.0941H254.244L248.655 52.0692H225.456L224.402 56.0911H231.783L230.834 59.5231H219.498L214.12 79.3107L232.785 86.8182L247.021 79.4716L229.674 79.3107Z" fill="white"/>
++</svg>
+Index: wp-content/themes/online-slots/header.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no\">\n    <title>OnlineSlots</title>\n    <meta name=\"description\" content=\"Play Free to Enter Slots Tournaments!\">\n    <meta name=\"theme-color\" content=\"#010400\">\n    <!--favicon-->\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"favicon/apple-touch-icon.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"favicon/favicon-32x32.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"favicon/favicon-16x16.png\">\n    <link rel=\"manifest\" href=\"favicon/site.webmanifest\">\n    <link rel=\"mask-icon\" href=\"favicon/safari-pinned-tab.svg\" color=\"#5bbad5\">\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\">\n    <!--preload-->\n    <link rel=\"preload\" href=\"fonts/Inter-Regular.woff\" as=\"font\" type=\"font/woff\" crossorigin>\n    <link rel=\"preload\" href=\"fonts/Inter-Medium.woff\" as=\"font\" type=\"font/woff\" crossorigin>\n    <link rel=\"preload\" href=\"fonts/Inter-SemiBold.woff\" as=\"font\" type=\"font/woff\" crossorigin>\n    <link rel=\"preload\" href=\"fonts/Inter-Bold.woff\" as=\"font\" type=\"font/woff\" crossorigin>\n    <link rel=\"preload\" href=\"fonts/Inter-Black.woff\" as=\"font\" type=\"font/woff\" crossorigin>\n    <link rel=\"preload\" href=\"css/swiper.css\" as=\"style\">\n    <link rel=\"preload\" href=\"css/main.css\" as=\"style\">\n    <link rel=\"preload\" href=\"js/jquery.js\" as=\"script\">\n    <link rel=\"preload\" href=\"js/swiper.js\" as=\"script\">\n    <link rel=\"preload\" href=\"js/countdown.js\" as=\"script\">\n    <link rel=\"preload\" href=\"js/main.js\" as=\"script\">\n    <!--style-->\n    <link rel=\"stylesheet\" href=\"css/swiper.css\">\n    <link rel=\"stylesheet\" href=\"css/main.css\">\n\n    <?php\n    global $class;\n    wp_head(); ?>\n</head>\n\n<body <?php body_class($class); ?>>\n<div class=\"wrapper\">\n<header class=\"header\">\n    <div class=\"container\">\n        <div class=\"header-wrap\">\n            <a href=\"/\" class=\"header-logo\">\n                <img src=\"icons/logo-1.svg\" alt=\"img\">\n            </a>\n            <nav class=\"header-nav\">\n                <ul class=\"header-menu\">\n                    <li><a href=\"#\">Free Slots</a></li>\n                    <li><a href=\"#\">Tournaments</a></li>\n                    <li><a href=\"#\">Slots By</a></li>\n                    <li><a href=\"#\">Casinos</a></li>\n                    <li><a href=\"#\">Bonuses</a></li>\n                    <li><a href=\"#\">News</a></li>\n                </ul>\n            </nav>\n            <div class=\"header-search\">\n                <div class=\"header-search_wrap\">\n                    <label class=\"header-search_label\">\n                        <input class=\"header-search_input\" type=\"text\" name=\"search\" placeholder=\"Search...\">\n                        <svg class=\"header-search_icon\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\"\n                             xmlns=\"http://www.w3.org/2000/svg\">\n                            <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n                                  d=\"M6.88 0.0245786C10.9996 -0.30591 14.6095 2.73509 14.9431 6.81684C15.1082 8.83745 14.4395 10.7343 13.2222 12.1749L20 18.5842L18.5426 20L11.7106 13.5358C10.6702 14.2425 9.43524 14.6978 8.0879 14.8059C3.96833 15.1364 0.358357 12.0954 0.0248064 8.01364C-0.308744 3.93189 2.76043 0.355067 6.88 0.0245786ZM7.92319 12.7903C10.9192 12.5499 13.1514 9.94858 12.9088 6.98004C12.6662 4.01149 10.0408 1.79986 7.04472 2.04021C4.04867 2.28057 1.81654 4.8819 2.05912 7.85044C2.3017 10.819 4.92713 13.0306 7.92319 12.7903Z\"\n                                  fill=\"white\" fill-opacity=\"0.5\" />\n                        </svg>\n                    </label>\n                    <div class=\"header-search_box\">\n                        <ul class=\"header-search_list\">\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                            <li class=\"header-search_point\">\n                                <a href=\"#\" class=\"header-search_link\">\n                                    <div class=\"header-search_img\">\n                                        <img src=\"img/slots/slots-1.jpg\" alt=\"img\">\n                                    </div>\n                                    <span class=\"header-search_title\">Fishin Frenzy</span>\n                                    <span class=\"header-search_descr\">Blueprint Gaming, Reel Blueprint Gaming</span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n                <span class=\"header-search_btn\">\n       <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n              d=\"M6.88 0.0245786C10.9996 -0.30591 14.6095 2.73509 14.9431 6.81684C15.1082 8.83745 14.4395 10.7343 13.2222 12.1749L20 18.5842L18.5426 20L11.7106 13.5358C10.6702 14.2425 9.43524 14.6978 8.0879 14.8059C3.96833 15.1364 0.358357 12.0954 0.0248064 8.01364C-0.308744 3.93189 2.76043 0.355067 6.88 0.0245786ZM7.92319 12.7903C10.9192 12.5499 13.1514 9.94859 12.9088 6.98004C12.6662 4.01149 10.0408 1.79986 7.04472 2.04021C4.04867 2.28057 1.81654 4.8819 2.05912 7.85044C2.3017 10.819 4.92713 13.0306 7.92319 12.7903Z\" />\n       </svg>\n       <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path\n            d=\"M1.35796 16.9136C0.880678 17.3909 0.880678 18.1647 1.35796 18.642C1.83525 19.1193 2.60909 19.1193 3.08637 18.642L10 11.7284L16.9136 18.642C17.3909 19.1193 18.1647 19.1193 18.642 18.642C19.1193 18.1647 19.1193 17.3909 18.642 16.9136L11.7284 10L18.642 3.08637C19.1193 2.60909 19.1193 1.83525 18.642 1.35796C18.1647 0.880678 17.3909 0.880679 16.9136 1.35796L10 8.27159L3.08637 1.35796C2.60909 0.880678 1.83525 0.880678 1.35796 1.35796C0.880678 1.83525 0.880678 2.60909 1.35796 3.08637L8.27159 10L1.35796 16.9136Z\" />\n       </svg>\n      </span>\n            </div>\n            <div class=\"header-burger\">\n                <span></span><span></span><span></span>\n            </div>\n        </div>\n    </div>\n</header>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/header.php b/wp-content/themes/online-slots/header.php
+--- a/wp-content/themes/online-slots/header.php	
++++ b/wp-content/themes/online-slots/header.php	
+@@ -4,44 +4,39 @@
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no">
+-    <title>OnlineSlots</title>
+-    <meta name="description" content="Play Free to Enter Slots Tournaments!">
+     <meta name="theme-color" content="#010400">
+     <!--favicon-->
+-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+-    <link rel="manifest" href="favicon/site.webmanifest">
+-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
++    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/apple-touch-icon.png">
++    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon-32x32.png">
++    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon-16x16.png">
++    <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/site.webmanifest">
++    <link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+     <meta name="msapplication-TileColor" content="#da532c">
+     <!--preload-->
+-    <link rel="preload" href="fonts/Inter-Regular.woff" as="font" type="font/woff" crossorigin>
+-    <link rel="preload" href="fonts/Inter-Medium.woff" as="font" type="font/woff" crossorigin>
+-    <link rel="preload" href="fonts/Inter-SemiBold.woff" as="font" type="font/woff" crossorigin>
+-    <link rel="preload" href="fonts/Inter-Bold.woff" as="font" type="font/woff" crossorigin>
+-    <link rel="preload" href="fonts/Inter-Black.woff" as="font" type="font/woff" crossorigin>
+-    <link rel="preload" href="css/swiper.css" as="style">
+-    <link rel="preload" href="css/main.css" as="style">
+-    <link rel="preload" href="js/jquery.js" as="script">
+-    <link rel="preload" href="js/swiper.js" as="script">
+-    <link rel="preload" href="js/countdown.js" as="script">
+-    <link rel="preload" href="js/main.js" as="script">
+-    <!--style-->
+-    <link rel="stylesheet" href="css/swiper.css">
+-    <link rel="stylesheet" href="css/main.css">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Inter-Regular.woff" as="font" type="font/woff" crossorigin>
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Inter-Medium.woff" as="font" type="font/woff" crossorigin>
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Inter-SemiBold.woff" as="font" type="font/woff" crossorigin>
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Inter-Bold.woff" as="font" type="font/woff" crossorigin>
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Inter-Black.woff" as="font" type="font/woff" crossorigin>
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/css/swiper.css" as="style">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css" as="style">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.js" as="script">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/js/swiper.js" as="script">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/js/countdown.js" as="script">
++    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/js/main.js" as="script">
++
+ 
+     <?php
+     global $class;
+     wp_head(); ?>
+ </head>
+-
+ <body <?php body_class($class); ?>>
+ <div class="wrapper">
+ <header class="header">
+     <div class="container">
+         <div class="header-wrap">
+             <a href="/" class="header-logo">
+-                <img src="icons/logo-1.svg" alt="img">
++                <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo-1.svg" alt="img">
+             </a>
+             <nav class="header-nav">
+                 <ul class="header-menu">
+@@ -69,7 +64,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -78,7 +73,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -87,7 +82,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -96,7 +91,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -105,7 +100,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -114,7 +109,7 @@
+                             <li class="header-search_point">
+                                 <a href="#" class="header-search_link">
+                                     <div class="header-search_img">
+-                                        <img src="img/slots/slots-1.jpg" alt="img">
++                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
+                                     </div>
+                                     <span class="header-search_title">Fishin Frenzy</span>
+                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
+@@ -140,3 +135,4 @@
+         </div>
+     </div>
+ </header>
++    <main class="main">
+Index: wp-content/themes/online-slots/footer.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><footer class=\"footer\">\n    <div class=\"container\">\n        <div class=\"footer-top\">\n            <a href=\"/\" class=\"footer-logo\">\n                <img src=\"icons/logo-1.svg\" alt=\"img\">\n            </a>\n            <ul class=\"footer-socials\">\n                <li>\n                    <a href=\"#\" target=\"_blank\" aria-label=\"link\">\n                        <svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                            <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n                                  d=\"M10.2623 24.8003V16.2295H8.125V12.4883H10.2623V10.0673C10.2623 8.33601 11.1018 5.625 14.7962 5.625L18.125 5.63864V9.27015H15.7097C15.3136 9.27015 14.7565 9.46407 14.7565 10.2899V12.4918H18.1149L17.7223 16.2295H14.7562V24.7969C20.5828 23.7348 25 18.6332 25 12.5C25 5.59644 19.4036 0 12.5 0C5.59644 0 0 5.59644 0 12.5C0 18.6397 4.42653 23.7456 10.2623 24.8003Z\"\n                                  fill=\"white\" />\n                        </svg>\n                    </a>\n                </li>\n                <li>\n                    <a href=\"#\" target=\"_blank\" aria-label=\"link\">\n                        <svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                            <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n                                  d=\"M12.5 0C5.59644 0 0 5.59644 0 12.5C0 19.4036 5.59644 25 12.5 25C19.4036 25 25 19.4036 25 12.5C25 5.59644 19.4036 0 12.5 0ZM18.9278 7.47039C19.6315 7.64691 20.1864 8.16369 20.3757 8.81927C20.7277 10.0167 20.7142 12.5125 20.7142 12.5125C20.7142 12.5125 20.7142 14.9956 20.3759 16.1931C20.1864 16.8486 19.6316 17.3653 18.9278 17.5418C17.6422 17.857 12.5 17.857 12.5 17.857C12.5 17.857 7.37106 17.857 6.07203 17.5293C5.36822 17.3527 4.81352 16.836 4.624 16.1805C4.28569 14.9956 4.28569 12.4999 4.28569 12.4999C4.28569 12.4999 4.28569 10.0167 4.624 8.81927C4.81332 8.16379 5.38176 7.6343 6.07193 7.45796C7.35752 7.14274 12.4998 7.14274 12.4998 7.14274C12.4998 7.14274 17.6422 7.14274 18.9278 7.47039ZM15.1387 12.4999L10.8625 10.2058V14.794L15.1387 12.4999Z\"\n                                  fill=\"white\" />\n                        </svg>\n                    </a>\n                </li>\n                <li>\n                    <a href=\"#\" target=\"_blank\" aria-label=\"link\">\n                        <svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                            <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n                                  d=\"M12.4995 0C5.59595 0 -0.000488281 5.59644 -0.000488281 12.5C-0.000488281 19.4036 5.59595 25 12.4995 25C19.4031 25 24.9995 19.4036 24.9995 12.5C24.9995 5.59644 19.4031 0 12.4995 0ZM19.1402 10.0588C19.1402 9.8631 19.1347 9.71688 19.1238 9.61922C19.8074 9.13072 20.3773 8.53938 20.8329 7.84496C20.2254 8.11621 19.5691 8.30057 18.864 8.3984C19.6015 7.96434 20.1064 7.3295 20.3776 6.49422C19.6725 6.90639 18.9452 7.18322 18.1965 7.32425C17.5347 6.60807 16.7044 6.24989 15.7059 6.24989C14.762 6.24989 13.9563 6.58367 13.2891 7.251C12.6217 7.91839 12.2881 8.72391 12.2881 9.66808C12.2881 9.98265 12.3153 10.2432 12.3694 10.4493C10.9698 10.3734 9.6567 10.0206 8.43063 9.39136C7.20468 8.76205 6.1628 7.92124 5.30569 6.86865C4.991 7.41119 4.83378 7.98623 4.83378 8.59393C4.83378 9.83089 5.32747 10.7802 6.3149 11.4422C5.80485 11.4312 5.26231 11.2902 4.68738 11.0191V11.0517C4.68738 11.8654 4.95862 12.5896 5.50128 13.2245C6.04383 13.8592 6.71104 14.2522 7.50311 14.4043C7.18854 14.4909 6.91177 14.5343 6.67308 14.5343C6.53204 14.5343 6.32049 14.5128 6.03847 14.4694C6.26638 15.1531 6.67046 15.7172 7.25108 16.1621C7.83153 16.6074 8.49083 16.8351 9.22857 16.8456C7.96984 17.8225 6.55382 18.3108 4.9804 18.3108C4.69844 18.3108 4.42703 18.2944 4.16661 18.262C5.77258 19.2815 7.51953 19.7919 9.4074 19.7919C10.6226 19.7919 11.7621 19.5991 12.8252 19.2136C13.8888 18.8287 14.8001 18.3131 15.5597 17.6678C16.3192 17.0222 16.973 16.2787 17.5206 15.4379C18.0688 14.597 18.4758 13.7181 18.7415 12.8011C19.0072 11.8844 19.1402 10.9703 19.1402 10.0588Z\"\n                                  fill=\"white\" />\n                        </svg>\n                    </a>\n                </li>\n            </ul>\n            <ul class=\"footer-menu\">\n                <li><a href=\"#\">Free Slots</a></li>\n                <li><a href=\"#\">Tournaments</a></li>\n                <li><a href=\"#\">Slots By</a></li>\n                <li><a href=\"#\">Casinos</a></li>\n                <li><a href=\"#\">Bonuses</a></li>\n                <li><a href=\"#\">News</a></li>\n            </ul>\n        </div>\n        <div class=\"footer-center\">\n            <div class=\"footer-partners\">\n                <span class=\"footer-partners_label\">Official partners:</span>\n                <ul class=\"footer-partners_list\">\n                    <li><a href=\"#\" target=\"_blank\">Eurasian gaming</a></li>\n                    <li><a href=\"#\" target=\"_blank\">ReelPlay</a></li>\n                    <li><a href=\"#\" target=\"_blank\">Relax Gaming</a></li>\n                    <li><a href=\"#\" target=\"_blank\">Push Gaming</a></li>\n                </ul>\n            </div>\n            <ul class=\"footer-links\">\n                <li><a href=\"#\">Terms and Conditions</a></li>\n                <li><a href=\"#\">Tournaments T&Cs</a></li>\n                <li><a href=\"#\">Privacy Policy</a></li>\n                <li><a href=\"#\">Safer Gambling</a></li>\n                <li><a href=\"#\">Contact</a></li>\n                <li><a href=\"#\">Cookies</a></li>\n            </ul>\n        </div>\n        <div class=\"footer-bottom\">\n            <ul class=\"footer-icons\">\n                <li><img src=\"img/footer/footer-1.png\" alt=\"img\"></li>\n                <li><img src=\"img/footer/footer-2.png\" alt=\"img\"></li>\n                <li><img src=\"img/footer/footer-3.png\" alt=\"img\"></li>\n                <li><img src=\"img/footer/footer-4.png\" alt=\"img\"></li>\n                <li><img src=\"img/footer/footer-5.png\" alt=\"img\"></li>\n            </ul>\n            <div class=\"footer-box\">\n                <img class=\"footer-box_icon\" src=\"img/footer/footer-6.png\" alt=\"img\">\n                <span class=\"footer-box_descr\">As a member of RAiG we are committed to improving consumer protection and responsible\n     gambling in the industry.</span>\n            </div>\n        </div>\n        <span class=\"footer-descr\">© 2023 OnlineSlots.ai. All Rights Reserved.</span>\n    </div>\n</footer>\n\n<div class=\"section-scroll\">\n    <svg width=\"30\" height=\"17\" viewBox=\"0 0 30 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n              d=\"M29.3724 16.4082C28.5355 17.1973 27.1788 17.1973 26.3419 16.4082L15 5.71453L3.65808 16.4082C2.82125 17.1973 1.46446 17.1973 0.627626 16.4082C-0.209211 15.6192 -0.209211 14.34 0.627627 13.551L15 -1.31134e-06L29.3724 13.551C30.2092 14.34 30.2092 15.6192 29.3724 16.4082Z\"\n              fill=\"white\" />\n    </svg>\n</div>\n<svg width=\"0\" height=\"0\">\n    <filter id=\"filter\">\n        <feTurbulence type=\"fractalNoise\" baseFrequency=\".01\" numOctaves=\"6\" />\n        <feDisplacementMap in=\"SourceGraphic\" in2=\"StrokePaint\" scale=\"100\" />\n    </filter>\n</svg>\n</div>\n<script src=\"js/jquery.js\"></script>\n<script src=\"js/swiper.js\"></script>\n<script src=\"js/countdown.js\"></script>\n<script src=\"js/main.js\"></script>\n\n<?php wp_footer(); ?>\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/footer.php b/wp-content/themes/online-slots/footer.php
+--- a/wp-content/themes/online-slots/footer.php	
++++ b/wp-content/themes/online-slots/footer.php	
+@@ -1,8 +1,9 @@
++</main>
+ <footer class="footer">
+     <div class="container">
+         <div class="footer-top">
+             <a href="/" class="footer-logo">
+-                <img src="icons/logo-1.svg" alt="img">
++                <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo-1.svg" alt="img">
+             </a>
+             <ul class="footer-socials">
+                 <li>
+@@ -63,14 +64,14 @@
+         </div>
+         <div class="footer-bottom">
+             <ul class="footer-icons">
+-                <li><img src="img/footer/footer-1.png" alt="img"></li>
+-                <li><img src="img/footer/footer-2.png" alt="img"></li>
+-                <li><img src="img/footer/footer-3.png" alt="img"></li>
+-                <li><img src="img/footer/footer-4.png" alt="img"></li>
+-                <li><img src="img/footer/footer-5.png" alt="img"></li>
++                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-1.png" alt="img"></li>
++                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-2.png" alt="img"></li>
++                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-3.png" alt="img"></li>
++                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-4.png" alt="img"></li>
++                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-5.png" alt="img"></li>
+             </ul>
+             <div class="footer-box">
+-                <img class="footer-box_icon" src="img/footer/footer-6.png" alt="img">
++                <img class="footer-box_icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-6.png" alt="img">
+                 <span class="footer-box_descr">As a member of RAiG we are committed to improving consumer protection and responsible
+      gambling in the industry.</span>
+             </div>
+@@ -93,10 +94,6 @@
+     </filter>
+ </svg>
+ </div>
+-<script src="js/jquery.js"></script>
+-<script src="js/swiper.js"></script>
+-<script src="js/countdown.js"></script>
+-<script src="js/main.js"></script>
+ 
+ <?php wp_footer(); ?>
+ </body>
+Index: wp-content/themes/online-slots/partials/sections/home-video-bg.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/partials/sections/home-video-bg.php b/wp-content/themes/online-slots/partials/sections/home-video-bg.php
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/themes/online-slots/partials/sections/home-video-bg.php	
+@@ -0,0 +1,30 @@
++<div class="section-bg">
++    <video muted playsinline autoplay loop>
++        <source src="<?php echo $args['video']; ?>" type="video/mp4">
++    </video>
++</div>
++<section class="start">
++    <div class="container">
++        <div class="start-wrap">
++            <img class="start-logo" src="<?php echo $args['logo']; ?>" alt="img">
++            <h1 class="start-title title-xl"><?php echo $args['title']; ?></h1>
++            <?php if( $args['btn_name'] ): ?>
++            <a href="<?php echo $args['btn_link']; ?>" class="start-btn btn-one">
++                <?php echo $args['btn_name']; ?>
++                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
++                    <path d="M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z" fill="white" />
++                </svg>
++            </a>
++            <?php endif; ?>
++            <ul class="start-list">
++                <?php
++                $images = $args['images'];
++                if( $images ): ?>
++                        <?php foreach( $images as $link ): ?>
++                        <li><img src="<?php echo $link; ?>" alt="image"></li>
++                        <?php endforeach; ?>
++                <?php endif; ?>
++            </ul>
++        </div>
++    </div>
++</section>
+Index: wp-content/themes/online-slots/partials/sections/home-slots.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/partials/sections/home-slots.php b/wp-content/themes/online-slots/partials/sections/home-slots.php
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/themes/online-slots/partials/sections/home-slots.php	
+@@ -0,0 +1,33 @@
++<section class="section-one slots" id="slots">
++    <div class="container">
++        <ul class="slots-list">
++            <li class="slots-list_point active">
++                <div class="slots-item">
++                    <div class="section-item_text">
++                        <h2 class="slots-item_title title-x"><?php echo $args['title']; ?></h2>
++                        <div class="slots-item_content content">
++                            <?php echo $args['text']; ?>
++                        </div>
++                    </div>
++                </div>
++            </li>
++
++            <?php
++            $featured_posts = $args['slots'];
++            if( $featured_posts ): ?>
++                    <?php foreach( $featured_posts as $post ):
++                        setup_postdata($post); ?>
++                        <li class="slots-list_point">
++                            <a href="<?php the_permalink(); ?>" class="slots-item">
++                                <div class="slots-item_img">
++                                    <?php the_post_thumbnail(); ?>
++                                </div>
++                                <span class="slots-item_name"><?php the_title(); ?></span>
++                            </a>
++                        </li>
++                    <?php endforeach; ?>
++                <?php wp_reset_postdata(); ?>
++            <?php endif; ?>
++        </ul>
++    </div>
++</section>
+Index: wp-content/themes/online-slots/partials/sections/home-action.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/partials/sections/home-action.php b/wp-content/themes/online-slots/partials/sections/home-action.php
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/themes/online-slots/partials/sections/home-action.php	
+@@ -0,0 +1,22 @@
++<section class="section-one action" id="action">
++    <div class="container">
++        <div class="action-wrap">
++            <div class="action-text">
++                <h2 class="action-title title-x"><?php echo $args['title']; ?></h2>
++                <div class="action-content content">
++                    <p><?php echo $args['text']; ?></p>
++                </div>
++                <div class="action-bottom">
++                    <a href="<?php echo $args['btn_link']; ?>" class="action-btn btn-one">
++                        <?php echo $args['btn_name']; ?>
++                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
++                            <path d="M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z" fill="white" />
++                        </svg>
++                    </a>
++                    <img class="action-icon" src="<?php echo $args['logo_company']; ?>" alt="img">
++                </div>
++            </div>
++            <img class="action-img" src="<?php echo $args['logo']; ?>" alt="img">
++        </div>
++    </div>
++</section>
+Index: wp-content/themes/online-slots/partials/sections/home-tourney.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/partials/sections/home-tourney.php b/wp-content/themes/online-slots/partials/sections/home-tourney.php
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/themes/online-slots/partials/sections/home-tourney.php	
+@@ -0,0 +1,69 @@
++<section class="section-one tourney" id="tourney">
++    <div class="container">
++        <div class="tourney-wrap">
++            <div class="section-top">
++                <h2 class="section-title title-x">Tournaments</h2>
++                <a href="#" class="tourney-wrap_btn btn-two">View all</a>
++            </div>
++            <ul class="tourney-items">
++                <li class="tourney-item">
++                    <div class="tourney-item_logo">
++                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tourney/tourney-1.png" alt="img">
++                    </div>
++                    <span class="tourney-item_title title-md">Free daily tournaments</span>
++                    <ul class="tourney-item_timer" data-countdown="2023/05/30 24:00:00"></ul>
++                    <div class="tourney-item_content">
++                        <div class="tourney-item_info">
++                            <span class="tourney-item_name title-lg">Avatars</span>
++                            <span class="tourney-item_label">Guaranteed</span>
++                        </div>
++                        <a href="#" class="action-btn btn-one">
++                            Play demo
++                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
++                                <path d="M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z" fill="white" />
++                            </svg>
++                        </a>
++                    </div>
++                </li>
++                <li class="tourney-item">
++                    <div class="tourney-item_logo">
++                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tourney/tourney-2.png" alt="img">
++                    </div>
++                    <span class="tourney-item_title title-md">FREE WEEKLY - ENTER ONCE PER DAY!</span>
++                    <ul class="tourney-item_timer" data-countdown="2023/05/30 18:00:00"></ul>
++                    <div class="tourney-item_content">
++                        <div class="tourney-item_info">
++                            <span class="tourney-item_name title-lg">Avatars</span>
++                            <span class="tourney-item_label">Guaranteed</span>
++                        </div>
++                        <a href="#" class="action-btn btn-one">
++                            Play demo
++                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
++                                <path d="M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z" fill="white" />
++                            </svg>
++                        </a>
++                    </div>
++                </li>
++                <li class="tourney-item">
++                    <div class="tourney-item_logo">
++                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tourney/tourney-3.png" alt="img">
++                    </div>
++                    <span class="tourney-item_title title-md">Free daily tournaments</span>
++                    <ul class="tourney-item_timer" data-countdown="2023/05/30 20:00:00"></ul>
++                    <div class="tourney-item_content">
++                        <div class="tourney-item_info">
++                            <span class="tourney-item_name title-lg">Avatars</span>
++                            <span class="tourney-item_label">Guaranteed</span>
++                        </div>
++                        <a href="#" class="action-btn btn-one">
++                            Play demo
++                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
++                                <path d="M20.5 10L5.5 18.6603L5.5 1.33974L20.5 10Z" fill="white" />
++                            </svg>
++                        </a>
++                    </div>
++                </li>
++            </ul>
++        </div>
++    </div>
++</section>
+Index: wp-content/themes/online-slots/partials/sections/home-tips.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/partials/sections/home-tips.php b/wp-content/themes/online-slots/partials/sections/home-tips.php
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/themes/online-slots/partials/sections/home-tips.php	
+@@ -0,0 +1,27 @@
++<section class="section-one tips" id="tips">
++    <div class="container">
++        <div class="tips-wrap">
++            <div class="tips-info">
++                <div class="tips-info_top">
++                    <h2 class="tips-info_title title-x"><?php echo $args['title']; ?></h2>
++                    <a href="<?php echo $args['btn_link']; ?>" class="tips-info_btn btn-two"><?php echo $args['btn_name']; ?></a>
++                </div>
++                <ol class="tips-info_list">
++                    <?php
++                    $rows = $args['list'];
++                    if( $rows ) { ?>
++                       <?php foreach( $rows as $row ) { ?>
++                            <li><?php echo $row['text']; ?></li>
++                      <?php  }
++                    } ?>
++                </ol>
++            </div>
++            <div class="tips-text">
++                <h3 class="tips-text_title title-x"><?php echo $args['title_desc']; ?></h3>
++                <div class="tips-text_content content">
++                    <?php echo $args['text_desc']; ?>
++                </div>
++            </div>
++        </div>
++    </div>
++</section>
+Index: wp-content/themes/online-slots/partials/sections/home-pages.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/partials/sections/home-pages.php b/wp-content/themes/online-slots/partials/sections/home-pages.php
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/themes/online-slots/partials/sections/home-pages.php	
+@@ -0,0 +1,50 @@
++<section class="section-one plus" id="plus">
++    <div class="container">
++        <div class="swiper plus-slider">
++            <div class="swiper-wrapper">
++                <div class="swiper-slide plus-slide">
++                    <img class="plus-slide_icon" src="<?php echo get_template_directory_uri(); ?>/assets/icons/plus/plus-1.svg" alt="img">
++                    <h3 class="plus-slide_title title-l">Confidential Support</h3>
++                    <div class="plus-slide_content content">
++                        <p>There are numerous amazing services that can help you have a problem. <a href="#">Gamecare</a> is great place
++                            to start.</p>
++                    </div>
++                    <a href="#" class="plus-slide_btn btn-two">Read more</a>
++                </div>
++                <div class="swiper-slide plus-slide">
++                    <img class="plus-slide_icon" src="<?php echo get_template_directory_uri(); ?>/assets/icons/plus/plus-2.svg" alt="img">
++                    <h3 class="plus-slide_title title-l">Signs of Problem Gambling</h3>
++                    <div class="plus-slide_content content">
++                        <p>Remember, harmful gambling behaviour is often hidden. It can be really difficult to know if someone is
++                            struggling with gambling, find out more about the signs.</p>
++                    </div>
++                    <a href="#" class="plus-slide_btn btn-two">Read more</a>
++                </div>
++                <div class="swiper-slide plus-slide">
++                    <img class="plus-slide_icon" src="<?php echo get_template_directory_uri(); ?>/assets/icons/plus/plus-3.svg" alt="img">
++                    <h3 class="plus-slide_title title-l">Responsible Gambling Tools</h3>
++                    <div class="plus-slide_content content">
++                        <ul>
++                            <li>Deposit limit</li>
++                            <li>Loss limit</li>
++                            <li>Time out</li>
++                            <li>Reality checks</li>
++                            <li>Self Exclusion</li>
++                            <li>Self Assessment</li>
++                        </ul>
++                    </div>
++                    <a href="#" class="plus-slide_btn btn-two">Read more</a>
++                </div>
++                <div class="swiper-slide plus-slide">
++                    <img class="plus-slide_icon" src="<?php echo get_template_directory_uri(); ?>/assets/icons/plus/plus-4.svg" alt="img">
++                    <h3 class="plus-slide_title title-l">Protecting Minors</h3>
++                    <div class="plus-slide_content content">
++                        <p>We use age verification checks on every single account, to confirm that our customers are 18 or older, and
++                            legally old enough to gamble.</p>
++                    </div>
++                    <a href="#" class="plus-slide_btn btn-two">Read more</a>
++                </div>
++            </div>
++        </div>
++    </div>
++</section>
+Index: wp-content/themes/online-slots/partials/sections/home-latest-news.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/partials/sections/home-latest-news.php b/wp-content/themes/online-slots/partials/sections/home-latest-news.php
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/themes/online-slots/partials/sections/home-latest-news.php	
+@@ -0,0 +1,43 @@
++<section class="section-one uncos" id="uncos">
++    <div class="container">
++        <div class="section-top">
++            <h2 class="section-title title-x">Latest News Slots</h2>
++        </div>
++        <ul class="uncos-list">
++            <li class="uncos-point">
++                <h3 class="uncos-point_title title-l">Slots temple award winners announced award winners announced</h3>
++                <p class="uncos-point_descr text-x">There are numerous amazing
++                    services that can help you have a problem can help you have a problem</p>
++                <div class="uncos-point_bottom">
++                    <a href="#" class="uncos-point_link btn-three">Read more...</a>
++                    <span class="uncos-point_date">01.12.22</span>
++                </div>
++            </li>
++            <li class="uncos-point">
++                <h3 class="uncos-point_title title-l">Slots temple</h3>
++                <p class="uncos-point_descr text-x">There are numerous amazing numerous amazing numerous amazing</p>
++                <div class="uncos-point_bottom">
++                    <a href="#" class="uncos-point_link btn-three">Read more...</a>
++                    <span class="uncos-point_date">01.12.22</span>
++                </div>
++            </li>
++            <li class="uncos-point">
++                <h3 class="uncos-point_title title-l">Slots temple award winners announced award winners announced</h3>
++                <p class="uncos-point_descr text-x">There are numerous amazing
++                    services that can help you have a problem can help you have a problem</p>
++                <div class="uncos-point_bottom">
++                    <a href="#" class="uncos-point_link btn-three">Read more...</a>
++                    <span class="uncos-point_date">01.12.22</span>
++                </div>
++            </li>
++            <li class="uncos-point">
++                <h3 class="uncos-point_title title-l">Slots temple</h3>
++                <p class="uncos-point_descr text-x">There are numerous amazing numerous amazing numerous amazing</p>
++                <div class="uncos-point_bottom">
++                    <a href="#" class="uncos-point_link btn-three">Read more...</a>
++                    <span class="uncos-point_date">01.12.22</span>
++                </div>
++            </li>
++        </ul>
++    </div>
++</section>
+Index: wp-content/themes/online-slots/partials/sections/home-works.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/partials/sections/home-works.php b/wp-content/themes/online-slots/partials/sections/home-works.php
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/themes/online-slots/partials/sections/home-works.php	
+@@ -0,0 +1,18 @@
++<section class="section-one work" id="work">
++    <div class="container">
++        <div class="section-top">
++            <h2 class="section-title title-x"><?php echo $args['title']; ?></h2>
++        </div>
++        <ol class="work-list">
++            <?php
++            $rows = $args['list'];
++            if( $rows ) { ?>
++                <?php foreach( $rows as $row ) { ?>
++                    <li>
++                        <p class="text-xl"><?php echo $row['text']; ?></p>
++                    </li>
++                <?php  }
++            } ?>
++        </ol>
++    </div>
++</section>
+Index: wp-content/themes/online-slots/partials/sections/home-content.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/partials/sections/home-content.php b/wp-content/themes/online-slots/partials/sections/home-content.php
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/themes/online-slots/partials/sections/home-content.php	
+@@ -0,0 +1,10 @@
++<section class="section-one <?php echo $args['id']; ?>" id="<?php echo $args['id']; ?>">
++    <div class="container">
++        <div class="section-top">
++            <h2 class="section-title title-x"><?php echo $args['title']; ?></h2>
++        </div>
++        <div class="<?php echo $args['id']; ?>-content content">
++            <?php echo $args['text']; ?>
++        </div>
++    </div>
++</section>
+Index: wp-content/themes/online-slots/classes/CustomPostTypes.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\nnamespace classes;\n\nclass CustomPostTypes\n{\n    public function __construct(){\n        add_action( 'init', [$this, 'NAME'] );\n    }\n\n    public function kappers(): void{\n        register_post_type('NAME', array(\n            'labels'             => array(\n                'name'               => 'Change_this',\n                'singular_name'      => 'Change_this',\n                'add_new'            => 'Add Change_this',\n                'add_new_item'       => 'Add Change_this',\n                'edit_item'          => 'Edit Change_this',\n                'new_item'           => 'New Change_this',\n                'view_item'          => 'View Change_this',\n                'search_items'       => 'Search',\n                'not_found'          => 'not found',\n                'not_found_in_trash' => 'Not found in basket',\n                'parent_item_colon'  => '',\n                'menu_name'          => 'Change_this'\n            ),\n            'public'             => true,\n            'publicly_queryable' => true,\n            'show_ui'            => true,\n            'show_in_menu'       => true,\n            'query_var'          => true,\n            'menu_icon'          => 'dashicons-database',\n            'capability_type'    => 'page',\n            'has_archive'        => true,\n            'hierarchical'       => true,\n            'menu_position'      => null,\n            'supports'           => array('title','editor','thumbnail','page-attributes')\n        ) );\n    }\n}\n\nnew CustomPostTypes;
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/classes/CustomPostTypes.php b/wp-content/themes/online-slots/classes/CustomPostTypes.php
+--- a/wp-content/themes/online-slots/classes/CustomPostTypes.php	
++++ b/wp-content/themes/online-slots/classes/CustomPostTypes.php	
+@@ -5,24 +5,25 @@
+ class CustomPostTypes
+ {
+     public function __construct(){
+-        add_action( 'init', [$this, 'NAME'] );
++        add_action( 'init', [$this, 'slots'] );
++        add_action( 'init', [$this, 'casino'] );
+     }
+ 
+-    public function kappers(): void{
+-        register_post_type('NAME', array(
++    public function slots(): void{
++        register_post_type('slots', array(
+             'labels'             => array(
+-                'name'               => 'Change_this',
+-                'singular_name'      => 'Change_this',
+-                'add_new'            => 'Add Change_this',
+-                'add_new_item'       => 'Add Change_this',
+-                'edit_item'          => 'Edit Change_this',
+-                'new_item'           => 'New Change_this',
+-                'view_item'          => 'View Change_this',
++                'name'               => 'Slots',
++                'singular_name'      => 'Slots',
++                'add_new'            => 'Add Slots',
++                'add_new_item'       => 'Add Slots',
++                'edit_item'          => 'Edit Slots',
++                'new_item'           => 'New Slots',
++                'view_item'          => 'View Slots',
+                 'search_items'       => 'Search',
+                 'not_found'          => 'not found',
+                 'not_found_in_trash' => 'Not found in basket',
+                 'parent_item_colon'  => '',
+-                'menu_name'          => 'Change_this'
++                'menu_name'          => 'Slots'
+             ),
+             'public'             => true,
+             'publicly_queryable' => true,
+@@ -34,9 +35,39 @@
+             'has_archive'        => true,
+             'hierarchical'       => true,
+             'menu_position'      => null,
+-            'supports'           => array('title','editor','thumbnail','page-attributes')
++            'supports'           => array('title','thumbnail','page-attributes')
++        ) );
++    }
++
++    public function casino(): void{
++        register_post_type('casino', array(
++            'labels'             => array(
++                'name'               => 'Casino',
++                'singular_name'      => 'Casino',
++                'add_new'            => 'Add Casino',
++                'add_new_item'       => 'Add Casino',
++                'edit_item'          => 'Edit Casino',
++                'new_item'           => 'New Casino',
++                'view_item'          => 'View Casino',
++                'search_items'       => 'Search',
++                'not_found'          => 'not found',
++                'not_found_in_trash' => 'Not found in basket',
++                'parent_item_colon'  => '',
++                'menu_name'          => 'Casino'
++            ),
++            'public'             => true,
++            'publicly_queryable' => true,
++            'show_ui'            => true,
++            'show_in_menu'       => true,
++            'query_var'          => true,
++            'menu_icon'          => 'dashicons-database',
++            'capability_type'    => 'page',
++            'has_archive'        => true,
++            'hierarchical'       => true,
++            'menu_position'      => null,
++            'supports'           => array('title','thumbnail','page-attributes')
+         ) );
+     }
+ }
+ 
+-new CustomPostTypes;
+\ No newline at end of file
++new CustomPostTypes;
+Index: wp-content/themes/online-slots/partials/sections/home-faq.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/online-slots/partials/sections/home-faq.php b/wp-content/themes/online-slots/partials/sections/home-faq.php
+new file mode 100644
+--- /dev/null	
++++ b/wp-content/themes/online-slots/partials/sections/home-faq.php	
+@@ -0,0 +1,36 @@
++<div class="section-wrap">
++    <div class="section-box">
++        <!--faq-->
++        <section class="section-one faq" id="faq">
++            <div class="container">
++                <div class="section-top">
++                    <h2 class="section-title title-x"><?php echo $args['title']; ?></h2>
++                </div>
++                <ul class="faq-list">
++                    <?php
++                    $rows = $args['list'];
++                    if( $rows ) { ?>
++                        <?php foreach( $rows as $row ) { ?>
++                            <li class="faq-list_point">
++                                <div class="faq-list_top">
++                                    <h3 class="faq-list_title title-lg"><?php echo $row['question']; ?></h3>
++                                    <svg class="faq-list_arrow" width="35" height="20" viewBox="0 0 35 20" fill="none" xmlns="http://www.w3.org/2000/svg">
++                                        <path fill-rule="evenodd" clip-rule="evenodd"
++                                              d="M0.732233 0.696431C1.70854 -0.231818 3.29146 -0.231818 4.26777 0.696431L17.5 13.2773L30.7322 0.696431C31.7085 -0.231818 33.2915 -0.231818 34.2678 0.696431C35.2441 1.62468 35.2441 3.12967 34.2678 4.05792L17.5 20.0002L0.732233 4.05792C-0.244078 3.12967 -0.244078 1.62468 0.732233 0.696431Z"
++                                        />
++                                    </svg>
++                                </div>
++                                <div class="faq-list_bottom">
++                                    <div class="faq-list_text content">
++                                        <p><?php echo $row['answer']; ?></p>
++                                    </div>
++                                </div>
++                            </li>
++                        <?php  }
++                    } ?>
++                </ul>
++            </div>
++        </section>
++        <!--/faq-->
++    </div>
++</div>
