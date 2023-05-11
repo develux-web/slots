@@ -1,6 +1,6 @@
 <?php
 include_once 'classes/ThemeConfiguration.php';
-//include_once 'classes/CustomPostTypes.php';
+include_once 'classes/CustomPostTypes.php';
 
 
 if( function_exists('acf_add_options_page') ) {

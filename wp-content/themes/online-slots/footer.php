@@ -1,8 +1,9 @@
+</main>
 <footer class="footer">
     <div class="container">
         <div class="footer-top">
             <a href="/" class="footer-logo">
-                <img src="icons/logo-1.svg" alt="img">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo-1.svg" alt="img">
             </a>
             <ul class="footer-socials">
                 <li>
@@ -63,14 +64,14 @@
         </div>
         <div class="footer-bottom">
             <ul class="footer-icons">
-                <li><img src="img/footer/footer-1.png" alt="img"></li>
-                <li><img src="img/footer/footer-2.png" alt="img"></li>
-                <li><img src="img/footer/footer-3.png" alt="img"></li>
-                <li><img src="img/footer/footer-4.png" alt="img"></li>
-                <li><img src="img/footer/footer-5.png" alt="img"></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-1.png" alt="img"></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-2.png" alt="img"></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-3.png" alt="img"></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-4.png" alt="img"></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-5.png" alt="img"></li>
             </ul>
             <div class="footer-box">
-                <img class="footer-box_icon" src="img/footer/footer-6.png" alt="img">
+                <img class="footer-box_icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/footer-6.png" alt="img">
                 <span class="footer-box_descr">As a member of RAiG we are committed to improving consumer protection and responsible
      gambling in the industry.</span>
             </div>
@@ -93,10 +94,6 @@
     </filter>
 </svg>
 </div>
-<script src="js/jquery.js"></script>
-<script src="js/swiper.js"></script>
-<script src="js/countdown.js"></script>
-<script src="js/main.js"></script>
 
 <?php wp_footer(); ?>
 </body>

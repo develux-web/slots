@@ -14,16 +14,15 @@ class ThemeConfiguration
 
     public function includeJS(): void
     {
-
+        wp_enqueue_script('jquery-scripts', get_template_directory_uri() . '/assets/js/jquery.js', '', '', true);
+        wp_enqueue_script('swiper-scripts', get_template_directory_uri() . '/assets/js/swiper.js', '', '', true);
+        wp_enqueue_script('countdown-scripts', get_template_directory_uri() . '/assets/js/countdown.js', '', '', true);
+        wp_enqueue_script('main-scripts', get_template_directory_uri() . '/assets/js/main.js', '', '', true);
     }
     public function includeCSS(): void
     {
-        if (is_front_page()) {
-            wp_enqueue_style('home-css', get_template_directory_uri() . '/assets/css/pages/home.css');
-        }
-        if (is_page('contact-us')) {
-            wp_enqueue_style('contact-us-css', get_template_directory_uri() . '/assets/css/pages/contact-us.css');
-        }
+        wp_enqueue_style('swiper-css', get_template_directory_uri() . '/assets/css/swiper.css');
+        wp_enqueue_style('main-css', get_template_directory_uri() . '/assets/css/main.css');
     }
     public function themeSupport(): void
     {
