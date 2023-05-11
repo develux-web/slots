@@ -1,34 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no">
-    <title>OnlineSlots</title>
-    <meta name="description" content="Play Free to Enter Slots Tournaments!">
     <meta name="theme-color" content="#010400">
-    <!--favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
-    <!--preload-->
-    <link rel="preload" href="fonts/Inter-Regular.woff" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="fonts/Inter-Medium.woff" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="fonts/Inter-SemiBold.woff" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="fonts/Inter-Bold.woff" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="fonts/Inter-Black.woff" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="css/swiper.css" as="style">
-    <link rel="preload" href="css/main.css" as="style">
-    <link rel="preload" href="js/jquery.js" as="script">
-    <link rel="preload" href="js/swiper.js" as="script">
-    <link rel="preload" href="js/countdown.js" as="script">
-    <link rel="preload" href="js/main.js" as="script">
-    <!--style-->
-    <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="http://localhost/slots/wp-content/themes/online-slots/assets/css/main.css">
 
     <?php
     global $class;
@@ -41,7 +22,7 @@
     <div class="container">
         <div class="header-wrap">
             <a href="/" class="header-logo">
-                <img src="icons/logo-1.svg" alt="img">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo-1.svg" alt="img">
             </a>
             <nav class="header-nav">
                 <ul class="header-menu">
@@ -69,7 +50,7 @@
                             <li class="header-search_point">
                                 <a href="#" class="header-search_link">
                                     <div class="header-search_img">
-                                        <img src="img/slots/slots-1.jpg" alt="img">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
                                     </div>
                                     <span class="header-search_title">Fishin Frenzy</span>
                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
@@ -78,7 +59,7 @@
                             <li class="header-search_point">
                                 <a href="#" class="header-search_link">
                                     <div class="header-search_img">
-                                        <img src="img/slots/slots-1.jpg" alt="img">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
                                     </div>
                                     <span class="header-search_title">Fishin Frenzy</span>
                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
@@ -87,7 +68,7 @@
                             <li class="header-search_point">
                                 <a href="#" class="header-search_link">
                                     <div class="header-search_img">
-                                        <img src="img/slots/slots-1.jpg" alt="img">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
                                     </div>
                                     <span class="header-search_title">Fishin Frenzy</span>
                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
@@ -96,7 +77,7 @@
                             <li class="header-search_point">
                                 <a href="#" class="header-search_link">
                                     <div class="header-search_img">
-                                        <img src="img/slots/slots-1.jpg" alt="img">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
                                     </div>
                                     <span class="header-search_title">Fishin Frenzy</span>
                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
@@ -105,7 +86,7 @@
                             <li class="header-search_point">
                                 <a href="#" class="header-search_link">
                                     <div class="header-search_img">
-                                        <img src="img/slots/slots-1.jpg" alt="img">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
                                     </div>
                                     <span class="header-search_title">Fishin Frenzy</span>
                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
@@ -114,7 +95,7 @@
                             <li class="header-search_point">
                                 <a href="#" class="header-search_link">
                                     <div class="header-search_img">
-                                        <img src="img/slots/slots-1.jpg" alt="img">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
                                     </div>
                                     <span class="header-search_title">Fishin Frenzy</span>
                                     <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>

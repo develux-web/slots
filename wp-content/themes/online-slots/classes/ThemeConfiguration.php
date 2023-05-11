@@ -30,11 +30,32 @@ class ThemeConfiguration
         add_theme_support('post-thumbnails');
         add_theme_support('title-tag');
         register_nav_menu('header', 'Header Menu');
+        $this->optionsPageAcf();
     }
     public function mimeTypes($mimes)
     {
         $mimes['svg'] = 'image/svg+xml';
         return $mimes;
+    }
+
+    public function optionsPageAcf()
+    {
+        if( function_exists('acf_add_options_page') ) {
+
+            acf_add_options_page(array(
+                'page_title'    => 'General Settings',
+                'menu_title'    => 'Theme Settings',
+                'menu_slug'     => 'theme-general-settings',
+                'capability'    => 'edit_posts',
+                'redirect'      => false
+            ));
+
+            acf_add_options_sub_page(array(
+                'page_title'    => '404 page',
+                'menu_title'    => '404-page',
+                'parent_slug'   => 'theme-general-settings',
+            ));
+        }
     }
 }
 new ThemeConfiguration;
