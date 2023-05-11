@@ -28,7 +28,7 @@
     <link rel="preload" href="js/main.js" as="script">
     <!--style-->
     <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="http://localhost/slots/wp-content/themes/online-slots/assets/css/main.css">
 
     <?php
     global $class;
