@@ -1,5 +1,7 @@
 $(document).ready(function () {
- /*timer*/
+ setTimeout(function(){
+
+  /*timer*/
  $('[data-countdown]').each(function () {
   var $this = $(this), finalDate = $(this).data('countdown');
   $this.countdown(finalDate, function (event) {
@@ -146,6 +148,7 @@ $(document).ready(function () {
   $(this).next().slideToggle();
   return false;
  });
+ }, 0);
 
 });
 
@@ -171,3 +174,29 @@ var plusSwiper = new Swiper('.plus-slider', {
  },
 });
 
+$( document ).ready(function() {
+//IFRAME
+$('.game-demo').click(function (e) {
+ e.preventDefault();
+ $('.game-content').hide();
+ $('.game-descr').hide();
+ $('.game-info_wrap').addClass('active');
+});
+
+ //TABLE OF CONTENT
+ const container = document.querySelector('.section-content');
+ if (container) {
+  const tpl = '<ol class="section-content_list">{{contents}}</ol>';
+  let contents = '';
+  const elHeaders = document.querySelectorAll('.wrapper h2');
+  elHeaders.forEach((el, index) => {
+   const url = ($(el).closest('section')).attr('id');
+   console.log();
+   contents += `<li>
+            <a href="#${url}">${el.textContent}</a>
+            </li>`;
+  });
+  container.insertAdjacentHTML('beforeend', tpl.replace('{{contents}}', contents));
+ }
+//TABLE OF CONTENT
+});
