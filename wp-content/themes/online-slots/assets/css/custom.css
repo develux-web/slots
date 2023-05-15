@@ -12,3 +12,48 @@
 .game-info_wrap.active:after {
     display: none;
 }
+
+#breadcrumbs > span {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#breadcrumbs > span > span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.breadcrumbs a {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-style: italic;
+    transition: 0.1s;
+}
+
+#breadcrumbs > span > span:after {
+    content: "/";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+
+#breadcrumbs span > span:last-child {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+#breadcrumbs > span > span:last-child:after {
+    content: "";
+}
+
+.casino-providers_img img {
+    object-fit: contain;
+}
