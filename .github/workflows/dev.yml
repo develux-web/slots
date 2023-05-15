@@ -17,3 +17,4 @@ jobs:
           remote_user: sn471259_kostiantyn
           remote_key: 'm2ES4vXp2vJ4'
           remote_path: /web-dev.stream/www/slots
+          protocol: ftp
