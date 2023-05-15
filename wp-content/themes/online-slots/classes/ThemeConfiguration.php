@@ -21,6 +21,7 @@ class ThemeConfiguration
         wp_enqueue_script('swiper-scripts', get_template_directory_uri() . '/assets/js/swiper.js', '', '', true);
         wp_enqueue_script('countdown-scripts', get_template_directory_uri() . '/assets/js/countdown.js', '', '', true);
         wp_enqueue_script('main-scripts', get_template_directory_uri() . '/assets/js/main.js', '', '', true);
+        wp_enqueue_script('header-ajax-search', get_template_directory_uri() . '/assets/js/header-search.js', '', '', true);
 
         if(is_post_type_archive('slots')) {
             wp_enqueue_script('ajax-search', get_template_directory_uri() . '/assets/js/search-types.js', '', '', true);
