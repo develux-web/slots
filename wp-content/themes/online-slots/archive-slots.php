@@ -46,12 +46,9 @@ get_template_part('partials/sections/video', 'background');
                 </li>
             </ul>
             <div class="section-top three">
-                <h1 class="section-title title-xl">Demo Slots & Free Slots - Play The Best Online Slots For Free</h1>
+                <h1 class="section-title title-xl"><?php the_field('name_page_slots', 'option'); ?></h1>
                 <div class="section-text content">
-                    <p>Welcome to the World's greatest Demo Slots adventure! Are you ready to get in a spin over the amazing Free Slots
-                        deep in the Amazonian jungle? We've brought the best games to Slots Temple for your playing-pleasure! No need to
-                        register, download or pay for any of the games - we are a Free Casino, so strap yourself in and immerse yourself in
-                        the world of the Slots Temple!</p>
+                    <p><?php the_field('description_page_slots', 'option'); ?></p>
                 </div>
             </div>
 
@@ -72,10 +69,10 @@ get_template_part('partials/sections/video', 'background');
 
                     <label class="form-select filter-sort">
                         <select class="form-select_point" name="sort">
-                            <option value="" disabled selected>Sort</option>
-                            <option value="ASC">A-Z</option>
-                            <option value="DESC">Z-A</option>
-                            <option value="rating">Highest Rating</option>
+                            <option value="" disabled selected><?php echo __('Sort', 'slots'); ?></option>
+                            <option value="ASC"><?php echo __('A-Z', 'slots'); ?></option>
+                            <option value="DESC"><?php echo __('Z-A', 'slots'); ?></option>
+                            <option value="rating"><?php echo __('Highest Rating', 'slots'); ?></option>
                         </select>
                         <svg class="form-select_icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
@@ -84,14 +81,14 @@ get_template_part('partials/sections/video', 'background');
                         </svg>
                     </label>
                     <button class="form-btn filter-add">
-                        Filters
+                        <?php echo __('Filters', 'slots'); ?>
                         <svg class="form-btn_icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                   d="M10.9002 9.2C9.22272 9.2 7.81323 8.0527 7.41359 6.5H1V4.7H7.41359C7.81323 3.1473 9.22272 2 10.9002 2C12.8884 2 14.5002 3.61177 14.5002 5.6C14.5002 7.58822 12.8884 9.2 10.9002 9.2ZM16.2998 4.7H18.9998V6.5H16.2998V4.7ZM6.39982 18.2002C4.72237 18.2002 3.31288 17.0529 2.91324 15.5002H1V13.7002H2.91324C3.31288 12.1475 4.72237 11.0002 6.39982 11.0002C8.38805 11.0002 9.99982 12.6119 9.99982 14.6002C9.99982 16.5884 8.38805 18.2002 6.39982 18.2002ZM11.8 15.5002H19V13.7002H11.8V15.5002ZM8.20018 14.6002C8.20018 15.5943 7.39429 16.4002 6.40018 16.4002C5.40606 16.4002 4.60018 15.5943 4.60018 14.6002C4.60018 13.6061 5.40606 12.8002 6.40018 12.8002C7.39429 12.8002 8.20018 13.6061 8.20018 14.6002ZM12.7 5.59982C12.7 6.59394 11.8941 7.39982 10.9 7.39982C9.90589 7.39982 9.1 6.59394 9.1 5.59982C9.1 4.60571 9.90589 3.79982 10.9 3.79982C11.8941 3.79982 12.7 4.60571 12.7 5.59982Z" />
                         </svg>
                     </button>
                     <button class="form-btn filter-reset">
-                        Reset
+                        <?php echo __('Reset', 'slots'); ?>
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M1.35796 16.9136C0.880678 17.3909 0.880678 18.1647 1.35796 18.642C1.83525 19.1193 2.60909 19.1193 3.08637 18.642L10 11.7284L16.9136 18.642C17.3909 19.1193 18.1647 19.1193 18.642 18.642C19.1193 18.1647 19.1193 17.3909 18.642 16.9136L11.7284 10L18.642 3.08637C19.1193 2.60909 19.1193 1.83525 18.642 1.35796C18.1647 0.880678 17.3909 0.880679 16.9136 1.35796L10 8.27159L3.08637 1.35796C2.60909 0.880678 1.83525 0.880678 1.35796 1.35796C0.880678 1.83525 0.880678 2.60909 1.35796 3.08637L8.27159 10L1.35796 16.9136Z"
@@ -109,7 +106,7 @@ get_template_part('partials/sections/video', 'background');
             </div>
 
             <ul id="filtered-results" class="slots-list"></ul>
-            <button class="slots-load btn-two">Load more</button>
+            <button class="slots-load btn-two"><?php echo __('Load more', 'slots'); ?></button>
         </div>
     </section>
 
@@ -182,7 +179,7 @@ get_template_part('partials/sections/video', 'background');
     </div>
     <div class="section-content">
               <span class="section-content_title">
-               Content
+               <?php echo __('Content', 'slots'); ?>
                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                       d="M2.33474 5.77847C2.78105 5.40718 3.50467 5.40718 3.95098 5.77847L10 10.8108L16.049 5.77847C16.4953 5.40718 17.219 5.40718 17.6653 5.77847C18.1116 6.14977 18.1116 6.75177 17.6653 7.12307L10 13.5L2.33474 7.12307C1.88842 6.75177 1.88842 6.14977 2.33474 5.77847Z"
