@@ -188,7 +188,7 @@ $('.game-demo').click(function (e) {
  if (container) {
   const tpl = '<ol class="section-content_list">{{contents}}</ol>';
   let contents = '';
-  const elHeaders = document.querySelectorAll('.wrapper h2');
+  const elHeaders = document.querySelectorAll('.section-wrap h2');
   elHeaders.forEach((el, index) => {
    const url = ($(el).closest('section')).attr('id');
    console.log();
