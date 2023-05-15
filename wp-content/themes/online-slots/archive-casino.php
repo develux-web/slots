@@ -32,16 +32,11 @@ get_header(); ?>
 
     <section class="section-two casino">
         <div class="container">
-            <ul class="breadcrumbs">
-                <li>
-                    <a href="/">
-                        <span>OnlineSlots</span>
-                    </a>
-                </li>
-                <li>
-                    <span>Best paying casino</span>
-                </li>
-            </ul>
+            <?php
+            if ( function_exists('yoast_breadcrumb') ) {
+                yoast_breadcrumb( '<div id="breadcrumbs">','</ul>' );
+            }
+            ?>
             <div class="section-top two">
                 <h1 class="section-title title-xl"><?php the_field('name_page_casino', 'option'); ?></h1>
                 <div class="section-text content">
