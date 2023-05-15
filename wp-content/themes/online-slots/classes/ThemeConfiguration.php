@@ -41,6 +41,7 @@ class ThemeConfiguration
     {
         wp_enqueue_style('swiper-css', get_template_directory_uri() . '/assets/css/swiper.css');
         wp_enqueue_style('main-css', get_template_directory_uri() . '/assets/css/main.css');
+        wp_enqueue_style('custom-css', get_template_directory_uri() . '/assets/css/custom.css');
     }
     public function themeSupport(): void
     {
