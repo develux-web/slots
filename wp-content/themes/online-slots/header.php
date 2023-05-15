@@ -22,17 +22,29 @@
     <div class="container">
         <div class="header-wrap">
             <a href="/" class="header-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo-1.svg" alt="img">
+                <img src="<?php the_field('add_logo', 'option'); ?>" alt="img">
             </a>
             <nav class="header-nav">
-                <ul class="header-menu">
-                    <li><a href="#">Free Slots</a></li>
-                    <li><a href="#">Tournaments</a></li>
-                    <li><a href="#">Slots By</a></li>
-                    <li><a href="#">Casinos</a></li>
-                    <li><a href="#">Bonuses</a></li>
-                    <li><a href="#">News</a></li>
-                </ul>
+                <?php
+                wp_nav_menu( [
+                    'theme_location'  => 'header',
+                    'menu'            => '',
+                    'container'       => '',
+                    'container_class' => '',
+                    'container_id'    => '',
+                    'menu_class'      => 'header-menu',
+                    'menu_id'         => '',
+                    'echo'            => true,
+                    'fallback_cb'     => 'wp_page_menu',
+                    'before'          => '',
+                    'after'           => '',
+                    'link_before'     => '',
+                    'link_after'      => '',
+                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                    'depth'           => 0,
+                    'walker'          => '',
+                ] );
+                ?>
             </nav>
             <div class="header-search">
                 <div class="header-search_wrap">

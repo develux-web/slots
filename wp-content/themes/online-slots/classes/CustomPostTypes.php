@@ -9,6 +9,11 @@ class CustomPostTypes
         add_action( 'init', [$this, 'casino'] );
         add_action( 'init', [$this, 'features'] );
         add_action( 'init', [$this, 'themesSlots'] );
+
+        add_action( 'init', [$this, 'providersCasino'] );
+        add_action( 'init', [$this, 'languagesCasino'] );
+        add_action( 'init', [$this, 'freePokiesCasino'] );
+        add_action( 'init', [$this, 'paymentMethodsCasino'] );
     }
 
     public function slots(): void{
@@ -121,6 +126,142 @@ class CustomPostTypes
                 'new_item_name'     => 'New themes Name',
                 'menu_name'         => 'Themes',
                 'back_to_items'     => '← Back to Themes',
+            ],
+            'description'  => '',
+            'public'       => true,
+            'hierarchical' => true,
+
+            'rewrite'           => true,
+            'capabilities'      => array(),
+            'meta_box_cb'       => null,
+            'show_admin_column' => false,
+            'show_in_rest'      => null,
+            'rest_base'         => null,
+        ]);
+    }
+
+    public function providersCasino(): void
+    {
+        $name_taxonomy = 'Providers';
+
+        register_taxonomy('providers', 'casino', [
+            'label'        => '',
+            'labels'       => [
+                'name'              => $name_taxonomy,
+                'singular_name'     => $name_taxonomy,
+                'search_items'      => 'Search ' . $name_taxonomy,
+                'all_items'         => 'All ' . $name_taxonomy,
+                'view_item '        => 'View ' . $name_taxonomy,
+                'parent_item'       => 'Parent ' . $name_taxonomy,
+                'parent_item_colon' => 'Parent '  . $name_taxonomy . ':',
+                'edit_item'         => 'Edit ' . $name_taxonomy,
+                'update_item'       => 'Update '.$name_taxonomy,
+                'add_new_item'      => 'Add New '.$name_taxonomy,
+                'new_item_name'     => 'New '. $name_taxonomy .' Name',
+                'menu_name'         => $name_taxonomy,
+                'back_to_items'     => '← Back to ' . $name_taxonomy,
+            ],
+            'description'  => '',
+            'public'       => true,
+            'hierarchical' => true,
+
+            'rewrite'           => true,
+            'capabilities'      => array(),
+            'meta_box_cb'       => null,
+            'show_admin_column' => false,
+            'show_in_rest'      => null,
+            'rest_base'         => null,
+        ]);
+    }
+
+    public function languagesCasino(): void
+    {
+        $name_taxonomy = 'Languages';
+
+        register_taxonomy('languages', 'casino', [
+            'label'        => '',
+            'labels'       => [
+                'name'              => $name_taxonomy,
+                'singular_name'     => $name_taxonomy,
+                'search_items'      => 'Search ' . $name_taxonomy,
+                'all_items'         => 'All ' . $name_taxonomy,
+                'view_item '        => 'View ' . $name_taxonomy,
+                'parent_item'       => 'Parent ' . $name_taxonomy,
+                'parent_item_colon' => 'Parent '  . $name_taxonomy . ':',
+                'edit_item'         => 'Edit ' . $name_taxonomy,
+                'update_item'       => 'Update '.$name_taxonomy,
+                'add_new_item'      => 'Add New '.$name_taxonomy,
+                'new_item_name'     => 'New '. $name_taxonomy .' Name',
+                'menu_name'         => $name_taxonomy,
+                'back_to_items'     => '← Back to ' . $name_taxonomy,
+            ],
+            'description'  => '',
+            'public'       => true,
+            'hierarchical' => true,
+
+            'rewrite'           => true,
+            'capabilities'      => array(),
+            'meta_box_cb'       => null,
+            'show_admin_column' => false,
+            'show_in_rest'      => null,
+            'rest_base'         => null,
+        ]);
+    }
+
+    public function freePokiesCasino(): void
+    {
+        $name_taxonomy = 'Free pokies';
+
+        register_taxonomy('free-pokies', 'casino', [
+            'label'        => '',
+            'labels'       => [
+                'name'              => $name_taxonomy,
+                'singular_name'     => $name_taxonomy,
+                'search_items'      => 'Search ' . $name_taxonomy,
+                'all_items'         => 'All ' . $name_taxonomy,
+                'view_item '        => 'View ' . $name_taxonomy,
+                'parent_item'       => 'Parent ' . $name_taxonomy,
+                'parent_item_colon' => 'Parent '  . $name_taxonomy . ':',
+                'edit_item'         => 'Edit ' . $name_taxonomy,
+                'update_item'       => 'Update '.$name_taxonomy,
+                'add_new_item'      => 'Add New '.$name_taxonomy,
+                'new_item_name'     => 'New '. $name_taxonomy .' Name',
+                'menu_name'         => $name_taxonomy,
+                'back_to_items'     => '← Back to ' . $name_taxonomy,
+            ],
+            'description'  => '',
+            'public'       => true,
+            'hierarchical' => true,
+
+            'rewrite'           => true,
+            'capabilities'      => array(),
+            'meta_box_cb'       => null,
+            'show_admin_column' => false,
+            'show_in_rest'      => null,
+            'rest_base'         => null,
+        ]);
+    }
+
+    public function paymentMethodsCasino(): void
+    {
+        $name_taxonomy = 'Payment methods';
+
+        register_taxonomy('payment-methods', 'casino', [
+            'label'        => '',
+            'labels'       => [
+                'name'              => $name_taxonomy,
+                'singular_name'     => $name_taxonomy,
+                'search_items'      => 'Search ' . $name_taxonomy,
+                'all_items'         => 'All ' . $name_taxonomy,
+                'view_item '        => 'View ' . $name_taxonomy,
+                'parent_item'       => 'Parent ' . $name_taxonomy,
+                'parent_item_colon' => 'Parent '  . $name_taxonomy . ':',
+                'edit_item'         => 'Edit ' . $name_taxonomy,
+                'update_item'       => 'Update '.$name_taxonomy,
+                'add_new_item'      => 'Add New '.$name_taxonomy,
+                'new_item_name'     => 'New '. $name_taxonomy .' Name',
+                'menu_name'         => $name_taxonomy,
+                'back_to_items'     => '← Back to ' . $name_taxonomy,
             ],
             'description'  => '',
             'public'       => true,
