@@ -14,10 +14,10 @@ class SearchSlotsPostType
     public function search_posts_callback() {
         $search_query = $_GET['query'];
         $type = $_GET['type'];
-
+        $arr_type = explode( ',', $type );
 
         $args = array(
-            'post_type' => $type,
+            'post_type' => $arr_type,
             'posts_per_page' => 10,
             's' => $search_query,
         );
@@ -42,6 +42,7 @@ class SearchSlotsPostType
 
     function localize_ajaxurl() {
         wp_localize_script( 'ajax-search', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
+        wp_localize_script( 'header-ajax-search', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
     }
 
 }

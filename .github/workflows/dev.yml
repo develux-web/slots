@@ -1,0 +1,19 @@
+name: Deploy to DEV
+on:
+  push:
+    branches:
+      - dev
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: rsync deploy
+        uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -avzr --delete
+          path: .
+          remote_host: sn471259.ftp.tools
+          remote_user: sn471259_kostiantyn
+          remote_key: 'm2ES4vXp2vJ4'
+          remote_path: /web-dev.stream/www/slots

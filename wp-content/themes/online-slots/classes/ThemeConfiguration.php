@@ -10,6 +10,9 @@ class ThemeConfiguration
         add_filter('upload_mimes', array($this, 'mimeTypes'));
         add_action('wp_enqueue_scripts', array($this, 'includeJS'));
         add_action('wp_enqueue_scripts', array($this, 'includeCSS'));
+        add_filter('wpseo_breadcrumb_single_link', array($this, 'yoast_breadcrumb_list_links'), 10, 2);
+        add_filter('wpseo_breadcrumb_output', array($this, 'yoast_seo_breadcrumb_output'));
+        add_filter('wpseo_breadcrumb_output', array($this, 'yoast_seo_breadcrumb_output_end'));
     }
 
     public function includeJS(): void
@@ -18,6 +21,7 @@ class ThemeConfiguration
         wp_enqueue_script('swiper-scripts', get_template_directory_uri() . '/assets/js/swiper.js', '', '', true);
         wp_enqueue_script('countdown-scripts', get_template_directory_uri() . '/assets/js/countdown.js', '', '', true);
         wp_enqueue_script('main-scripts', get_template_directory_uri() . '/assets/js/main.js', '', '', true);
+        wp_enqueue_script('header-ajax-search', get_template_directory_uri() . '/assets/js/header-search.js', '', '', true);
 
         if(is_post_type_archive('slots')) {
             wp_enqueue_script('ajax-search', get_template_directory_uri() . '/assets/js/search-types.js', '', '', true);
@@ -26,6 +30,10 @@ class ThemeConfiguration
         if(is_post_type_archive('casino')) {
             wp_enqueue_script('ajax-search', get_template_directory_uri() . '/assets/js/search-types.js', '', '', true);
             wp_enqueue_script('ajax-filter-casino', get_template_directory_uri() . '/assets/js/filter-casino.js', '', '', true);
+        }
+        if(is_page('providers')) {
+            wp_enqueue_script('ajax-search', get_template_directory_uri() . '/assets/js/search-types.js', '', '', true);
+            wp_enqueue_script('load_taxonomy', get_template_directory_uri() . '/assets/js/displayTaxonomy.js', '', '', true);
         }
 
     }
@@ -50,6 +58,18 @@ class ThemeConfiguration
     {
         $mimes['svg'] = 'image/svg+xml';
         return $mimes;
+    }
+
+    public function yoast_breadcrumb_list_links( $link_output, $link ) {
+        return '<li>' . $link_output . '</li>';
+    }
+
+    function yoast_seo_breadcrumb_output_end($output){
+        return str_replace('</span>', '', $output);
+    }
+
+    function yoast_seo_breadcrumb_output($output){
+        return preg_replace('/<span[^>]*>/', '', $output);
     }
 
     public function optionsPageAcf()

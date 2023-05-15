@@ -134,7 +134,7 @@ class FilterCasinoPostType
         foreach( $terms as $term ) {
             $term_link = get_term_link($term);
             $image = get_field('image', $taxonomy . '_' . $term->term_id);
-            $list .= '<li><a href="'.$term_link.'"><img src="'.$image.'" alt="'.$term->name.'"></a></li>';
+            $list .= '<li><a href="/casino/?payment='.$term->slug.'"><img src="'.$image.'" alt="'.$term->name.'"></a></li>';
         }
         return $list;
     }

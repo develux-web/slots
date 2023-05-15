@@ -1,5 +1,5 @@
-let defaultPosts = 2;
-let loadPosts = 2;
+let defaultPosts = 10;
+let loadPosts = 10;
 let filters = {};
 
 function sendAjaxRequest() {
@@ -134,7 +134,26 @@ function handleLoadMore(event) {
     sendAjaxRequest();
 }
 
-sendAjaxRequest();
+function firstFilterSubmit() {
+
+    let providers = document.querySelector('.filter_providers').value;
+    let languages = document.querySelector('.filter_languages').value;
+    let pokies = document.querySelector('.filter_free-pokies').value;
+    let payment = document.querySelector('.filter_payment-methods').value;
+    var sort = document.querySelector('select[name="sort"]').value;
+
+    filters = {
+        providers: providers,
+        languages: languages,
+        pokies: pokies,
+        payment: payment,
+        sort: sort
+    };
+
+    sendAjaxRequest();
+}
+
+firstFilterSubmit();
 
 event_filters = document.querySelectorAll('.form-select_point');
 event_filters.forEach((filter) => {

@@ -49,7 +49,7 @@
             <div class="header-search">
                 <div class="header-search_wrap">
                     <label class="header-search_label">
-                        <input class="header-search_input" type="text" name="search" placeholder="Search...">
+                        <input id="header-search-input" class="header-search_input" type="text" name="search" placeholder="Search..." data-type="casino,slots">
                         <svg class="header-search_icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -57,64 +57,7 @@
                                   fill="white" fill-opacity="0.5" />
                         </svg>
                     </label>
-                    <div class="header-search_box">
-                        <ul class="header-search_list">
-                            <li class="header-search_point">
-                                <a href="#" class="header-search_link">
-                                    <div class="header-search_img">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
-                                    </div>
-                                    <span class="header-search_title">Fishin Frenzy</span>
-                                    <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
-                                </a>
-                            </li>
-                            <li class="header-search_point">
-                                <a href="#" class="header-search_link">
-                                    <div class="header-search_img">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
-                                    </div>
-                                    <span class="header-search_title">Fishin Frenzy</span>
-                                    <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
-                                </a>
-                            </li>
-                            <li class="header-search_point">
-                                <a href="#" class="header-search_link">
-                                    <div class="header-search_img">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
-                                    </div>
-                                    <span class="header-search_title">Fishin Frenzy</span>
-                                    <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
-                                </a>
-                            </li>
-                            <li class="header-search_point">
-                                <a href="#" class="header-search_link">
-                                    <div class="header-search_img">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
-                                    </div>
-                                    <span class="header-search_title">Fishin Frenzy</span>
-                                    <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
-                                </a>
-                            </li>
-                            <li class="header-search_point">
-                                <a href="#" class="header-search_link">
-                                    <div class="header-search_img">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
-                                    </div>
-                                    <span class="header-search_title">Fishin Frenzy</span>
-                                    <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
-                                </a>
-                            </li>
-                            <li class="header-search_point">
-                                <a href="#" class="header-search_link">
-                                    <div class="header-search_img">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slots/slots-1.jpg" alt="img">
-                                    </div>
-                                    <span class="header-search_title">Fishin Frenzy</span>
-                                    <span class="header-search_descr">Blueprint Gaming, Reel Blueprint Gaming</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <div  id="header-search-results" class="header-search_box"></div>
                 </div>
                 <span class="header-search_btn">
        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -4,6 +4,7 @@ include_once 'classes/CustomPostTypes.php';
 include_once 'classes/FilterSlotsPostType.php';
 include_once 'classes/FilterCasinoPostType.php';
 include_once 'classes/SearchSlotsPostType.php';
+include_once 'classes/DisplaySortTaxonomy.php';
 
 
 

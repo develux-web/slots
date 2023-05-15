@@ -1089,13 +1089,10 @@ footer {
 .breadcrumbs li:last-child:after {
   display: none;
 }
-.breadcrumbs li:last-child span {
+.breadcrumbs li:last-child {
   color: rgba(255, 255, 255, 0.5);
 }
 .breadcrumbs a {
-  display: block;
-}
-.breadcrumbs span {
   display: block;
   font-weight: 400;
   font-size: 14px;
@@ -1112,7 +1109,7 @@ footer {
   }
 }
 @media (max-width: 800px) {
-  .breadcrumbs span {
+  .breadcrumbs a {
     font-size: 12px;
   }
   .breadcrumbs li:after {
@@ -1121,7 +1118,7 @@ footer {
   }
 }
 @media (min-width: 1200px) {
-  .breadcrumbs a:hover span {
+  .breadcrumbs a:hover {
     color: #3DA806;
   }
 }
