@@ -1,5 +1,5 @@
-let defaultPosts = 2;
-let loadPosts = 2;
+let defaultPosts = 20;
+let loadPosts = 20;
 let filters = {};
 
 function sendAjaxRequest() {

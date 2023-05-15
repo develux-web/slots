@@ -1,6 +1,10 @@
 <?php
+$providers = isset( $_GET['providers'] ) ? sanitize_text_field( $_GET['providers'] ) : '';
+$languages = isset( $_GET['languages'] ) ? sanitize_text_field( $_GET['languages'] ) : '';
+$pokies = isset( $_GET['pokies'] ) ? sanitize_text_field( $_GET['pokies'] ) : '';
+$payment = isset( $_GET['payment'] ) ? sanitize_text_field( $_GET['payment'] ) : '';
 
-function display_taxonomy_select($taxonomy) {
+function display_taxonomy_select($taxonomy, $active = '') {
     $terms = get_terms( array(
         'taxonomy' => $taxonomy,
         'hide_empty' => false,
@@ -13,7 +17,11 @@ function display_taxonomy_select($taxonomy) {
             <option value="" disabled selected><?php echo ucfirst($taxonomy); ?></option>
 
             <?php foreach ($terms as $term) { ?>
+                <?php if($active == $term->slug) {?>
+                    <option value="<?php echo $term->slug; ?>" selected><?php echo $term->name; ?></option>
+                <?php } else {?>
                 <option value="<?php echo $term->slug; ?>"><?php echo $term->name; ?></option>
+                <?php } ?>
             <?php } ?>
 
         </select>
@@ -32,11 +40,7 @@ get_header(); ?>
 
     <section class="section-two casino">
         <div class="container">
-            <?php
-            if ( function_exists('yoast_breadcrumb') ) {
-                yoast_breadcrumb( '<div id="breadcrumbs">','</ul>' );
-            }
-            ?>
+            <?php yoast_breadcrumb( '<ul class="breadcrumbs">','</ul>' ); ?>
             <div class="section-top two">
                 <h1 class="section-title title-xl"><?php the_field('name_page_casino', 'option'); ?></h1>
                 <div class="section-text content">
@@ -49,7 +53,7 @@ get_header(); ?>
                 <div class="filter-wrap">
                     <div class="form-search filter-search">
                         <label class="form-search_label">
-                            <input id="search-input" class="form-search_point" type="search" name="search" placeholder="Search slots..." data-type="casino">
+                            <input id="search-input" class="form-search_point" type="search" name="search" placeholder="Search casino..." data-type="casino">
                             <svg class="form-search_icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -90,10 +94,10 @@ get_header(); ?>
                     </button>
 
                     <?php
-                    echo display_taxonomy_select('providers');
-                    echo display_taxonomy_select('languages');
-                    echo display_taxonomy_select('free-pokies');
-                    echo display_taxonomy_select('payment-methods');
+                    echo display_taxonomy_select('providers', $providers);
+                    echo display_taxonomy_select('languages', $languages);
+                    echo display_taxonomy_select('free-pokies', $pokies);
+                    echo display_taxonomy_select('payment-methods', $payment);
                     ?>
                 </div>
 
@@ -125,7 +129,7 @@ get_header(); ?>
                         <section class="section-one ">
                             <div class="container">
                                 <div class="section-top">
-                                    <h2 class=" title-x"><?php the_sub_field('name_block'); ?></h2>
+                                    <h2 class="section-title title-x"><?php the_sub_field('name_block'); ?></h2>
                                 </div>
                                 <ol class="work-list">
                                     <?php if( have_rows('add_list') ): ?>
@@ -256,17 +260,25 @@ get_header(); ?>
                       fill="white" />
                </svg>
               </span>
-            <ol class="section-content_list">
-                <li><a href="#payound">What is a Payout Casino?</a></li>
-                <li><a href="#work">How The Site Works</a></li>
-                <li><a href="#want">Want To Play Real Money Online Slots? We've Got You Covered.</a></li>
-                <li><a href="#audited">Unaudited Vs Audited Payout Percentages</a></li>
-                <li><a href="#best">Tips for player – how to chose best paying online casino</a></li>
-                <li><a href="#what">What is a Payout Casino?</a></li>
-                <li><a href="#how">How Payout Percentages at Online Casinos Are Audited?</a></li>
-                <li><a href="#faq">FAQ</a></li>
-            </ol>
+            <ol class="section-content_list"></ol>
         </div>
     </div>
+
+
+
+<script>
+    let sections = document.querySelectorAll('.section-one');
+    let content_list = document.querySelector('.section-content_list');
+
+    let html = Array.from(sections).map((section, i) => {
+        let textElement = section.querySelector('.section-title');
+        let text = textElement ? textElement.innerText : '';
+        let id = 'section-one-' + i;
+        section.id = id;
+        return `<li><a href="#${id}">${text}</a></li>`;
+    }).join('');
+
+    content_list.innerHTML = html;
+</script>
 
 <?php get_footer(); ?>

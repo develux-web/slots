@@ -26,7 +26,6 @@ function display_taxonomy_select($taxonomy) {
     return ob_get_clean();
 }
 
-
 get_header();
 
 get_template_part('partials/sections/video', 'background');
@@ -35,16 +34,7 @@ get_template_part('partials/sections/video', 'background');
 
     <section class="section-two slots">
         <div class="container">
-            <ul class="breadcrumbs">
-                <li>
-                    <a href="/">
-                        <span>OnlineSlots</span>
-                    </a>
-                </li>
-                <li>
-                    <span>Free Slots</span>
-                </li>
-            </ul>
+            <?php yoast_breadcrumb( '<ul class="breadcrumbs">','</ul>' ); ?>
             <div class="section-top three">
                 <h1 class="section-title title-xl"><?php the_field('name_page_slots', 'option'); ?></h1>
                 <div class="section-text content">
@@ -129,7 +119,7 @@ get_template_part('partials/sections/video', 'background');
                     <section class="section-one ">
                         <div class="container">
                             <div class="section-top">
-                                <h2 class=" title-x"><?php the_sub_field('name_block'); ?></h2>
+                                <h2 class="section-title title-x"><?php the_sub_field('name_block'); ?></h2>
                             </div>
                             <ol class="work-list">
                                 <?php if( have_rows('add_list') ): ?>
@@ -173,6 +163,23 @@ get_template_part('partials/sections/video', 'background');
                         </div>
                     </section>
 
+                <?php elseif( get_row_layout() == 'play_slot_demos' ): ?>
+                    <section class="section-one our" id="our">
+                        <div class="container">
+                            <div class="section-top">
+                                <h2 class="section-title title-x"><?php the_sub_field('name_block'); ?></h2>
+                            </div>
+                            <div class="our-content content">
+                                <p><?php the_sub_field('text'); ?></p>
+                                <?php if( have_rows('add_list') ): ?>
+                                    <?php while( have_rows('add_list') ): the_row(); ?>
+                                        <div class="active"><?php the_sub_field('text'); ?></div>
+                                    <?php endwhile; ?>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                    </section>
+
                 <?php endif; ?>
             <?php endwhile; ?>
         <?php endif; ?>
@@ -186,20 +193,24 @@ get_template_part('partials/sections/video', 'background');
                       fill="white" />
                </svg>
               </span>
-        <ol class="section-content_list">
-            <li><a href="#payound">What is a Payout Casino?</a></li>
-            <li><a href="#work">How The Site Works</a></li>
-            <li><a href="#want">Want To Play Real Money Online Slots? We've Got You Covered.</a></li>
-            <li><a href="#audited">Unaudited Vs Audited Payout Percentages</a></li>
-            <li><a href="#best">Tips for player – how to chose best paying online casino</a></li>
-            <li><a href="#what">What is a Payout Casino?</a></li>
-            <li><a href="#how">How Payout Percentages at Online Casinos Are Audited?</a></li>
-            <li><a href="#faq">FAQ</a></li>
-        </ol>
+        <ol class="section-content_list"></ol>
     </div>
 </div>
 
+<script>
+    let sections = document.querySelectorAll('.section-one');
+    let content_list = document.querySelector('.section-content_list');
 
+    let html = Array.from(sections).map((section, i) => {
+        let textElement = section.querySelector('.section-title');
+        let text = textElement ? textElement.innerText : '';
+        let id = 'section-one-' + i;
+        section.id = id;
+        return `<li><a href="#${id}">${text}</a></li>`;
+    }).join('');
+
+    content_list.innerHTML = html;
+</script>
 
 <?php get_footer(); ?>
 
