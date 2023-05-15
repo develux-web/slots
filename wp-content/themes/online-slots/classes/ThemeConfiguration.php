@@ -18,6 +18,16 @@ class ThemeConfiguration
         wp_enqueue_script('swiper-scripts', get_template_directory_uri() . '/assets/js/swiper.js', '', '', true);
         wp_enqueue_script('countdown-scripts', get_template_directory_uri() . '/assets/js/countdown.js', '', '', true);
         wp_enqueue_script('main-scripts', get_template_directory_uri() . '/assets/js/main.js', '', '', true);
+
+        if(is_post_type_archive('slots')) {
+            wp_enqueue_script('ajax-search', get_template_directory_uri() . '/assets/js/search-types.js', '', '', true);
+            wp_enqueue_script('ajax-filter', get_template_directory_uri() . '/assets/js/filter-slots.js', '', '', true);
+        }
+        if(is_post_type_archive('casino')) {
+            wp_enqueue_script('ajax-search', get_template_directory_uri() . '/assets/js/search-types.js', '', '', true);
+            wp_enqueue_script('ajax-filter-casino', get_template_directory_uri() . '/assets/js/filter-casino.js', '', '', true);
+        }
+
     }
     public function includeCSS(): void
     {
@@ -31,6 +41,9 @@ class ThemeConfiguration
         add_theme_support('post-thumbnails');
         add_theme_support('title-tag');
         register_nav_menu('header', 'Header Menu');
+        register_nav_menu('footer', 'Footer Menu');
+        register_nav_menu('footer-pages', 'Footer Pages Menu');
+        register_nav_menu('footer-partners', 'Footer Partners Menu');
         $this->optionsPageAcf();
     }
     public function mimeTypes($mimes)
@@ -52,10 +65,23 @@ class ThemeConfiguration
             ));
 
             acf_add_options_sub_page(array(
-                'page_title'    => '404 page',
-                'menu_title'    => '404-page',
+                'page_title'    => 'Slots page',
+                'menu_title'    => 'Slots page',
                 'parent_slug'   => 'theme-general-settings',
             ));
+
+            acf_add_options_sub_page(array(
+                'page_title'    => 'Casino page',
+                'menu_title'    => 'Casino page',
+                'parent_slug'   => 'theme-general-settings',
+            ));
+
+            acf_add_options_sub_page(array(
+                'page_title'    => '404 page',
+                'menu_title'    => '404 page',
+                'parent_slug'   => 'theme-general-settings',
+            ));
+
         }
     }
 }
